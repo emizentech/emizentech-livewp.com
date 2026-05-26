@@ -1409,52 +1409,52 @@
                                                                       <ul class="list">
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-ecommerce-developer.html">
-                                                                                <img class="header--icon mr-1" width="30" height="30" src="https://emizentech.com/wp-content/uploads/2025/08/Hire-ecommerce.svg">Hire Ecommerce Developers
+                                                                                <img alt="Hire Ecommerce Developers" class="header--icon mr-1" width="30" height="30" src="https://emizentech.com/wp-content/uploads/2025/08/Hire-ecommerce.svg">Hire Ecommerce Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-shopify-developer.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2025/08/hireshopify.svg">Hire Shopify Developers
+                                                                                <img alt="Hire Shopify Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2025/08/hireshopify.svg">Hire Shopify Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-shopware-developer.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2025/08/hire-shopware.svg">Hire Shopware Developers
+                                                                                <img alt="Hire Shopware Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2025/08/hire-shopware.svg">Hire Shopware Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-magento-developer.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/magento-2-logo-svgrepo-com-1.svg">Hire Magento Developers
+                                                                                <img alt="Hire Magento Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/magento-2-logo-svgrepo-com-1.svg">Hire Magento Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-bigcommerce-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/BigCommerce-Developers.svg">Hire Bigcommerce Developers
+                                                                                <img alt="Hire BigCommerce Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/BigCommerce-Developers.svg">Hire Bigcommerce Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-woocommerce-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/WooCommerce-Developers.svg">Hire WooCommerce Developers
+                                                                                <img alt="Hire WooCommerce Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/WooCommerce-Developers.svg">Hire WooCommerce Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-bigcart-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-BigCart-Developers.svg">Hire Bigcart Developers
+                                                                                <img alt="Hire BigCartel Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-BigCart-Developers.svg">Hire Bigcart Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-oscommerce-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/OsCommerce-Logo.wine-1.svg">Hire osCommerce Developers
+                                                                                <img alt="Hire osCommerce Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/OsCommerce-Logo.wine-1.svg">Hire osCommerce Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-prestashop-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-PrestaShop-Developers.svg">Hire Prestashop Developers
+                                                                                <img alt="Hire PrestaShop Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-PrestaShop-Developers.svg">Hire Prestashop Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-opencart-developer.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/opencart-2-1.svg">Hire Opencart Developer
+                                                                                <img alt="Hire OpenCart Developer" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/opencart-2-1.svg">Hire Opencart Developer
                                                                             </a>
                                                                         </li>
                                                                     </ul>
@@ -1465,42 +1465,42 @@
                                                                       <ul class="list">
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-mobile-app-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Mobileapp.svg">Hire Mobile App Developers
+                                                                                <img alt="Hire Mobile App Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Mobileapp.svg">Hire Mobile App Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-android-app-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2025/08/Hire-Android.svg">Hire Android Developers
+                                                                                <img alt="Hire Android Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2025/08/Hire-Android.svg">Hire Android Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-iphone-app-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/iOS-Developer.svg">Hire iOS Developers
+                                                                                <img alt="Hire iPhone Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/iOS-Developer.svg">Hire iOS Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-flutter-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/header-flutter.svg">Hire Flutter Developers
+                                                                                <img alt="Hire Flutter Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/header-flutter.svg">Hire Flutter Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-react-native-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/React-Native-Developers.svg">Hire React Native Developers
+                                                                                <img alt="Hire React Native Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/React-Native-Developers.svg">Hire React Native Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-ionic-app-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Ionic-App-Developers.svg">Hire Ionic App Developers
+                                                                                <img alt="Hire Ionic Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Ionic-App-Developers.svg">Hire Ionic App Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-xamarin-app-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-Xamarin-Developers.svg">Hire Xamarin Developers
+                                                                                <img alt="Hire Xamarin Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-Xamarin-Developers.svg">Hire Xamarin Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-hybrid-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-Hybrid-Developers.svg">Hire Hybrid Developers
+                                                                                <img alt="Hire Hybrid App Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-Hybrid-Developers.svg">Hire Hybrid Developers
                                                                             </a>
                                                                         </li>
                                                                     </ul>
@@ -1607,37 +1607,37 @@
                                                                       <ul class="list">
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-fractional-cto.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/web-development-services.svg">Hire Fractional CTO
+                                                                                <img alt="Hire Fractional CTO" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/web-development-services.svg">Hire Fractional CTO
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-full-stack-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-Full-Stack-Developers.svg">Hire Full Stack Developers
+                                                                                <img alt="Hire Full Stack Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-Full-Stack-Developers.svg">Hire Full Stack Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-salesforce-developer.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-Salesforce-Developer.svg">Hire Salesforce Developers
+                                                                                <img alt="Hire Salesforce Developer" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Hire-Salesforce-Developer.svg">Hire Salesforce Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-odoo-developer.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2025/08/hire-oddo.svg">Hire Odoo Developers
+                                                                                <img alt="Hire Odoo Developer" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2025/08/hire-oddo.svg">Hire Odoo Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-google-cloud-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Google_Cloud_logo-1.svg">Hire Google Cloud Developers
+                                                                                <img alt="Hire Google Cloud Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Google_Cloud_logo-1.svg">Hire Google Cloud Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-servicenow-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/hire-servicenow.svg">Hire Servicenow Developers
+                                                                                <img alt="Hire ServiceNow Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/hire-servicenow.svg">Hire Servicenow Developers
                                                                             </a>
                                                                         </li>
                                                                         <li>
                                                                             <a href="<?php echo get_site_url(); ?>/hire-power-bi-developers.html">
-                                                                                <img class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Power-BI-Developers.svg">Hire Power BI Developers
+                                                                                <img alt="Hire Power BI Developers" class="header--icon mr-1" src="https://emizentech.com/wp-content/uploads/2026/01/Power-BI-Developers.svg">Hire Power BI Developers
                                                                             </a>
                                                                         </li>
                                                                     </ul>
@@ -1646,7 +1646,7 @@
                                                         </div>
                                                      
                                                            <div class="menu-ftr col-12">
-                                                          <div class="fr-link d-inline-block w-100"><a class="emizen-btn" href="https://emizentech.com/hire-developers.html">Hire Elite Talent Now! <span class="arrow-right"><img src="https://emizentech.com/wp-content/uploads/2025/08/btn-arrow.svg"></span></a> </div>
+                                                          <div class="fr-link d-inline-block w-100"><a class="emizen-btn" href="https://emizentech.com/hire-developers.html">Hire Elite Talent Now! <span class="arrow-right"><img alt="Hire Developers" src="https://emizentech.com/wp-content/uploads/2025/08/btn-arrow.svg"></span></a> </div>
                                                       </div>
                                                           </div>
                                             </div>
