@@ -179,10 +179,10 @@
             </li>
             <li>
                 <a href="https://emizentech.com/fintech-software-development.html"> <img src="https://emizentech.com/wp-content/uploads/2025/10/indust07.svg" width="60" height="60" alt="Fintech" /> Fintech </a>
-                <a href="https://emizentech.com/education-app-development.html"> <img src="https://emizentech.com/wp-content/uploads/2025/10/indust04.svg" width="60" height="60" alt="Education" /> Education </a>
+                <a href="https://emizentech.com/industries/education-app-development/"> <img src="https://emizentech.com/wp-content/uploads/2025/10/indust04.svg" width="60" height="60" alt="Education" /> Education </a>
             </li>
             <li>
-                <a href="https://emizentech.com/realestate-solution.html"> <img src="https://emizentech.com/wp-content/uploads/2025/10/indust07.svg" width="60" height="60" alt="Real Estate" /> Real Estate </a>
+                <a href="https://emizentech.com/industries/real-estate-app-development/"> <img src="https://emizentech.com/wp-content/uploads/2025/10/indust07.svg" width="60" height="60" alt="Real Estate" /> Real Estate </a>
                 <a href="https://emizentech.com/sports-application-development.html"> <img src="https://emizentech.com/wp-content/uploads/2025/10/gitex-Sports.svg" width="60" height="60" alt="Sports" /> Sports </a>
             </li>
             <li>

@@ -10,7 +10,7 @@ img.curved-img{position:absolute;right:0;z-index:-1;top:0;}
 section.mobile-hero-section .btn.emizen-btn:hover{background:#fff;color:#007DB2;}
 section.mobile-hero-section .btn.emizen-btn{background:#007DB2;color:#FFF;font-size:16px;font-weight:600;line-height:normal;padding:14px 18px;letter-spacing:0.16px;text-transform:capitalize;position:relative;overflow:hidden;z-index:1;}
 .img-outer-slider{position:relative;width:48%;}
-.img-outer-slider .portfolio_slider.owl-carousel{width:602px;margin:0 auto;background:url(http://emizentech.com/wp-content/uploads/2025/12/latptop-bg.png);padding:0;background-repeat:no-repeat;overflow:hidden;background-size:cover;height:343px;}
+.img-outer-slider .portfolio_slider.owl-carousel{width:602px;margin:0 auto;background:url(https://emizentech.com/wp-content/uploads/2025/12/latptop-bg.png);padding:0;background-repeat:no-repeat;overflow:hidden;background-size:cover;height:343px;}
 .img-outer-slider .slider-outer-girl{margin-left:90px;}
 .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer{border-radius:0;max-width:462px;margin:0 auto;padding:19px 0;}
 .btn.emizen-btn{border-radius:40px;position:relative;overflow:hidden;z-index:1;padding:14px 18px;font-size:16px;font-weight:600;line-height:normal;}
@@ -136,7 +136,7 @@ section.ms_process .text-header{max-width:1200px;margin:0 auto 20px;}
 .process-card-box:nth-child(even)::after{right:auto;left:0;background:url(https://emizentech.com/wp-content/uploads/2025/12/left-img.svg) no-repeat;background-size:contain;}
 .process-card-container:last-child .process-card-box::after{display:none;}
 section.development-flow{padding:80px 0;}
-.development-flow .development-flow-circle{background-image:url(http://emizentech.com/wp-content/uploads/2025/12/round-circle-line.png);background-size:69%;background-repeat:no-repeat;background-position:center right 94px;}
+.development-flow .development-flow-circle{background-image:url(https://emizentech.com/wp-content/uploads/2025/12/round-circle-line.png);background-size:69%;background-repeat:no-repeat;background-position:center right 94px;}
 section.development-flow h3{color:#0F1528;padding-bottom:5px;font-size:22px;font-weight:600;line-height:normal;}
 section.development-flow p{color:#0F1528;font-size:16px;font-weight:400;line-height:22px;}
 .container-box{padding-top:60px;}
@@ -367,14 +367,14 @@ a.infinite-link-tag{position:absolute;top:-10px;right:0;width:auto;color:#fff;bo
 .brand_su_inner a.btn.emizen-btn:hover{background:#fff;color:#007DB2;}
 section.m_brand_success{margin-top:60px;}
 .brand_su_inner:after{content:'';position:absolute;border-radius:716px;opacity:0.85;background:#007DB2;filter:blur(400px);width:716px;height:716px;left:0;right:0;margin:auto;top:0;z-index:-1;}
-.m_brand_success.high-quality-app{background:url(http://emizentech.com/wp-content/uploads/2025/12/high-quality-app-bg.png) no-repeat center center / cover;}
+.m_brand_success.high-quality-app{background:url(https://emizentech.com/wp-content/uploads/2025/12/high-quality-app-bg.png) no-repeat center center / cover;}
 .m_brand_success.high-quality-app .brand_su_inner{background:transparent!important;border-radius:0;padding:20px 0;}
 .brand_su_inner.ant_brand_box .brand_su_img{padding-right:50px;}
 .brand_su_inner .brand_su_img{padding-right:0;max-width:42%;padding-left:50px;}
 .m_brand_success .brand_su_inner::after{display:none;}
 .m_brand_success.next-breakthrow-box{padding-bottom:80px;}
-.m_brand_success .brand_su_inner{background:url(http://emizentech.com/wp-content/uploads/2025/12/break-throw-bg.png) center center /cover;}
-.m_brand_success.high-quality-app .brand_su_inner{background:url(http://emizentech.com/wp-content/uploads/2025/12/high-quality-app-bg.png) no-repeat center center / cover;}
+.m_brand_success .brand_su_inner{background:url(https://emizentech.com/wp-content/uploads/2025/12/break-throw-bg.png) center center /cover;}
+.m_brand_success.high-quality-app .brand_su_inner{background:url(https://emizentech.com/wp-content/uploads/2025/12/high-quality-app-bg.png) no-repeat center center / cover;}
 
 /*why-chose-section*/
 section.why-chose-section{padding-bottom:80px;}

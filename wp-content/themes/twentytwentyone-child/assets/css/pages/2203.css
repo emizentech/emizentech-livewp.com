@@ -14,7 +14,7 @@ ul.home-bredcrumbs.breadcrumbs li:last-child:after{display:none;}
 section.mobile-hero-section .btn.emizen-btn:hover{background:#fff;color:#007DB2;}
 section.mobile-hero-section .btn.emizen-btn{background:#007DB2;color:#FFF;font-size:16px;font-weight:600;line-height:normal;padding:14px 18px;letter-spacing:0.16px;text-transform:capitalize;position:relative;overflow:hidden;z-index:1;}
 .img-outer-slider{position:relative;width:48%;}
-.img-outer-slider .portfolio_slider.owl-carousel{width:602px;margin:0 auto;background:url(http://emizentech.com/wp-content/uploads/2025/12/latptop-bg.png);padding:0;background-repeat:no-repeat;overflow:hidden;background-size:cover;height:343px;}
+.img-outer-slider .portfolio_slider.owl-carousel{width:602px;margin:0 auto;background:url(https://emizentech.com/wp-content/uploads/2025/12/latptop-bg.png);padding:0;background-repeat:no-repeat;overflow:hidden;background-size:cover;height:343px;}
 .img-outer-slider .slider-outer-girl{margin-left:90px;}
 .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer{border-radius:0;max-width:462px;margin:0 auto;padding:19px 0;}
 .btn.emizen-btn{border-radius:40px;position:relative;overflow:hidden;z-index:1;padding:14px 18px;font-size:16px;font-weight:600;line-height:normal;}
