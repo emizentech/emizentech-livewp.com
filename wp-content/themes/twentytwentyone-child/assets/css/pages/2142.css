@@ -1,0 +1,553 @@
+.card.solutions{border-radius:40px;}
+.card.solutions img{max-width:50px;width:auto;}
+.card.solutions.light-pink{background:rgba(239,124,142,0.05);border:1px solid #EF7C8E;}
+.card.solutions.light-yellow{background:#fffcf7;border:1px solid #FFBD59;}
+.card.solutions.light-blue{background:#f5fbff;border:1px solid #007DB2;}
+.card.solutions.light-violate{background:#f9f6ff;border:1px solid #8C52FF;}
+img.center-logo {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.emizen_app_ptf  img {max-width: 120px;}
+.card_title{font-weight: 600;font-size: 24px;line-height: 24px;}
+.emizen_app_ptf {padding: 40px 0 20px;}
+.leading_ondemand{background:#F5FBFD;padding-bottom:100px;}
+.Emizen_wcm_seciton2:after {
+    content: "";
+    position: absolute;
+    background: url(/wp-content/uploads/2022/12/section2.png) no-repeat right 0PX;
+    height: 35vw;
+    width: 35vw;
+    top: -80px;
+    background-size: cover;
+    right: 0;
+    z-index: -1;
+}
+.grunion-field-wrap input, .grunion-field-wrap select {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff !important;
+}
+.grunion-field-wrap label {
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 16px;
+}
+.contact-form .wp-block-button__link {width: auto;border-radius: 8px;padding: 10px 30px;color: #000!important;height: auto; background: #fff !important;}
+.contact-form .wp-block-button__link:hover{background: #fff !important;color: #000 !important}
+.content-wraper .text-heading::after {right: auto;}
+.Emizen_wcm_seciton2:before{content:"";position:absolute;bottom:0px;width:100%;height:180px;filter:blur(9px);background:linear-gradient(180deg,#FFF4F4 0%,rgb(255 255 255 / 45%) 100%);transform:matrix(1,0,0,-1,0,0);}
+.text-heading strong, .Aem_main h1 strong, strong{font-weight: 600}
+.Consultation-from .grunion-field-label{font-weight:normal;color:#fff;font-size:15px;}
+.Consultation-from .wp-block-jetpack-contact-form{padding:0!important;}
+.Consultation-from input,.Consultation-from select,.Consultation-from textarea{border:0;border-bottom:1px solid #007DB2;border-radius:0;background-color:transparent;padding:6px 0!important;margin:0;color:#fff!important;resize:none;}
+.Consultation-from input:focus,.Consultation-from select:focus,.Consultation-from textarea:focus{outline:none;}
+.Consultation-from button.wp-block-button__link{border:1px solid #007db2!important;background:#007db2!important;margin:15px 0 30px;letter-spacing:0.01em;text-align:center;color:#fff!important;width:auto;transition:all .3s;padding:10px 40px!important;height:auto;border-radius:100px!important;}
+button.wp-block-button__link:focus{outline:none!important;}
+
+.contact-form__error li:after,.contact-form__error li:before{content:none;}
+.contact-form__error li{padding:0;margin:0;}
+.contact-form__error ul{padding:0;}
+.Consultation-from .contact-form .wp-block-jetpack-contact-form.is-style-outlined fieldset[aria-invalid=true],.Consultation-from .contact-form [aria-invalid=true]:not(fieldset)
+{border:0;border-bottom:1px solid #b32d2e}
+.contact-form__input-error , .contact-form__error a, .contact-form__input-error {
+    font-size: 14px;
+}
+.Consultation-from .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover, 
+.Consultation-from .wp-block-button:not(.is-style-outline) .wp-block-button__link:active {
+    border-color: #023b58 !important;
+    background-color: #023b58 !important;
+    color: #fff !important;
+}
+
+    .Consultation-from{ background: #00162C url(/wp-content/uploads/2022/12/od_form_bg.png) no-repeat center center; background-size: contain; border-radius: 8px;height: 100%}
+    .Consultation-from input.wpcf7-form-control, .Consultation-from textarea {width: 100%;background: transparent;border: 0;border-bottom: 1px solid #007DB2;padding: 0 0 16px 0;color: #fff;font-size: 15px}
+    .Consultation-from h3 { color: #fff; margin-bottom: 30px; }
+    .Consultation-from input.wpcf7-form-control.wpcf7-submit {background:#007DB2!important;border-radius:5px;width: 150px;letter-spacing: 0.01em;padding: 10px 40px;font-size: 16px; }
+    .Consultation-from textarea { height:100px}
+    .Consultation-from input.wpcf7-form-control.wpcf7-submit:hover{color: #fff; }
+    .Consultation-from input.wpcf7-form-control:focus, .Consultation-from textarea:focus { outline: none; color: #fff; }
+    .Consultation-from input.wpcf7-submit{display:block;margin:auto;}
+    .Consultation-from  .wpcf7-form-control-wrap{padding-bottom:2rem;display:inline-block;width:100%;margin-bottom:0;position:relative;}
+    .Consultation-from .wpcf7-form-control-wrap input{line-height:18px;letter-spacing:0.01em;}
+    .Consultation-from .wpcf7-form-control-wrap .wpcf7-not-valid-tip{position:absolute;bottom:0;font-size:14px;}
+    .Consultation-from .wpcf7-form-control-wrap.your-message {padding-bottom: 17px;}
+
+    .leading_ondemand .Certified_heading{border-radius:4px;}
+    .leading_ondemand .Certified_heading h2{font-size:22px;line-height:27px;letter-spacing:0.01em;text-align:center;}
+    .leading_ondemand .Certified_heading span{font-weight:700;font-size:42px;line-height:50px;letter-spacing:0.01em;}
+    .leading_ondemand .Certified_heading.Retention{background:rgba(187,107,217,0.1);border:1px solid #9B51E0;}
+    .leading_ondemand  .Certified{background:rgba(255,114,94,0.1);border:1px solid #FF725E;}
+    .leading_ondemand .Certified{background:rgba(255,114,94,0.1);border:1px solid #FF725E;}
+    .Delighted{border:1px solid #60E093;border-radius:4px;background:rgba(96,224,147,0.1);}
+    .Experts{background:rgba(0,125,178,0.1);border:1px solid #007DB2;border-radius:4px;}
+    .Retention span{color:#9B51E0;}
+    .Certified span{color:#FF725E;}
+    .Delighted span{color:#60E093;}
+    .Experts span{color:#007DB2;}
+
+    .text-heading { font-weight: 400; font-size: 40px; line-height: 49px;
+     color: #252525; }
+    .text-md-left.text-heading::after {right: auto;}
+    .text-heading::after, .game_col-box h4:before {
+        background: url(/wp-content/uploads/2022/11/text_bottom_lin.png) no-repeat center center;
+        background-size: contain;
+        width: 131px;
+        height: 6px;
+        position: absolute;
+        bottom: 0;
+        content: "";
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+
+    .Consultation-from input.wpcf7-form-control.has-spinner.wpcf7-submit{margin-top:25px;}
+    .demand-item .emizentech-icon img{width:auto;}
+    .cwhite{color:#fff}
+    .demand-item:hover .emizentech-icon{background:transparent;border-radius:0;}
+    .demand-item:hover .emizentech-icon img{filter:invert(1) brightness(0);}
+    .demand-item:hover  h4:before {background: #fff;}
+
+    .AE_benifits{background:url(/wp-content/uploads/2023/01/Sf_bg_1.png);}
+    .AE_benifits .slider_container{background:rgba(255,255,255,0.15);box-shadow:0px 4px 35px rgba(0,125,178,0.1);backdrop-filter:blur(12.5px);border-radius:15px;}
+    .salfrc.demand-wrap .owl-carousel .owl-nav,
+    .AE_benifits .slider_container .owl-carousel .owl-nav, 
+    .emizen_Sucess_Stories .owl-nav {
+        top:50%;transform:translatey(-50%);width:100%;left:0;display:inline-block;bottom:auto;
+    }
+    button.owl-prev:before,button.owl-next:before{border:solid #2B3539;padding:6px;content:"";}
+    .slider_container .owl-carousel.Od_tech_slider{padding:20px 15px;}
+    .slider_container .owl-carousel .owl-nav .owl-prev,
+    .slider_container .owl-carousel .owl-nav .owl-next,
+    .salfrc.demand-wrap .owl-carousel .owl-nav .owl-prev,
+    .salfrc.demand-wrap .owl-carousel .owl-nav .owl-next
+    {height:35px;width:35px;position:absolute;display:flex;align-items:center;justify-content:center;background-color:rgba(255,255,255,0.5)!important;border-radius:50pX;padding-left:3px;background-image:none!important;margin:0;position:relative;float:left;}
+    .slider_container .owl-carousel .owl-nav .owl-next, .salfrc.demand-wrap .owl-carousel .owl-nav .owl-next{right:-15px;padding-right:5px;float:right;}
+    .salfrc.demand-wrap .owl-carousel .owl-nav .owl-next:before, .slider_container .owl-carousel .owl-nav .owl-next:before{-webkit-transform:rotate(320deg);border-width:0px 2px 2px 0px;}
+    .salfrc.demand-wrap .owl-carousel .owl-nav .owl-prev, .slider_container .owl-carousel .owl-nav .owl-prev{left:-15px;}
+    .salfrc.demand-wrap .owl-carousel .owl-nav .owl-prev:before, .slider_container .owl-carousel .owl-nav .owl-prev:before{-webkit-transform:rotate(133deg);padding:6px;border-width:0px 2px 2px 0px;}
+
+    .demand-wrap .owl-stage {
+        display: flex;
+    }
+    .demand-wrap .item {
+        height: 100%;
+        display: flex;
+    }
+    .bg-bluec-card {
+        background: #0E3451;
+        border-radius: 10px;
+    }
+    .bg-bluec-card .text-heading {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .bg-bluec-card .text-heading:after{right:auto;left:0  }
+    .bg-bluec-card p{line-height: 19px;padding-top:5px }
+    .bg-bluec-card li{font-weight: 400;font-size: 16px;position: relative;line-height: 19px;padding-left: 20px}
+    .bg-bluec-card li:before {
+        content: "";
+        border-color: transparent transparent transparent  #fff;
+        border-width: 6px 0px 6px 8px;
+        border-style: solid;
+        position: absolute;
+        height: 0;
+        width: 0;
+        left: 0;
+        top: 12px;
+    }
+
+    .slider_container .owl-carousel .item{text-align:center;padding: 0 25px}
+    .salfrc.demand-wrap{background: url(/wp-content/uploads/2023/01/Sf_pro_imp_bg.png) no-repeat center center;background-size: cover;z-index:1;padding: 80px 0;}
+    .em_Impl_Benefit .text-heading,
+     .emizen_Sucess_Stories h2,
+     .salfrc.demand-wrap h2
+    .sas_intg .text-heading,
+    .party_intg .text-heading h2,
+    .salfrc.demand-wrap .text-heading h2
+    {font-size: 48px;line-height: 58px;}
+    .salfrc.demand-wrap:before{content: "";height:100%;background: #222830;mix-blend-mode: multiply; width: 100%;position: absolute;top: 0;left: 0;z-index: -1}
+    .salfrc.demand-wrap .row.mt-2 [class*="col"] {padding: 0 10px;}
+    .salfrc.demand-wrap .demand-item p {line-height:27px;color: #777777;}
+    .salfrc.demand-wrap h4 {line-height: 27px;position: relative;margin-bottom: 15px}
+    .salfrc.demand-wrap h4:before{content: "";position: absolute; bottom: 0;background: #007DB2;border-radius: 10px;left: 50%;transform: translatex(-50%);width: 50px;height:2px}
+    .salfrc.demand-wrap .item {padding: 0 6px;}
+    .salfrc.demand-wrap:hover a.demand-item:hover p {color: #fff;}
+    .salfrc.demand-wrap .owl-carousel .owl-nav .owl-prev, .salfrc.demand-wrap .owl-carousel .owl-nav .owl-next {
+        background: #FFFFFF !important;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
+    }
+    .salfrc.demand-wrap .owl-carousel.Od_tech_slider{padding: 0 30px}
+    .demand-item:hover .emizentech-icon img {filter: brightness(0) invert(1);}
+    .col-w25 {flex: 0 0 25%;}
+    .e_inds_box {background: #F2F3F5;padding: 40px 0;transition:  all .3s;}
+    .bg-white-light {background: rgba(242, 243, 245, 0.5);}
+    .e_inds_box h5{font-weight:400;font-size:20px;line-height:27px;text-align:center;color:#2B3539;letter-spacing:normal;}
+    .e_inds_box .rounded-circle{background:#fff;display:inline-flex;width:95px;height:95px;display:flex;align-items:center;justify-content:center;margin:auto;}
+    .e_inds_box:hover{background:#007db2;}
+    .e_inds_box:hover .rounded-circle{background:#fff;}
+    .e_inds_box:hover h5{color:#fff}
+    h5{letter-spacing:normal;}
+    .emizen_Ae_cta{background:linear-gradient(94.37deg,#007DB2 -39.81%,#002046 90.6%); padding: 40px 0 10px}
+    .emizen_Ae_cta .sec_title{font-weight:800;font-size:80px;line-height:97px;margin:0;}
+    .emizen_Ae_cta .small-title{font-weight:400;font-size:43px;line-height:52px;color:#fff;}
+    .emizen_Ae_cta p{font-weight:400;font-size:22px;line-height:28px;}
+
+
+    .em_Impl_Benefit .rounded-circle{box-shadow:0px 0px 35px rgba(0,125,178,0.15);width:275px;height:275px;margin: 85px 0;}
+    .em_Impl_Benefit .rounded-circle h2{font-weight:700;font-size:67px;line-height:82px;color:#252525;}
+    .em_Impl_Benefit  p{font-weight:600;font-size:21px;line-height:21px;color:#777777;}
+    .em_Impl_Benefit .rounded-circle:before{width: 250px;height: 250px;border-radius:100%;background:linear-gradient(180deg,#7759DC 0%,#6841A7 100%);box-shadow:inset 0px 0px 35px rgba(0,0,0,0.1);z-index:-1;top: -10px;right: -40px;}
+    .em_Impl_Benefit .rounded-circle:before,.em_Impl_Benefit .rounded-circle:after{content:"";position:absolute;}
+    .em_Impl_Benefit .rounded-circle:after{background:url(/wp-content/uploads/2023/01/sf_impl1.png) no-repeat center center;background-size:contain;height:240px;width:240px;}
+    .em_Impl_Benefit .rounded-circle.bg2::before {background: linear-gradient(180deg, #FEBD29 0%, #FE9132 100%);box-shadow: inset 0px 0px 35px rgba(0, 0, 0, 0.1);}
+    .em_Impl_Benefit .rounded-circle.bg3::before {background: linear-gradient(158.5deg, #FA780C 11.21%, #FE291F 96.82%);box-shadow: inset 0px 0px 35px rgba(0, 0, 0, 0.1);}
+    .em_Impl_Benefit .rounded-circle.bg2::after {background: url(/wp-content/uploads/2023/01/sf_impl2.png); background-size: contain;}
+    .em_Impl_Benefit .rounded-circle.bg3::after {background: url(/wp-content/uploads/2023/01/sf_impl3.png) ;background-size: contain;}
+
+
+    .story-content-block {background: #fff url(/wp-content/uploads/2023/01/logo_salesforce.png) no-repeat right bottom;background-size: 180px;}
+    .py-100{padding: 100px 0}
+    .emizen_Sucess_Stories{background:#F5FBFD;}
+    .story-card-header{background:linear-gradient(92.72deg,#007DB2 -1.82%,#02BBE1 101.52%);padding:10px;}
+    .story-card-header h5{font-weight:600;font-size:16px;line-height:24px;padding:0;color:#FFFFFF;}
+    .story-content-block p{color:#777777;padding-bottom:10px;line-height:20px;}
+    .story-content-block p strong{color:#4F4F4F;}
+
+    .emizen_Sucess_Stories .owl-carousel .owl-nav button.owl-prev,.emizen_Sucess_Stories .owl-carousel .owl-nav button.owl-next{background:#FFFFFF!important;box-shadow:0px 0px 14px rgb(0 0 0 / 12%);height:35px;width:35px;position:absolute;display:flex;align-items:center;justify-content:center;background-color:rgba(255,255,255,0.5)!important;border-radius:50pX;padding-left:3px;background-image:none!important;margin:0;position:relative;float:left;}
+    .emizen_Sucess_Stories button.owl-prev{left:-15px;}
+    .emizen_Sucess_Stories button.owl-prev:before,.emizen_Sucess_Stories button.owl-next:before{-webkit-transform:rotate(133deg);padding:6px;border-width:0px 2px 2px 0px;}
+    .emizen_Sucess_Stories .owl-carousel .owl-nav .owl-prev:before{-webkit-transform:rotate(133deg);padding:6px;border-width:0px 2px 2px 0px;}
+    .emizen_Sucess_Stories button.owl-next:before{-webkit-transform:rotate(318deg);}
+    .emizen_Sucess_Stories .owl-carousel .owl-nav button.owl-next {right: -14px;float: right;padding-right: 6px;}
+    .emizen_Sucess_Stories .owl-carousel{padding:0 25px;}
+
+    .emizen_sf_imp_stage{background:url(/wp-content/uploads/2023/01/emiz_sf_process_bg.png);padding:100px 0 130px; background-size: cover;}
+    .emizen_sf_imp_stage .number{left:-21px;top:-21px;width:75px;height:75px;border-radius:100px;color:#fff;font-weight:700;position:absolute;font-size:24px;line-height:95px;padding-left:38px;}
+    .prc-card{padding:24px 35px 24px 65px;}
+    .emizen_sf_imp_stage .prc_card_title{font-weight:600;font-size:24px;line-height:24px;color:#000000}
+    .number.position-absolute.bg-yellow {background: #F8B22A;}
+    .number.bg-violat {background: #6E4EC2;}
+    .number.bg-orange{background: #F56812;}
+    .number.bg-green-light{background:#67B387;}
+    .number.bg-green-dark{background: #79BD17;}
+    .number.bg-bg-blue{background:#F8B22A;}
+    .number.bg-blue{background:#0DA1C1;}
+    .number.bg-pink{background:#CE289F;}
+    .emizen_sf_imp_stage p {
+        font-size: 16px;
+        line-height: 19px;
+        color: #777777;
+    }
+    .buss_cta_img{position:absolute;bottom:0;max-width:35%;right:150px;}
+    .Sf_cta_4 .emizentech-btn:hover{color:#00425f;background:#fff;}
+
+    .emizen_Ae_cta_2{background: url(/wp-content/uploads/2023/01/int_cta2.png) no-repeat center center;background-size: cover;padding:100px 0}
+    .emizen_Ae_cta_2 h2{font-size: 56px;line-height: 73px;}
+    .emizen_Ae_cta_2 h2 strong{color: #00ADF6;font-size: 62px;font-style: italic;}
+    .emizen_Ae_cta_2 p{font-weight:400;font-size:22px;line-height:28px;color:#FFFFFF;}
+
+    .emizen_consult{transition: all 0.5s ease;background:#56B7E0;padding:40px 20px;color:#fff;width: 33.33%}
+    .emizen_consult:nth-child(3){background:#076B96;}
+    .emizen_consult:nth-child(2){background:#0082B9;}
+    .emizen_consult a.emizentech-btn{width:auto;min-width:auto;padding:7px 29px;color:#007DB2;background:#fff;margin-top:10px;border:2px solid #77c0df;transition:all .3s;font-size:18px;font-weight:600;}
+    .emizen_consult a.emizentech-btn:hover{background:#007db2;padding:7px 35px 7px 29px;color:#fff;}
+    .emizen_consult.active{/* width:56%; */}
+    .emizen_consult a.emizentech-btn + img{float:right;padding-top: 50px}
+    h5.author-name{font-weight:600;font-size:24px;line-height:24px;padding-top:15px;}
+    p.auth_disc{font-weight:400;line-height:24px;max-width:524px;}
+    .emizen_consult:hover .content-wrapper {display: block;} 
+    a.emizentech-btn {padding: 14px 30px;}
+    .oy-hidden{max-height:760px;overflow-y:auto;overflow-x:hidden;margin-top:20px;overflow-y:auto;overflow-x:hidden;}
+    .oy-hidden::-webkit-scrollbar{display:none;}
+
+    ::selection{background:#3a5897;color:#fff;}
+
+    .wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output,.wpcf7 form.payment-required .wpcf7-response-output{border:0;margin:0;color:red;text-align:center;padding:0;}
+
+    .emizen_Sucess_Stories .owl-carousel.owl-drag .owl-item,.emizen_Sucess_Stories .owl-stage{display:flex;}
+    .emizen_Sucess_Stories .card-wrapper.bg-white{height:100%;}
+    .emizen_Sucess_Stories .full-height{height:100%;display:flex;flex-wrap:wrap;}
+    .emizen_Sucess_Stories .our-story-card{width:100%;}
+    .leading_ondemand .text-heading{font-size:32px;line-height:39px;}
+
+    .Sf_cta_4{background:url(/wp-content/uploads/2023/01/sfs_Cta_Bg.png) center center no-repeat;background-size:cover;font-weight: 400}
+    .Sf_cta_4 h1{font-weight:700;font-size:70px;line-height:65px;}
+    .Sf_cta_4 h2{font-weight:400;font-size:50px;line-height:61px;}
+    .Sf_cta_4 p{font-weight:400;font-size:24px;line-height:28px;}
+    .mt-100{margin-top:100px;}
+    .sas_intg{padding-bottom: 90px}
+    .sas_intg p{font-weight:400;font-size:18px;line-height:24px;}
+    section.sas_intg li{font-weight:400;font-size:18px;line-height:19px;margin:10px 0;color:#252525;position:relative;padding-left: 30px;display:inline-block;width:100%;}
+    section.sas_intg li:before{content:"";position:absolute;left:0;top: 2px;border-color:transparent transparent transparent #252525;border-width: 5px 0px 5px 9px;border-style:solid;}
+    .oy-auto {
+        max-height: 653px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .party_intg:before {
+        content: "";
+        background: linear-gradient(180deg, rgba(14, 52, 81, 0.2) 0%, rgba(14, 52, 81, 0) 100%);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 200px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .party_intg {
+        padding-bottom: 100ox;
+    }
+    .party_intg .oy-auto::-webkit-scrollbar {
+      width: 10px;
+    }
+    .party_intg .oy-auto::-webkit-scrollbar-track {
+        background: transparent;
+        border-radius: 50px;
+        border: 1px solid #0000008a;
+    }
+    .party_intg .oy-auto::-webkit-scrollbar-thumb {
+      background: #0e3451;
+      border-radius: 100px;
+    }
+    .party_intg .oy-auto{padding-right: 15px}
+
+    @media(max-width : 1680px){
+    .emizen_Ae_cta_2 h2 {
+        font-size: 38px;
+        line-height: 62px;
+    }    .emizen_Ae_cta_2 p{font-size:19px;line-height:26px;}
+        .absolute_img img{max-width:80%;}
+        .emizen_sf_imp_stage{padding:70px 0 100px;}
+        .em_Impl_Benefit p {font-size: 17px;line-height: 23px;}
+        .emizen_Ae_cta_2 {padding: 50px 0 70px;}
+        .absolute_img{right:0%;}
+        .emizen_consult a.emizentech-btn{min-width:auto;padding:7px 15px;color:#007DB2;font-weight: 600; background:#fff;margin-top:10px;font-size:16px;}
+        p{font-size:16px;}
+        .Sf_cta_4 h2 {
+        font-size: 40px;
+        line-height: 49px;
+    }
+        .Sf_cta_4 h1{font-size:60px;line-height:70px;}
+    section.sas_intg li {
+        font-size: 15px;
+        line-height: 17px;
+     }
+     .e_inds_box h5{font-size: 17px}
+    }
+    @media(max-width : 1600px){
+        .py-100,.emizen_sf_imp_stage{padding:60px 0;}
+        .mt-100{margin-top:60px;}
+        .em_Impl_Benefit .rounded-circle{width:245px;height:245px;}
+        .em_Impl_Benefit .rounded-circle:before{width:225px;height:225px;}
+        .em_Impl_Benefit .rounded-circle:after{width:225px;height:225px;}
+        .em_Impl_Benefit .rounded-circle h2{font-size:52px;line-height:62px;}
+        .emizen_Ae_cta .small-title{font-size:33px;line-height:42px;}
+     .emizen_Ae_cta_2 h2 strong{font-size: 72px}
+     .em_Impl_Benefit .text-heading, .emizen_Sucess_Stories h2, .salfrc.demand-wrap h2
+    .sas_intg .text-heading, .text-heading, .party_intg .text-heading h2, .salfrc.demand-wrap .text-heading h2 {
+        font-size: 38px;
+        line-height: 49px;
+    }   
+    .Sf_cta_4 h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .Sf_cta_4 h2 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .Sf_cta_4 p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+        .emizen_Ae_cta .sec_title{font-size:70px;line-height:107px;}
+    }
+    @media(max-width : 1440px){
+        .e_inds_box h5{font-size:16px;line-height:24px;max-width:230px;margin:auto;}
+        p.auth_disc{font-size:16px;line-height:20px;}
+        .story-card-header h5{font-size:16px;line-height:24px;}
+        .story-card-header h5 br{display:none;}
+        .e_inds_box .rounded-circle{height:75px;width:75px}
+    }
+    @media(max-width : 1366px){
+        .leading_ondemand .Certified_heading span{font-size:37px;line-height:40px;}
+        .emizen_Sucess_Stories h2,.salfrc.demand-wrap h2{font-size:38px;line-height:44px;}
+    /*    .em_Impl_Benefit .text-heading, .emizen_Sucess_Stories h2, .salfrc.demand-wrap h2{font-size:32px;line-height:40px;}*/
+        .emizen_Ae_cta .small-title{font-size:27px;line-height:33px;}
+        .emizen_Ae_cta .sec_title{font-size:60px;line-height:92px;}
+    .emizen_sf_imp_stage .prc_card_title {
+        font-size: 20px;
+        line-height: 20px;
+     }
+     .emizen_sf_imp_stage p {
+        font-size: 14px;
+        line-height: 19px;
+     }
+     .emizen_Ae_cta {
+        padding: 10px 0;
+    }
+    }
+
+    @media(max-width : 1280px){
+    .leading_ondemand{padding-bottom: 50px}
+    .absolute_img {
+        text-align: end;
+    }
+    }
+
+
+    @media(max-width : 1199px){
+        .emizen_Ae_cta {
+        padding: 10px 0 30px;
+    }
+    }
+    @media(max-width : 1025px){
+        .em_Impl_Benefit .rounded-circle:after {
+        width: 180px;
+        height: 180px;
+    }
+    .em_Impl_Benefit .rounded-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .em_Impl_Benefit .rounded-circle h2 {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .em_Impl_Benefit .rounded-circle:before {
+        width: 180px;
+        height: 180px;
+        right: -20px;
+    }
+    }
+    @media(max-width : 991px){
+        .absolute_img{text-align:end;}
+    .absolute_img img {
+        max-width: 50%;
+    }
+    .buss_cta_img {
+        right: 0;
+    }
+    .Sf_cta_4{padding-bottom: 50px}
+    }
+    @media(max-width : 830px){
+        .leading_ondemand .Certified_heading span{font-size:29px}
+        .leading_ondemand .Certified_heading h2{font-size:20px}
+       .em_Impl_Benefit p {
+        font-size: 17px;
+        line-height: 23px;
+        word-break: break-word;
+        max-width: 126px;
+        text-align: center;
+    }
+    }
+    @media(max-width : 768px){
+        
+        .leading_ondemand .Certified_heading{height:100%;display:flex;align-items:center;justify-content:center;}
+        .text-heading{font-size:32px;line-height:38px;}
+        .em_Impl_Benefit  .text-heading,.emizen_Sucess_Stories h2,.salfrc.demand-wrap h2{font-size:36px;line-height:53px;}
+         .emizen_sf_imp_stage .prc_card_title{text-align:center;line-height:27px;}
+        .prc-card{padding:24px 15px 24px 55px;    /* text-align: center; */}
+        .prc-card p{text-align:center;}
+        .emizen_Ae_cta p{text-align:center;font-size:16px;line-height:24px;}
+        .leading_ondemand .Certified_heading{padding-bottom:10px;}
+        .emizen_Ae_cta p br{display:none;}
+        .py-100,.emizen_sf_imp_stage{padding:30px 0;}
+        .em_Impl_Benefit .rounded-circle:after{width:180px;height:180px;}
+        .em_Impl_Benefit .rounded-circle{width:200px;height:200px;}
+        .em_Impl_Benefit .rounded-circle h2{font-size:42px;line-height:42px;}
+        .em_Impl_Benefit .rounded-circle{width:200px;height:200px;margin:30px 0;}
+        .text-md-left.text-heading::after{right:0;left:0;margin:auto;}
+        .emizen_Ae_cta .sec_title{text-align:center;font-size:50px;line-height:70px;}
+        .emizen_Ae_cta .small-title{text-align:center;}
+        .emizen_Ae_cta{padding:10px 0 40px;}
+        a.emizentech-btn{padding:14px 30px;margin:auto;display:block;max-width:300px;}
+        .emizen_Ae_cta_2 .emizentech-btn {max-width: 100%;width: 53vw;}
+        .emizen_Ae_cta_2 h2{font-size:26px;line-height:29px;}
+        .emizen_Ae_cta_2 p{font-size:16px}
+        .emizen_Ae_cta_2{padding:30px 0 40px;}
+        .absolute_img{display:none;}
+        .buss_cta_img{position:static;max-width:70%;}
+        .Sf_cta_4  .row{flex-direction:column-reverse;justify-content:center;align-items:center;}
+        .Sf_cta_4 h1{font-size:50px;line-height:50px;margin:0 0 10px;}
+        .absolute_img img{display:none;}
+        .Sf_cta_4 h2{font-size:28px;line-height:35px;}
+        .col-w25{flex:0 0 50%;}
+        .col-w25:nth-child(2) .e_inds_box,.col-w25:nth-child(3)  .e_inds_box,.col-w25:nth-child(6) .e_inds_box,.col-w25:nth-child(7) .e_inds_box,.col-w25:nth-child(10) .e_inds_box,.col-w25:nth-child(11) .e_inds_box{background:#fff;}
+        .e_inds_box{padding:20px 0}
+        .Sf_imp_ben_card{padding:20px 15px;}
+        .emizen_consult{width:100%;flex:0 0 100%;}
+        .sforce_consulting .d-flex{flex-wrap:wrap;flex-flow:column;text-align:center;}
+        .emizen_consult a.emizentech-btn + img{display:none;}
+        .content-wrapper{flex-wrap:wrap;display:flex;justify-content:center;flex-flow:column;align-items:center;}
+        .content-wrapper  a.emizentech-btn{order:3;}
+        .emizen_Ae_cta  img{margin:auto;display:none;}
+        br{display:none;}
+        .emizen_Sucess_Stories .owl-carousel{padding:0;}
+        .emizen_Sucess_Stories .owl-carousel .owl-nav button.owl-prev{left:-15px;}
+        .emizen_Sucess_Stories .owl-carousel .owl-nav button.owl-next{right:-15px;}
+        .emizen_Ae_cta_2 p{text-align:center;}
+        .leading_ondemand [class*="col"].mt-4{padding:0 5px;}
+        .em_Impl_Benefit .text-heading, .emizen_Sucess_Stories h2, .salfrc.demand-wrap h2
+        .sas_intg .text-heading, .party_intg .text-heading h2 {font-size: 32px;line-height: 36px;}
+        .sas_intg {padding-bottom: 40px;}
+
+    section.sas_intg li {
+        font-size: 14px;
+        line-height: 19px;
+        margin: 5px 0;
+     }
+    .emizen_Ae_cta_2 h2 strong {
+        font-size: 55px;
+        line-height: 60px;
+        margin-bottom:10px;
+        display: inline-block;
+    }
+    .bg-bluec-card p{line-height: 23px}
+    .card.solutions img {
+        margin: auto;
+    }
+    .Sf_cta_4 p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .salfrc.demand-wrap .owl-carousel.Od_tech_slider {
+        padding: 0;
+    }
+    .cta_wraper  .emizentech-btn {
+        padding: 14px 30px;
+        margin: auto;
+        display: block;
+        max-width: 420px;
+    }
+        .mt-100{margin-top:40px;}
+        .emizen_consult a.emizentech-btn:hover{width:auto;max-width:200px;}
+    }
+    @media(max-width : 640px){
+        .em_Impl_Benefit  .text-heading,.emizen_Sucess_Stories h2,.salfrc.demand-wrap h2{font-size:38px;line-height:49px;}
+        .card_title {
+        font-size:19px;
+        line-height:28px;
+    }
+    .cta_wraper .emizentech-btn{padding: 14px 10px}
+    }
+    @media(max-width : 575px){
+        .text-md-left.text-heading::after{left:0;margin:auto;right:0;}
+        .salfrc.demand-wrap{padding:40px 0;}
+        .leading_ondemand .Certified_heading span{font-size:25px;}
+        .leading_ondemand .Certified_heading h2{font-size:17px;}
+    }
+    @media(max-width : 480px){
+        .banner-info .emizentech-btn{padding-left:10px;padding-right:10px;width:100%;}
+        .em_Impl_Benefit  .text-heading,.emizen_Sucess_Stories h2,.salfrc.demand-wrap h2{font-size:33px;line-height:39px;}
+        .emizen_Ae_cta_2 .emizentech-btn{width: 100%}
+        .emizentech-btn{font-size: 14px}
+    }

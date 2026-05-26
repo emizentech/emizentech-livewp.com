@@ -1,0 +1,10 @@
+# image testing
+RewriteEngine On
+
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?emizentech.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?facebook.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?twitter.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif|pdf|zip)$ - [F]
+

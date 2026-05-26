@@ -1,0 +1,848 @@
+ @charset "utf-8";
+  /* Emizentech Common CSS */
+  body {
+    color: #252525;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-rendering: auto;
+  }
+  *, *:focus {
+    outline: none;
+  }
+  a {
+    color: #252525;
+    transition: all ease .4s;
+  }
+  a:focus {
+    outline: none;
+    outline-offset: 0;
+  }
+  a:hover, a:focus {
+    color: #007db2;
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  iframe {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    border: none;
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  p {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  button, button:focus {
+    outline: none;
+    outline-offset: 0;
+  }
+  figure {
+    margin: 0;
+  }
+ 
+  .emizentech-btn {
+    display: inline-block;
+    min-width: 145px;
+    padding: 14px 15px;
+    background: #0083E4;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    transition: all ease .4s;
+    border-radius: 4px;
+      
+
+  }
+  .emizentech-btn:hover, .emizentech-btn:focus {
+    background: #037baf;
+    color: #ffffff;
+  }
+  .emizentech-btn img {
+    margin-right: 8px;
+  }
+  .orange-btn {
+    background: #FF4F03;
+  }
+
+  .banner-image {
+    -webkit-animation: nudge 2s linear infinite alternate;
+            animation: nudge 2s linear infinite alternate;
+  }
+  @-webkit-keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+    80% {
+      transform: translate(0, -8px);
+    }
+  }
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+    80% {
+      transform: translate(0, -8px);
+    }
+  }
+.banner-image-two, .banner-image-four{
+    -webkit-animation: nudge-two 2s linear infinite alternate;
+            animation: nudge-two 2s linear infinite alternate;
+  }
+  @-webkit-keyframes nudge-two {
+    0%, 100% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    80% {
+      transform: scale(1.2);
+    }
+  }
+  @keyframes nudge-two {
+    0%, 100% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    80% {
+      transform: scale(1.2);
+    }
+  }
+  .banner-image-three {
+    -webkit-animation: nudge-four 4s linear infinite alternate;
+            animation: nudge-four 4s linear infinite alternate;
+  }
+  @-webkit-keyframes nudge-three {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(8px, 0);
+    }
+    80% {
+      transform: translate(-8px, 0);
+    }
+  }
+  @keyframes nudge-three {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(8px, 0);
+    }
+    80% {
+      transform: translate(-8px, 0);
+    }
+  }
+
+
+
+@-webkit-keyframes nudge-four {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -8px);
+    }
+    80% {
+      transform: translate(0, -8px);
+    }
+  }
+  @keyframes nudge-four {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -8px);
+    }
+    80% {
+      transform: translate(0, -8px);
+    }
+  }
+.mx-40.w-100 {
+    position: absolute;
+    right: 0;
+    left: auto;
+    max-width: 42%;
+    bottom: 0;
+    text-align: end;
+}
+.partner-img {
+    width: 100%;
+}
+.mx-60.w-100 {
+    max-width: 58%;
+}
+.emizentech_Partners {
+  background: url(../../assets/images/portfolio/grapics-img.png) no-repeat bottom right;
+  background-size: 42%;
+}
+
+.client-item img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: all ease .4s;
+}
+.client-item img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+  .emizentech-header {background: #1e1717;top: 0;left: 0;padding: 17px 20px;z-index: 99;  }
+  .header-right {
+    text-align: right;
+  }
+  .header-right .emizentech-btn {
+    vertical-align: middle;font-size: 16px;}
+.emizentech-navigation {display: inline-block;vertical-align: middle;}
+.emizentech-navigation ul {padding: 0;margin: 0;font-size: 16px;list-style: none;}
+.emizentech-navigation ul li {display: inline-block;padding-right: 35px;}
+  .emizentech-navigation ul li a {color: #ffffff;display: inline-block;}
+  /* Emizentech Banner */
+  .emizentech-banner {padding-top: 130px;overflow: hidden;text-align: center;position: relative;}
+  .emizentech-banner:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 820px;
+    background: #1E1717;
+    clip-path: ellipse(62% 97% at 50.00% 3.00%);
+    content: "";
+    z-index: -1;
+  }
+  .emizentech-image {
+  padding-top: 2rem;
+}
+  .emizentech-image  img{-webkit-animation: nudge-three 2s linear infinite alternate;
+    animation: nudge-three 2s linear infinite alternate;}
+  .emizentech-banner .emizentech-image {padding-top: 45px;}
+  .banner-info {max-width: 690px;margin: 0 auto;color: #ffffff;}
+  .banner-info h2 {padding-bottom: 20px;font-size: 60px;line-height: 62px;}
+  .banner-btn {padding-top: 20px;}
+  .banner-btn .emizentech-btn {
+    padding: 15px;
+    min-width: 180px;
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  .banner-image {
+    position: absolute;
+    top: 160px;
+    left: 0;
+    z-index: 2;
+  }
+.banner-image-two{position:absolute;top:140px;right:8%;z-index:-1}
+.banner-image-three{position:absolute;bottom:20px;right:0;z-index:1}
+.banner-image-four{position:absolute;bottom:215px;left:180px;z-index:1}
+.emizentech-clients{padding:60px 0;text-align:center}
+.section-title{color:#fff;text-align:center}
+.client-item{padding:0 15px;-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%}
+
+
+  /* CSS ADDED NEW 3.8.2021  */
+
+.Expertise-img {
+  -webkit-animation: nudge-three 2s linear infinite alternate;
+  animation: nudge-three 2s linear infinite alternate;
+}
+.about_emizentech h2 {font-size: 70px;line-height: 86px;letter-spacing: -0.0222em;color: #D8D8D8;}
+.about_emizentech p {font-size: 20px;line-height: 30px;letter-spacing: -0.0222em}
+ a.more-info {
+  display: flex;
+  
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.0222em;
+  text-transform: uppercase;
+  color: #D8D8D8;
+  width: 100%;
+  padding-top: 60px;
+  align-items: center;
+}
+a.more-info  img {padding-left: 20px;}
+.about_emizentech {padding: 40px 0;}
+.portfolio-main-title.color-light-blue {color: #21D7F0;}
+.portfolio-main-title.color-yellow {color: #FFC700;}
+.portfolio-main-title.color-green {color: #11D831;}
+.emizentech-portfolio .portfolio-main-title {font-size: 80px;line-height: 90px;}
+.about_emizentech h3 {font-size: 26px;line-height: 32px;color: #fff;}
+/*.emizan-offer-box-wrap */
+.emizan-offer-box-wrap {
+background: url(../images/blogs/hire-bg.png) no-repeat;
+background-size:cover;  
+padding: 50px 40px;
+background-position: right center;
+}
+.slider-max {max-width: 100%;margin: 0 0 0 auto;}
+.item {max-width: 100%;margin-right: 0;margin-left: 3%;}
+.emizan-offer-box-wrap h2 {font-size: 70px;line-height: 70px;color: #0F0F0F;}
+.emizan-offer-box-wrap  p {font-size: 20px;line-height: 35px;letter-spacing: -0.0222em;color: #000000;}
+
+/* container  css added or remove*/
+.container {max-width: 1455px;padding: 0 15px;}
+.portfolio-content {padding-left: 3.9rem;}
+.technologies {padding-top: 100px;}
+.technologies h3 {font-size: 40px;color: #FFFFFF;}
+.technologies li {margin-right: 40px;}
+.emizentech-portfolio {border-left: 0.5px solid #4C555C;padding-left: 3.9rem;padding-bottom: 7vw;}
+.emizentech-portfolio:last-child {padding-bottom: 0;}
+.emizentech-partner-wrap {position: relative;background: #1E1717;}
+.happy-client {max-width: 100%;width: 100%;}
+.emizentech-partner-wrap > h1 {top: 20px;left: 130px;position: absolute;font-size: 60px;line-height: 74px;letter-spacing: -0.0222em;color: #D8D8D8;}
+.emizentech-partner-wrap .more-info {padding-top: 30px;}
+.emizentech-partner-wrap  P {line-height: 30px;font-size: 18px;letter-spacing: -0.0222em;color: #D8D8D8; }
+.section-title {font-size: 50px;line-height: 62px;color: #D8D8D8;}
+.mx-50 {max-width: 50%;}
+section.emizin_Mobile_development {color: #fff;padding-top: 6vw;}
+h3{font-size: 50px;line-height: 62px;}
+.fit-content {max-width: max-content;}
+.clr-gray{color: #D8D8D8;}
+.left-line, .right-line {position: absolute;}
+.left-line{left:0;bottom:0}
+.right-line{right:0;top:50%;max-width:12%}
+.active-mobile-tab h3{font-size:40px;line-height:50px;letter-spacing:-.0222em;color:#fff}
+.active-mobile-tab{ padding-left:3vw}
+.active-mobile-tab li{font-size:20px;line-height:50px;letter-spacing:-.0222em;color: #fff;}
+.active-mobile-tab li:last-child {margin: 0;}
+.active-mobile-tab ul{position:relative;padding:15px 0 15px 30px}
+.active-mobile-tab ul:before {content: "";position: absolute;height: 100%;width: 32px;left: 0;top: 0;z-index: 1;border: 3px solid #354450;border-right: 0;}
+.nav-pills .nav-link{font-size:30px;line-height:37px;color:#ededed;margin:30px 0;max-width:max-content}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .nav-pills .nav-link:hover{color:#0092ff;background:0 0;border-bottom:1px dashed #0092ff}
+.emz_title{font-size:30px;line-height:37px;letter-spacing:-.0222em;color:#fff}
+.summery{font-size:55px;line-height:66px;letter-spacing:-.0222em;color:#fff}
+.pl-left{padding: 30px 90px 50px 100px;}
+.pl-left, .tabing-links li, .page-col-title, .discription{font-size:18px;line-height:30px;letter-spacing:-.0222em;color:#d8d8d8}
+.discription {
+  max-width: 70%;
+}
+.tabing-links li, .page-col-title {position: relative;padding: 20px 0 20px 40px;}
+.tabing-links{display: flex;}
+.page-col-title {flex: 0 0 30%;}
+li { list-style: none;}
+.tabing-links li:before, .page-col-title:before {content: "";position: absolute;left: 0;top: 50%;width: 23px;height: 3px;background: #B1B1B1;transform: translatey(-50%);}
+.tabing-links ul {flex: 0 0 30%; padding-left: 0;}
+.tabing-links {margin-top: 3.5vw;}
+.card-title {  font-size: 22px;line-height: 27px; color: #0092FF;margin: 0;}
+.card-box p{font-size: 18px;line-height: 28px; color: #D8D8D8;}
+.page-discription {flex: 0 0 70%;}
+.card-box{background: #1A252E;  border: 1px solid #2C4357;   border-radius: 2px;  padding: 10px 30px; letter-spacing: -0.0222em;margin-bottom: 20px;}
+.emizen_web_services{padding-top:10vw}
+.emizen_hire_team{padding-top:6vw;padding-left:6%}
+.tab-content{position:relative;max-width:100%;margin-left: auto; width:100%}
+.eCommerce-img{position:absolute;right:0;top:-200px}
+.tab-content::before{content:"";position:absolute;background:#1a2834;border:1.4vw solid #ff5c03;width:100%;height:calc(100% - 7%);left: 0;z-index:-1}
+.tab-pane{padding:60px 50px 0}
+.emizen_hire_team li{position: relative;z-index: 1;border-bottom:#2f4151 1px solid;padding:20px 0;border-left:5px solid;padding-left:2.2rem;transition:all .3s ease-in-out .1s}
+.emizen_hire_team li:before {
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0px;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  z-index: -1;
+  background: #fff;
+}
+.emizen_hire_team li:hover:before {width: 100%;}
+.emizen_hire_team li:hover{background:#fff;color:#000}
+.emizen_hire_team li:hover .framework-titile {color: #fff;transition: all .3s ease-in-out .2s;}
+.emizen_hire_team li.android{border-left-color:red}
+.emizen_hire_team li.Magento{border-left-color:#ec6737}
+.emizen_hire_team li.react{border-left-color:#61dafb}
+.emizen_hire_team li.wordpress{border-left-color:#21759b}
+.emizen_hire_team li.Iphone{border-left-color:#959595}
+.emizen_hire_team li.Salesforce{border-left-color:#00a1e0}
+.emizen_hire_team li.android{border-left-color:#a4c439}
+.framework-titile {
+  
+  font-size: 22px;
+  line-height: 48px;
+  letter-spacing: -0.0222em;
+  color: #F0F0F0;
+  padding-left: 25px;
+  display: flex;
+}
+.emizen_hire_team li::before {
+  animation: animateBg 10s linear infinite;
+  background-image: linear-gradient(0deg,#cf5c5c,#c19b4a,#21759b,#c6ee4a,#42eca6,#64b3d9,#a4c439,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
+  background-size: 100% 1100%;
+  height: 100%;
+  width: 4px;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  visibility: hidden;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+}
+
+.emizen_hire_team li:hover::before {
+  visibility: visible;
+}
+/* arrow cs animation */
+circle {
+  /*stroke-dasharray: 2px;*/
+  animation: dash 16s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 500;
+  }
+}
+
+
+.owl-prev i, .owl-next i {
+  background: #FF4F03;
+  border: 1px dashed #FF4F03;
+  box-sizing: border-box;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 21px;
+  transition: all ease-in-out .3s;
+}
+
+.tab-content::after {
+    content: "";
+    position: absolute;
+    border: 0;
+    height: calc(100% - 18%);
+    z-index: 1;
+    top: 5%;
+    left: 0;
+    width: 26px;
+    background: #1a2834;
+    padding: 0;
+}
+
+
+/* ANIMATION TESTIMONIAL CAROUSAL */
+
+.owl-prev{padding-right:10px}
+.owl-next{padding-left:10px}
+.owl-next i:hover,.owl-prev i:hover{background:#fff;color:#ff4f03;border-style:solid}
+.owl-nav{display:flex;position:absolute;bottom:30px;right:100%}
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+     }
+  100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); } 
+       }
+.round-img{flex:0 0 33%}
+.emizen_hire_team ul {padding-left: 16%;}
+.large-container {max-width: 67%;padding: 0px 30px;flex: 0 0 67%;padding-left: 20%;}
+.testimonial_content p {padding-bottom: 10px;margin-bottom: 0;font-size: 22px;line-height: 30px;}
+.testimonial-section {padding-top: 80px;padding-bottom: 210px;}
+.testimonial-section:before{
+/*  position: absolute;
+  left: -200px;
+  top: 22%;
+  background-image: url(../images/icons/ring-circle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 701px;
+  height: 756px;
+  content: "";*/
+ /* -webkit-animation: fa-spin 25s infinite alternate;
+  -moz-animation: fa-spin 25s infinite alternate;
+  -ms-animation: fa-spin 25s infinite alternate;
+  -o-animation: fa-spin 25s infinite alternate;
+  animation: fa-spin 25s infinite alternate;*/
+}
+.testimonial-section .sec-title{position: relative; margin-bottom: 115px;}
+.testimonial-section .testimonial-carousel{max-width: 1100px;margin: 0 -50px;}
+.testimonial-block .info-box {padding: 0 16%;}
+.testimonial-block .info-box .name {
+  position: relative;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: -0.0222em;
+  color: #D8D8D8;
+}
+.testimonial-block .info-box .designation{font-weight:400;font-size:22px;line-height:30px;color:#556d73}
+.info-box{font-size:22px;line-height:30px;color:#d8d8d8}
+.testimonial-carousel .owl-nav{display:block;right:0;top:50%;transform:translatey(-50%)}
+.testimonial-carousel .owl-nav .fa{height:36px;font-size:14px;width:36px}
+.testimonial-section .fa-chevron-right{transform:rotate(90deg)}
+.testimonial-section .fa-chevron-left:before{transform:rotate(90deg)}
+.testimonial-section .owl-next{padding:10px 0}
+.testimonial-section .owl-prev{padding:0 0 20px}
+.testimonial-carousel .owl-next i, .testimonial-carousel .owl-prev i{background:0 0;color:#ff4f03}
+.testimonial li{position:absolute;/*animation:fa-spin 9s infinite linear*/}
+li.testimonial_1{left:-6%;top:16%}
+li.testimonial_4{right:20%;top:13%}
+li.testimonial_3{bottom:5%;right:30%}
+li.testimonial_2{right:-40px;top:40%}
+.testimonial-img li img{max-width:85%}
+.user-info{max-width:100%;min-width:50%}
+.quote-right{float: right;}
+
+
+section.emizen-blogs, .emizen-offers {}
+.bg-black {background: #0F1A23 url(../images/blogs/blog-bg.png) no-repeat right center;padding: 40px 0 100px; background-size: contain;}
+/* Rectangle 161 */
+.bg-content {
+  top: -70px;
+}
+section.emizen-blogs  a {
+    background: #0092FF;
+    border-radius: 4px;
+    padding: 10px 30px;
+    color: #fff;
+    line-height: 26px;
+    font-size: 22px;
+    line-height: 22px;
+    display: inline-block;
+}
+.emizen-blogs h1{font-weight:400;font-size:80px;line-height:90px;letter-spacing:-.0222em;color:#f0f0f0}
+.emizen-blogs h1 + p {font-size: 20px;}
+.emizen-blogs p{line-height:35px;letter-spacing:-.0222em;color:#d8d8d8}
+.blog-contenet h3{font-size:40px;line-height:49px;letter-spacing:-.0222em;color:#0092ff}
+.blog-main p{padding:10px 0;font-size:20px;line-height:35px;letter-spacing:-.0222em;color:#d8d8d8}
+.blog-main .blog-contenet{padding:30px 30px 30px 0;    top: -60px; background:#0f1a23; max-width: calc(100% - 8%);}
+.blog-main .blog-contenet:before{content:"";position:absolute;left:-50%;height:100%;width:100%;top:0;background:#0f1a23;z-index:-1}
+.blog-image img{width:100%}
+.blog-image {overflow: hidden; }
+.blog-image img {transition: transform .5s ease;}
+.blog-image:hover img { transform: scale(1.2);}
+
+section.emizen-blogs a.more-info{background:0 0;color:#007db2;padding:0;display:inline}
+.bg-content:before{/*width:100%;height:70px;background:#0f1a23;position:absolute;content:"";z-index:-1;top:0;left:0*/}
+.recent-blogs{display:flex;flex-wrap:wrap}
+.recent-blogs .blogs-card{flex:0 0 50%;padding:30px 10px 10px;border-right:1px solid #2a4760;border-bottom:1px solid #2a4760}
+.recent-blogs .blogs-card:nth-child(2n){border-right:0}
+.recent-blogs .blogs-card h3{font-size:20px;line-height:25px}
+.recent-blogs .blogs-card p, .recent-blogs .blogs-card p a.more-info {line-height:30px;font-size: 20px;}
+.emizen-location li span.location-group{background: #1D2B37; display: flex;align-items: center;  border: 1px solid #556D73;padding: 15px 10px;}
+.emizen-location {}
+.emizen-location li { padding-right: 2%;flex: 0 0 33.33%;color: #FFFFFF;font-size: 16px;line-height: 20px;transition: all .3s; }
+.emizen-location li span.location-group:hover {background: #293443;}
+.emizen-location li img{margin-right:10px;}
+/*  ============================= .Company-address =============================  */
+.Company-address .address {font-size: 16px;line-height: 20px;letter-spacing: -.0222em;color: #d8d8d8;}
+.recent-blogs .company-title,.company-title{font-size:50px;line-height:62px;margin-bottom:20px;color:#d8d8d8;letter-spacing:-.0222em}
+.Company-address img{margin-right:15px}
+/*  ============================= .emizen-offers =============================  */
+.emizen-offers h1{font-size:40px;line-height:49px;letter-spacing:-.0222em;color:#fff}
+.emizen-offers h1 span{color:#ff4f03}
+.emizen-offers{padding-top:2rem}
+.emizion-main-title span{font-size:16px;line-height:20px;color:#f9f9f9}
+.emizion-designation{color:#556d73}
+/*  ============================= .contact-info  =============================  */
+.contact-info li a{color:#fff;font-size:16px;line-height:16px;padding-right:20px}
+.contact-info li a span{color:#556d73}
+.contact-info {font-size: 16px;padding-top: 15px;color: #fff;}
+.contact-info  i {color: #556D73;margin-right:5px}
+.enquiry-form .form-control{background:#293443;opacity:.9;border:1px solid #404f5b;}
+.enquiry-form  textarea.form-control {height: 10vw;}
+.enquiry-form input.form-control{padding:29px 20px;color:#5c7992}
+.enquiry-form select.form-control{height:60px;color:#5c7992}
+.enquiry-form .form-control::placeholder{color:#5c7992}
+.enquiry-form .btn.btn-primary{background:#0092ff;padding:13px 45px;font-size:18px}
+.emizen-location p{font-size:16px;line-height:20px;color:#d8d8d8}
+.company-info{background:#1a2834 url(../images/blogs/form-bg.png) no-repeat center center;background-size:cover;background-blend-mode:exclusion;padding-top: 50px;}
+.our-clients{background:rgba(0,0,0,.2);padding:20px 0;margin-top:30px}
+footer p, footer li {color: #fff;}
+
+span.fa.fa-star {color: #F3BF05;}
+/* zoom animation  */
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.emizen-sec-group.mobile-fixed .fiexed-mobile {position: fixed;top: 40%;transform: translate(-50%, -50%);left: 45.5%;max-width: 30%;}
+.mobile-fixed .active-mobile-tab {padding-left: 18vw;}
+#section2 {background:linear-gradient(to bottom, #362861 20%, #e32f79 100%);}
+#section3 {background:linear-gradient(to bottom, #1d1393 20%, #91587d 100%);}
+#section4 {background:linear-gradient(to bottom, #100431 20%, #ff84f738 100%)}
+#section5 {background: linear-gradient(to bottom, #202944 20%, #3f445138 100%);}
+#section6 {background: linear-gradient(to bottom, #ea699f0a 20%, #f23ee738 100%);}
+button.btn.btn-info.w-100.toggle-btn.collapsed {display: none;}
+.nav.flex-column.nav-pills .collapse {display: block;}
+.testimonial .carousel-indicators {
+  display: none;
+}
+
+
+.card-0 {
+color: #fff;
+background: transparent;
+position: relative;
+}
+.ring-img {
+  max-width: 20%;
+}
+.carousel-indicators li {
+width: 100%;
+border-radius: 0;
+background: transparent;
+height: auto;
+max-width: 20%;
+cursor: pointer;
+display: inline-block;
+border-radius: 50% !important;
+height: auto;opacity: 1;
+}
+.carousel-indicators{max-width:30%;position:relative;float:left;right:0;left:0;display:block;width:100%;margin:0;height:53vw}
+.carousel-indicators li.dot{position:absolute;z-index:99999}.carousel-inner{max-width:800px;margin-left:auto}
+.left-circle{max-width:33.53%;float:left;position:absolute;left:0}
+.carousel-indicators li img{width:120px;border-radius:50%;height:120px;display:inherit; filter: grayscale(1);}
+.carousel-indicators li.dot.testimonial_2{left:auto;right:18%;top:9%}
+.carousel-indicators li.dot.testimonial_1{left:-12%;top:10%}
+.carousel-indicators li.dot.testimonial_3{left:-8%;top:71%}
+.carousel-indicators li.dot.testimonial_5{right:-13%;top:35%}
+.carousel-indicators li.dot.testimonial_4{left:auto;right:18%;top:auto;bottom:3%}
+
+.close-quotes {
+margin-bottom: 100px;
+margin-right: 60px
+}
+.carousel-indicators li.dot.active img {
+filter: grayscale(0);
+}
+@media(max-width:  1680px)
+{
+  .emizen-sec-group.mobile-fixed .fiexed-mobile {max-width: 13%;}
+  .eCommerce-img {max-width: 20%;}
+  .tabing-links li, .page-col-title{font-size: 16px;}
+}
+/* screen width 1600px */
+@media(max-width:1600px){
+  .banner-btn .emizentech-btn {padding: 11px 15px;font-size: 16px;margin: 0 5px;}
+  .banner-info h2 {font-size: 50px;line-height: 52px;}
+  .emizentech-btn,.emizentech-navigation ul li a{font-size: 16px;}
+  .container{max-width:100%;padding:0 4%}
+  .emizentech-portfolio h1{font-size:60px;line-height:70px}
+  .emizen-blogs h1,.summery{font-size:55px;line-height:66px}
+  .more-info  svg {width: 50px;}
+  .nav-pills .nav-link {font-size: 24px;line-height: 27px;margin: 20px 0;}
+ .testimonial-section {padding-bottom: 100px;}
+}
+@media(max-width:  1440px) {
+  .testimonial-block .info-box{padding-left: 0;}
+  .banner-image-three{max-width: 23%;}
+  .banner-info h2{padding-bottom:20px;font-size:40px;line-height:42px}
+}
+@media(max-width:  1440px) {
+  .recent-blogs .blogs-card h3{font-size:17px;line-height:20px}
+  .recent-blogs .blogs-card p a.more-info, .recent-blogs .blogs-card p{font-size:16px;line-height:26px}
+  .blog-contenet h3{font-size:30px;line-height:37px}
+  .blog-main p{font-size:16px;line-height:26px;padding:5px 0}
+  .blog-main p a.more-info{font-size:16px;line-height:26px}
+  .emizen-location li{font-size:14px}
+  .contact-info li a{font-size:14px}
+  .emizen-blogs h1,.summery{font-size:40px;line-height:40px}
+  .enquiry-form select.form-control {height: 46px;}
+  .enquiry-form input.form-control{padding:22px 20px;font-size:14px}
+  .owl-next i,.owl-prev i{width:35px;height:35px;font-size:15px}
+  .large-container{max-width:60%;flex:0 0 60%;padding-left: 10%;}
+  footer li,footer p{color:#fff;font-size:14px}
+  .emizen-offers h1{font-size:32px;line-height:39px}
+  .emizen_hire_team {padding-left: 0;}
+  .owl-nav{bottom: 0;}
+}
+@media(max-width:  1366px){
+  .active-mobile-tab li {font-size: 16px;line-height: 42px;}
+  .about_emizentech p {font-size: 16px;line-height: 23px;}
+  .about_emizentech h2 {font-size: 55px;line-height: 56px;}
+  .fiexed-mobile img {max-width: 80%;}
+  h3 {font-size: 40px;line-height: 42px;}
+  .emizen_app_store img {max-width: 40%;}
+  .technologies li img {max-width: 60px;}
+  .technologies h3 {font-size: 33px;line-height: 36px;}
+  .info-box {font-size: 0;}
+  .testimonial_content p {font-size: 16px;line-height: 25px;}
+  .testimonial-block .info-box {padding: 0 6%;}
+  .emizentech-banner .emizentech-image {display: block;margin: 0 auto;max-width: 70%;}
+}
+@media(max-width:  1199px){
+  .eCommerce-img{max-width: 40%;}
+  .technologies li {margin-right: 20px;}
+  .contact-info li a{font-size: 10px;}
+  footer p, footer li {font-size: 13px;}
+  .emizen-location li span.location-group {font-size: 12px;padding-right: 5px;}
+  .emizentech-navigation ul li a {font-size: 14px;padding: 0;}
+  .emizentech-navigation ul li {padding-right: 20px;}
+  .header-right .emizentech-btn {font-size: 16px;min-width: fit-content;padding: 8px 10px;}
+  .banner-image{max-width: 16%;}
+  .banner-image-two {right: 2%;}
+  .portfolio-content, .emizentech-portfolio {padding-left: 1.3rem;}
+  .emizen_app_store img {max-width: 50%;padding: 0;}
+  .emizen_hire_team li {padding-left: 1.2rem;}
+  .framework-titile{font-size: 19px;}
+  .nav-pills .nav-link {font-size: 27px;padding-right: 0;}
+  .testimonial-section {padding-bottom: 80px;}
+  .about_emizentech p{font-size:16px;line-height:22px}
+  .emizentech-portfolio h1{font-size:40px;line-height:60px}
+  .about_emizentech p br{display:none}
+  .active-mobile-tab h3{font-size:30px;line-height:31px}
+  .emizen-location li{flex:0 0 100%;margin:10px 0}
+  .emizen-location ul{flex-flow:column}
+  .emizen-location li span{font-size:20px;line-height:36px}
+  .banner-image-four{left:1%;z-index:1;max-width:13%}
+  .active-mobile-tab li {font-size: 16px;line-height: 50px;}
+}
+@media(max-width:  1024px){
+  .emizentech-banner:before {clip-path: ellipse(100% 77% at 50% 3%);}
+  .technologies li img {max-width: 100%;}
+}
+@media(max-width:  991px){
+  .mx-50 {max-width: 100%;}
+  .emizentech_Partners {background-image: none;}
+  .emizen_hire_team ul {padding-left: 0;}
+  .emizentech-navigation ul li {border-bottom: 1px solid #332929;}
+  .banner-image {max-width: 13%;}
+  .banner-image-two{max-width: 10%;}
+  .navbar-light .navbar-toggler-icon {filter: invert(1);}
+  .emizentech-logo {position: absolute;top: 0;left: 20px; max-width: 50%;}
+  .header-right {width: 100%;}
+  .emizentech-navigation ul {text-align: left;padding: 40px 0 0;}
+  .emizentech-navigation ul li a {font-size: 18px;line-height: 26px;padding: 9px 0;}
+  .emizentech-navigation{width: 100%;}
+  header.emizentech-header {background: #1e1717;}
+  .about_emizentech .emizentech-portfolio, .about_emizentech .emizentech-portfolio p{text-align: left;}
+  .nav-pills .nav-link {font-size: 24px;}
+  .emizan-offer-box-wrap h2 {font-size: 40px;line-height: 40px;}
+  .testimonial-section .testimonial-carousel{margin: 0;}
+  .technologies {padding: 50px 0;text-align: center;}
+  .technologies  ul {justify-content: center;}
+  .emizen_app_store img {max-width: 100%;width: 100%;}
+ .active-mobile-tab {padding-left: 0rem;}
+ .large-container{padding-left: 30px;}
+ .active-mobile-tab li {line-height: 26px;margin-bottom: 20px;}
+   .mx-60.w-100,.mx-40.w-100 {position: static; max-width: 100%;}
+}
+@media(max-width:  768px){
+.about_emizentech {text-align: center;}
+  .portfolio-content {padding-left: 30px;}
+  .flex-column-mobile{flex-direction: column-reverse;flex-flow: column;}
+
+  .happy-client{display: none;}
+  button.btn.btn-info.w-100.toggle-btn.collapsed {display: block;}
+.nav.flex-column.nav-pills .collapse {
+    display: none;
+}
+.nav.flex-column.nav-pills .collapse.show {
+    display: block;
+}
+}
+
+@media(max-width:  767px){
+  .tabing-links{display:block}
+  .emizen_hire_team{padding-left:0}
+  ul, .company-info{padding:0}
+  .banner-image{max-width:20%}
+  .discription {max-width: 100%;}
+  .mx-50 {max-width: 100%;}
+  .pl-left {padding: 30px;}
+  #section3 {background: linear-gradient(to bottom, #9464fd 0%, #fd9095 100%);}
+  .emizentech-partner-wrap .more-info {padding: 30px 0;}
+  .emizentech-partner-wrap > h1 {padding-top: 10px;position: static;font-size: 36px;line-height: 40px;letter-spacing: -0.0222em;color: #D8D8D8;text-align: center;}
+  .banner-image-two{max-width:20%;right:0}
+  .banner-info h2{font-size:32px}
+  .banner-btn .emizentech-btn{margin:10px 4px}
+  .client-item{max-width:100%;width:100%;flex:0 0 50%;margin:30px 0}
+  .client-item a:hover img {filter: grayscale(100%) opacity(100%);}
+  .client-item img{cursor: pointer;}
+  .client-item img {transition: all .3s ease-in-out;filter: grayscale(100%) opacity(80%);}
+  .about_emizentech h2{font-size:42px}
+  .more-info img {max-width: 70px;}
+  .tab-content > .tab-pane {margin-top: 50px;}
+  .round-img { display: none;}
+  .toggle-btn{max-width: 60%;background-color: #ff5c03;border-color: #ff5c03;}
+  .active-mobile-tab h3{font-size:30px}
+  .about_emizentech{padding:0}
+  .emizentech-portfolio{border:0;padding-left:0;text-align:center}
+  .emizentech-portfolio {padding: 30px 0 0;}
+  .active-mobile-tab{padding-top:2rem}
+  .eCommerce-img {top: -12%;    display: none;}
+  .tab-pane{padding:30px}
+  .framework-titile{line-height:26px}
+  .large-container,  .tab-content, .fit-content {max-width:100%; flex: 0 0 100%;}
+  .contact-info lI  a{font-size: 19px; padding: 20px 0;}
+  .contact-info i{font-size: 30px;    padding: 15px 0;}
+  .owl-nav{right: 0;}
+  li.testimonial_1{left: 0;}
+  li.testimonial_2{right: 0;}
+  .round-img{max-width:90%}
+  .testimonial-carousel .owl-nav{top:auto;transform:translatey(0);bottom:0}
+  .testimonial-block .info-box{padding:0}
+  .testimonial-carousel .owl-nav .fa,.testimonial-section .fa-chevron-left:before{transform:rotate(0)}
+  .card-box{padding:10px 15px}
+  .blog-main .blog-contenet{padding:30px 10px;max-width:100%}
+  .item{margin-left:0}
+
+}
+@media(max-width:  575px){
+  .portfolio-content{padding-left:0}
+  .rating-star li{flex:0 0 auto;word-break:break-all}
+  .rating-star ul{flex-wrap:wrap}
+  .rating-star{padding-top:30px}
+}
+@media(max-width: 480px){
+  .recent-blogs .blogs-card{flex: 100%;border-right: 0  ;}
+  .recent-blogs .blogs-card:nth-child(2n) {border-right: 0;}
+}

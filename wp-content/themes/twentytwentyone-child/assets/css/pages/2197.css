@@ -1,0 +1,224 @@
+.banner-info h1,.banner-info h2{color:#ff3f3e;}
+.emizentech-banner:after{content: none}
+.banner-info h1 span{color:#000}
+.outsystem-card{background:rgba(255,146,142,0.05);border:1px solid #FF928E;border-radius:20px;}
+.outsystem-card h5{color:#000000;letter-spacing:normal;font-weight:600;font-size:19px;line-height:26px}
+.text-heading span{color:#ff4341;font-weight:600;}
+.Consultation-from label{font-weight:normal;font-size:15px;margin:0 0 5px;text-align:left;}
+.Consultation-from .wp-block-button button.wp-block-button__link{transition:all .3s;}
+.Consultation-from .wp-block-jetpack-contact-form{padding:10px 0!important;gap:10px;}
+.Consultation-from input:focus,.Consultation-from select:focus,.Consultation-from button.wp-block-button__link:focus{outline:none!important;}
+.Consultation-from .wp-block-button button.wp-block-button__link:hover,.Consultation-from button.wp-block-button__link:focus{background:#ff4341!important;color:#fff!important;}
+.Consultation-from input,.Consultation-from textarea{border-bottom:1px solid #000;padding:10px 0 10px!important;font-size:15px;border-radius:5px;background:#F4F9FB;border:1px solid #ddd;color:#000;max-height:90px;}
+.grunion-field-wrap{margin-bottom:10px;}
+.Consultation-from button.wp-block-button__link{background:#ff4341!important;border:2px solid #ff1f1d;padding:9px 0;font-weight:600;color:#fff!important;font-size:21px;width:calc(100% - 30px);display:block;margin:auto;height:auto;border-radius:4px;}
+.contact-form__error ul{padding:0;}
+.Consultation-from .e-flex.e-con-boxed.e-con.e-parent .elementor-field.elementor-field-textual{font-size:15px;border-radius:5px;background:#f4f9fb;border:1px solid #ddd;color:#000;max-height:90px;padding:10px 10px!important;margin:0;resize:none;}
+.Consultation-from .e-flex.e-con-boxed.e-con.e-parent .elementor-field.elementor-field-textual#form-field-phone{padding-left:50px!important;}
+.Consultation-from .e-flex.e-con-boxed.e-con.e-parent .elementor-button.elementor-size-sm{font-weight:600;font-size:16px;line-height:50px;text-align:center;color:#fff;border:1px solid #fff;border-radius:100px;background:#ff4341;max-width:140px;display:inline-block;height:auto;}
+.inner-bg{background:#fafafa;padding:30px 20px;border-radius:10px;border:1px solid #ddd;}
+.Consultation-from{border-radius:20px;margin-left:40px;}
+.Consultation-from input:focus{outline:none;}
+.Consultation-from span.wpcf7-spinner{position:absolute;}
+.Consultation-from input::placeholder,.Consultation-from textarea::placeholder{color:#AABDC6;!important;}
+.Consultation-from input.wpcf7-form-control,.Consultation-from textarea{width:100%;padding:10px 0 10px 10px;font-size:15px;height:auto;border-radius:5px;background:#F4F9FB;border:1px solid #ddd;color:#000;margin-left:0;}
+.Consultation-from input.wpcf7-form-control::placeholder{font-weight:400;font-size:15px;line-height:18px;letter-spacing:0.01em;color:#FFFFFF;}
+.Consultation-from span.wpcf7-form-control-wrap{padding-bottom:.2rem;display:inline-block;width:100%;margin-bottom:15px;position:relative;border:0;padding-bottom:25px;margin:0;}
+.Consultation-from input.wpcf7-form-control.wpcf7-form-control.has-spinner.wpcf7-submit{background:#ff4341!important;border:2px solid #ff1f1d;padding:9px 0;font-weight:bold;color:#fff!important;font-size:25px;width:calc(100% - 30px);display:block;margin:auto;}
+.Consultation-from textarea{height:100px;}
+.Consultation-from .text-heading:after{right:auto;}
+.wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output,.wpcf7 form.payment-required .wpcf7-response-output{border:0;color:red;text-align:center;display:block;width:100%;padding:0;margin:0;}
+.wpcf7-not-valid-tip{position:absolute;bottom:7px;font-size:14px;line-height:14px;left:0;}
+.vision_cta_5 {
+    border: 2px solid #ff3534;
+    background: url(/wp-content/uploads/2023/07/Os_certified_bg.png) no-repeat center center;
+    border-radius: 20px;
+    background-size: cover;
+}
+.vision_cta_5 h2{font-size:27px;line-height:40px;font-weight:normal;}
+.vision_cta_5 a.emizentech-btn {
+    background: #fff;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.25);
+    color: red;
+    font-weight: 600;
+}
+span.emizen_Os_system {
+    background: #ff4341;
+    border: 2px solid #f72d2c;
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.vision_cta_5 p{font-size:20px;max-width:533px;line-height:30px;}
+.select_outsystm .card{box-shadow:2px 2px 20px 0px rgb(115 154 233 / 27%);border-radius:14px;}
+.select_outsystm .card img{width:40px;}
+.outs_title{font-size:22px;line-height:28px;font-weight:600;color:#1f212d;}
+.Emizen_shopy_web_dev{padding:50px 0 100px;background:linear-gradient(217deg,rgb(255 255 255 / 80%),rgb(255 146 142 / 32%) 70.71%)}
+.Emizen_shopy_web_dev .emizen_apps_devep{z-index:0;max-width:500px;}
+.Emizen_shopy_web_dev .item{padding-right:20px;}
+.Emizen_shopy_web_dev .slider_container{background:rgba(255,255,255,0.35);backdrop-filter:blur(12.5px);border-radius:20px;position:relative;}
+.Od_tech_slider{padding:35px 40px}
+.Emizen_shopy_web_dev p{color:#000000;font-size:16px;line-height:29px;font-weight:400;}
+.Emizen_shopy_web_dev .item li{font-size:17px;line-height:24px;font-weight:600;color:rgba(0,0,0,0.85);padding:0 0px 15px 20px;position:relative;}
+.Emizen_shopy_web_dev img.mob_img{max-width:400px;display:block;margin-left:auto;}
+.Emizen_shopy_web_dev .text-heading{font-size:34px;font-weight:600;}
+.Emizen_about_app h3{font-size:24px;line-height:36px;}
+.Emizen_shopy_web_dev .item li:before{content:"";position:absolute;left:0;border-width:8px 0px 8px 10px;border-color:transparent #ecf2fe transparent #ff4341;border-style:solid;top:4px;}
+.Exprt_dev .bg-blue-light{background:#fff7f7;border-radius:8px;border:2px solid #f9696952;}
+.Exprt_dev.{background:linear-gradient(45deg,#efebeb66,transparent);padding:70px 0;}
+.Exprt_dev .bg-blue-light img{max-width:50px;}
+.Exprt_dev .bg-blue-light h3{font-size:20px;line-height:24px;font-weight:600;}
+.Exprt_dev .bg-blue-light p{color:#575757;}
+.mt-100{margin-top:100px}
+strong{font-weight:600;}
+.gradiant-col{background:linear-gradient(138.28deg,#007DB2 38.22%,#60E093 96.62%);border-radius:8px;padding:15px 15px 35px 15px;}
+.gradiant-col img{width:145px;height:145px;}
+.gradiant-col h5{font-size:24px;line-height:29px;font-weight:600;}
+.gradiant-col li{background:rgba(255,255,255,0.25);border-radius:100px;padding:6px 15px 6px;line-height:19px;margin:7px 0;}
+.font16{font-size:16px}
+.gradiant-col .btn{background:#FFFFFF;border:1px solid #007DB2;border-radius:100px;font-size:18px;line-height:24px;padding:13px 32px;position:absolute;left:0;right:0;margin:auto;max-width:fit-content;bottom:-20px;}
+.gradiant-col .btn:hover{background:#007DB2;box-shadow:0px 0px 20px rgba(0,0,0,0.1);border-radius:100px;color:#fff;}
+.img-circle{border-radius:100px;width:170px;height:170px;margin-top:-90px;}
+.text-heading.large-headng{font-size:38px;line-height:55px;}
+.mag_technology{padding-top:100px;}
+.tech_box{padding-right:50px;}
+.tech_box h3{font-weight:600;font-size:18px;line-height:26px;color:#252525;}
+.box-inner{box-shadow:0px 0px 17px rgb(245 113 44 / 16%);border-radius:20px;border:2px solid #fff;transition:all .3s;}
+.box-inner:hover{border:#ff4341 2px solid;}
+.text-heading::after{background:#ff4341;border-radius:100px;width:73px;height:3px;bottom:0;content:"";left:0;margin:auto;position:absolute;right:0;}
+
+.get_started_box  img {
+    float: right;
+}
+.service-box{background:#ff4341;padding:10px 10px;display:flex;align-items:center;justify-content:center;height:70px;width:70px;border-radius:8px;margin-top:-25px;}
+.clr_yellow{color:#ff4341}
+ .get_started_box p{font-size:18px;line-height:27px;}
+ .get_started_box .mobile_app_title{font-size: 32px;line-height:42px; font-weight: 600}
+ .get_started_box a:hover{background:#fff;color:#36003a;}
+.Emizen_shopy_web_dev  .owl-carousel .owl-nav{background:white;border-radius:50px;bottom:-60px;padding:10px 20px;}
+.content-left::after{right:auto;}
+.mobile_app_work_flow h5{letter-spacing:normal;font-weight:600;font-size:18px;line-height:30px;color:#000000;min-height:100px;}
+.flow_icon{height:50px;width:50px;border:2px solid #FFFFFF;box-shadow:2px 8px 13px 5px rgb(0 0 0 / 20%);}
+.mob_col:after{background:url(/wp-content/uploads/2023/07/dotted-arrow-1.png) no-repeat top left;content:"";position:absolute;width:240px;top:20px;z-index:-9;background-size:contain;height:100%;}
+.mob_col{z-index:1;height:100%;flex-flow:column;display:flex;margin-top:50px;position:relative;}
+.mob_col:before{content:"";position:absolute;border-top:10px solid transparent;border-bottom:10px solid transparent;border-left:10px solid  #e12321;bottom:-14px;z-index:1;right:20px;}
+.Wireframing.mob_col:before{/* border-left-color:#e12321; */}
+.t_number{background: #ff4341;width:60px;height:60px;border: 2px solid #dd3937;font-size:33px;line-height:40px;font-weight:normal;}
+.OutSystems_process{margin:0 0 3rem 0;}
+.motion .flow_icon{background:#27CBBF;}
+.Post .flow_icon{background:#CB2744;}
+.Planner .flow_icon{background:#21A371;}
+.Wireframing .flow_icon{background:#FD5C9E;}
+.Quality .flow_icon{background:#E3B719;}
+.Implementation .flow_icon{background:#F26626;}
+.App-icon .flow_icon{background:#C35ED4;}
+.emizentech-certified{border-radius:22px;background-size:100% 100%;padding:32px 0;}
+.emizentech-certified{width:100%;padding:30px 2px;background:rgb(255 67 65 / 7%);border:2px solid #ff3f3e;border-radius:20px;max-width:1170px}
+.emizentech-certified .Certified_heading{font-weight:600;color:#ff3f3e;font-size:70px;line-height:85px;}
+.emizentech-certified .Certified_heading span{font-weight:600;font-size:22px;line-height:24px;text-align:center;color:#252525;}
+.mob_col.Post::before{border-radius:50px;border:10px solid #e12321;}
+.emizentech-btn{background:#ff4341;}
+img.mobile-img {
+    max-height: 400px;
+    float: right;
+}
+.get_started_box {background: linear-gradient(310deg, #000000, #390900);    padding: 32px 0;}
+.get_started_box .cont {
+    padding: 35px;
+}
+
+@media(min-width:768px){
+   .OutSystem_bg{background:url(/wp-content/uploads/2023/07/outsystem_bg.png) no-repeat center center;padding:190px 0;background-size:cover;}
+    .vision_cta_5   img {
+       max-height: 320px;
+       margin-right: 35px;
+       object-fit: contain;
+       display: block;
+   }
+}
+@media(max-width:1680px){
+   .OutSystem_bg {padding-bottom: 80px;}
+}
+@media(max-width:1440px){
+   .OutSystem_bg {padding: 190px 0 120px 0;}
+}
+@media(max-width:1366px){
+   .OutSystem_bg {padding: 120px 0;}
+   .emizentech-certified .Certified_heading{font-size:50px;line-height:60px;}
+   .emizentech-certified .Certified_heading span{font-size:18px;}
+   .emizentech-certified{padding:15px;}
+   .mt-100{margin-top:50px;}
+   .emizentech-about{padding:70px 0;}
+   .Emizen_about_app h3{font-size:18px;line-height:26px;}
+   .text-heading,h2,.text-heading.large-headng{font-size:30px;}
+   .banner-info p{font-size:16px;line-height:26px;padding:0;}
+}
+@media(max-width:1199px){
+   .vision_cta_5 h2{font-size:32px;line-height:40px;}
+   .mob_col:before{right:30px}
+   .mob_col:after{width:100%;}
+   .mob_col:before{bottom:12px;right:0;}
+   .get_started_box .mobile_app_title{font-size:26px;line-height:33px;} 
+   .get_started_box p{font-size: 16px;line-height: 24px}
+   .get_started_box .cont {padding: 0 20px}
+}
+
+@media(max-width:1024px){
+   .tech_box{padding-right:0;}
+   .mobile_app_work_flow h5{min-height:100%;font-size:16px;line-height:26px;font-weight:500;}
+   .mob_col:before{right:0;bottom:0;}
+   .Post.mob_col:before{border:8px solid #cb2744;}
+}
+@media(max-width:991px){
+   .OutSystem_bg{background:linear-gradient(45deg,#ffe2dd,#fffcfc);padding:4rem 0;}
+   .Consultation-from{margin-left:0;max-width:650px;margin:auto}
+   .mt-100{margin-top:50px;}
+   .get_started_box{padding:35px 20px;}
+   .vision_cta_5{padding-left:15px;padding-right:15px}
+   .vision_cta_5 h2{font-size:28px;}
+   .Emizen_shopy_web_dev .item li{font-size:16px}
+   .emizentech-certified .Certified_heading{font-size:36px;line-height:55px;}
+   .vision_cta_5 p{max-width:100%;}
+   .emizentech-certified .Certified_heading span{font-size:18px;line-height:27px;}
+   .t_number{font-size:44px;}
+   .OutSystems_process{margin:10px 0;}
+   .content-left::after{right:0;}
+   .mob_col:before{right:10px;}
+   .mobile_app_work_flow h5{text-align:center;}
+   .mob_col:before,.mob_col:after{content:none;}
+   .Consultation-from .text-heading:after {right: 0;}
+   .cat_content_wrap{padding:40px 0;}
+   .Emizen_shopy_web_dev .content-left::after {right: auto;}
+   .mob_col{padding:15px;box-shadow:1px -1px 20px 0 rgb(241 19 19 / 9%);max-width:300px;margin:0 auto;border-radius:5px;}
+
+}
+@media(max-width:767px){
+   .Od_tech_slider{padding:20px 15px;}
+   .gradiant-col{margin-top:100px;}
+   .inner-bg{padding:15px}
+   .Consultation-from input.wpcf7-form-control.wpcf7-form-control.has-spinner.wpcf7-submit{font-size:18px;}
+   .tech_box h3{font-size:16px;line-height:23px;}
+   .get_started_box{padding:10px 20px;}
+   .mag_technology{padding-top:50px;}
+   .Emizen_about_app h3{font-size:20px}
+   .text-heading.large-headng,.Emizen_shopy_web_dev .text-heading{font-size:28px;line-height:39px;}
+   .Emizen_shopy_web_dev .item{padding-right:0;}
+   span.t_number {margin: auto;}
+   span.emizen_Os_system {margin: 0 auto;}
+   .flow_icon{margin-left:auto;}
+   .service-box {
+    margin: -30px auto 0;
+}
+
+.get_started_box {
+    padding: 10px 0;
+   
+}
+.vision_cta_5 {
+    background: linear-gradient(45deg, #c92000, #a91c00);
+}
+   .col-sm-6.col-md-3{margin:10px 0;}
+}

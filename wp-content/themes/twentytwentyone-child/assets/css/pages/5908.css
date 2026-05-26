@@ -1,0 +1,297 @@
+.emizentech-logo img {filter: brightness(0) invert(1); }
+.emizentech-navigation.open .emizentech-logo img {filter: none}
+.buitanda_Insights .buitanda_title {font-size: 32px;line-height: 52px;}
+.emizentech-navigation.open .emizentech-logo img {filter: none}
+.buitanda_main{background:url(/wp-content/uploads/2024/01/Buitanda-banner.png) no-repeat center center;background-size:cover;padding: 200px 0 0;}
+.buitanda_main h1{font-weight: 600;font-size:70px;line-height: 73px;}
+.cwhite{color:#fff}
+.buitanda_main p{font-size:20px;line-height:25px;}
+.case-study-Chose-us{padding:100px 0;}
+.buitanda_Insights{padding:100px 0 80px;}
+.buitanda_title, .buitanda_title h2{font-size: 38px;line-height: 55px;color: #000000;}
+.buitanda_title strong, .buitanda_title h2 strong{font-weight: 600;}
+.buitanda_title .cwhite {color: #fff;}
+.font600{font-weight: 600}
+.Chose-us .sec_title:before,.Chose-us .sec_title:after,.buitanda_title:before,.buitanda_title:after{content:"";background:#0071dc;border-radius:100px;position:absolute;height:6px;bottom:0;left:0;}
+.buitanda_title:before{width:60px;}
+.buitanda_title:after{width:20px;left:66px;}
+.video-container:after{content:"";position:absolute;height:calc(100% - 50px);width:calc(100% - 50px);border:#f3ebf9 21px solid;z-index:-1;background:#fff;top:0;right:0;}
+.video-container{padding:25px 30px;}
+.tech_stack{padding: 90px 0;background:#e5f5ff;margin-top: 100px}
+.mt-100{margin-top: 100px}
+.title2{font-weight:600;font-size:50px;line-height:55px;color:#000000;}
+.tech_card{border-radius:15px;padding:56px 10px 15px;border:1px solid #727272;margin:80px 0 0px;}
+.tech_title{font-weight:600;color:#000000;}
+.tech_card p{color:rgba(0,0,0,0.85);}
+.tech_card > span{width:95px;height:95px;border:1px solid #727272;position:absolute;top:-50px;left:0;right:0;}
+.tech_card > span img{max-height:50px;width: auto;}
+section.highlight-project{background: rgba(0, 49, 97, 1);position:relative;z-index:0;}
+section.highlight-project:before{content:"";position:absolute;right:0;width:100%;max-width:50%;top:0;height:100%;background: rgba(0, 112, 220, 1);z-index:0;}
+.center-logo{left:0;right:0;width:auto;max-width:280px;top:50%;transform:translatey(-50%);}
+.highlight-project h4{font-size: 30px;line-height: 38px;padding-bottom:16px;font-weight: 600;}
+.project_light li{font-size:16px;line-height:19px;position:relative;padding-left:26px;margin:7px 0;display:inline-block;width:100%;}
+.project_light p {text-align: justify;}
+.bg-blue-light h4::before{left:auto;right:0;}
+.bg-blue-light h4::after{left:unset;right:65px;}
+.project_light li:before{content:"";border-width:5px 0 7px 11px;border-color:transparent transparent transparent white;border-style:solid;position:absolute;left:0;top:5px;}
+.highlight-project h4:before,.highlight-project h4:after{background:#fff;}
+.highlight-project img{border:4px solid #7FC9C4;border-radius:12px;}
+.img-container:after{content:"";position:absolute;right:-43px;bottom:-30px;background:url(/wp-content/uploads/2023/02/dotes.png) no-repeat bottom right;height:180px;width:170px;z-index:-1;}
+.img-container{z-index:1;}
+.bg-blue-light img{border-color:#459892;}
+.bg-blue-light p{max-width:450px;margin-left:auto;font-size: 16px;}
+.bg-blue-light{padding-top:121px;}
+.bg-blue-light .img-container:after{bottom:auto;left:-45px;right:auto;top:-40px;}
+.Glimpses_seciton .buitanda_title{font-weight:500;}
+.Glimpses_seciton{padding:80px 0;background:#d8e4eb;}
+.text-center.buitanda_title:before, .text-center.buitanda_title:after { left: -30px; right: 0; margin: auto; }
+.text-center.buitanda_title:after { left: 60px; }
+.Technical_Architecture { padding-top: 100px; }
+.Architecture-box {padding: 50px 52px 0;border: 1px solid #7272726e;border-radius: 60px;}
+.dotted-line-container {border: 2px dashed #7272726e; border-bottom: 2px dashed#7272726e; border-top: 2px dashed#7272726e; min-height: 175px;padding:40px 20px 40px 0px; margin-bottom: 40px;}
+.dotted-line-container li { font-weight: 400; font-size: 18px; line-height: 21px; color: #333333; padding: 4px 0; }
+.tech1_logo{top: -90px;background:#fff;left: 10px;z-index:1;}
+.dotted-line-container h4{font-weight:600;font-size:24px;line-height:29px;color:#000000;position:absolute;top:-15px;background:#fff;padding:0;left:48px;padding:0 10px;}
+.tech-box img {max-width: 110px;}
+.tech-box h5{font-weight:400;font-size: 16px;line-height: 22px;text-align:center;color:#333333;letter-spacing:normal;}
+.Additional.Services li{flex:0 0 33%;width:100%;max-width:33%;font-weight:400;font-size:20px;line-height:24px;color:#333333;display:flex;align-items:center;padding:0 15px;}
+.tech-box span{min-height:90px;width:100%;display:flex;align-items:center;}
+.case-study-result{background: rgba(0, 49, 97, 1);padding:60px 0 80px;}
+.case-study-result .buitanda_title:before,.case-study-result .buitanda_title:after{background:#ffc220;}
+.result-card h4{background:rgba(0,112,220,1);box-shadow:0px 4px 25px rgba(47,18,86,0.2);border-radius:40px;font-weight:600;font-size:19px;line-height:38px;padding:6px 40px;width:auto;margin:-30px auto 0 0;display:inline-block;width:100%;max-width:80%;}
+.result-card{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.25);border-radius:15px;position:relative;padding:0px 23px 30px;color:#fff;margin:70px 0 0;}
+.result-card p{padding-top:30px;}
+.case-study-result:before{content:"";position:absolute;width:100%;background: url(/wp-content/uploads/2024/01/result-bgs.png) no-repeat bottom center;background-size:cover;bottom:0;height:100%;background-blend-mode:overlay;}
+.case-study-Chose-us{padding:100px 0;background:rgba(0, 49, 97, 1) url(/wp-content/uploads/2024/01/circle-bg.png) no-repeat center center;background-size:cover;}
+.buitanda_title.cwhite{color:#fff}
+.Chose-us{background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.25);backdrop-filter:blur(4.5px);border-radius:15px;padding:30px 24px;margin-top:30px;}
+.buitanda_title.cwhite::before,.buitanda_title.cwhite::after{background:#fff;}
+.Chose-us .sec_title{font-weight:600;font-size:24px;line-height:29px;}
+.Chose-us p{font-weight:400;font-size:16px;line-height:22px;color:#fff;}
+.Chose-us .sec_title:before{width:60px}
+.Chose-us .sec_title:after{width:20px;left:67px;}
+.Chose-us .sec_title:before,.Chose-us .sec_title:after{background:#fff}
+section.Client_testimonial{padding-top:100px;}
+.bg-gray.testimonial_card{background:rgba(242,242,242,0.5);border:1px solid #E0E0E0;padding:30px 60px;border-radius:20px;}
+img.quote-right{top:40px;}
+.Client_testimonial [class*="quote"]{position:absolute;top:0;bottom:-20px;top:auto;right:40px;width:60px;z-index:1;left:auto;z-index:9;}
+.quote-left{left:40px;top:-40px;}
+.Client_testimonial .quote-left{right:40px;bottom:-20px;}
+.Client_testimonial .quote-right{top:-20px;left:30px;}
+.Client_testimonial h4{font-weight:600;line-height:23px;}
+.Client_testimonial p{color:rgba(0,0,0,0.85);}
+.client_testimonial_2{padding:100px 0;background:rgba(0,49,97,1);background-size:cover;}
+.client_view{background:rgb(13 80 145);border:2px solid rgba(255,255,255,0.3);border-radius:20px;padding:45px 20px 45px 40px;max-width:1000px;margin:auto;}
+.image_outer{max-width:250px;width:100%;max-height:250px;height:100%;border:5px solid #fda848;border-radius:1000px;padding-top:10px;background:#fff;}
+.image_outer img{height:100%;width:100%;object-fit:cover;}
+.about_client h5{font-weight:600;font-size:30px;line-height:43px;color:#FFFFFF;}
+.about_client li i{color:#FDA848;font-size:30px;}
+.about_client h5 span{font-weight:400;font-size:23px;line-height:28px;color:#FFFFFF;display:block;}
+.client_image{width: 300px;flex: 0 0 310px;display: flex;align-items: center;position: relative;z-index: 2;padding-left: 60px;}
+.client_image img{width: 250px;border-radius:200px;}
+.view_more{padding:0 60px;}
+ .client_image:after, .client_image:before{content:"";position:absolute;border-radius:100px;z-index: -1;width: 74px;}
+ .client_image:after{background: #1381eb;border-radius: 100px;left: 0px;top: 0;height: 120px;}
+.client_image:before{height:100%;background: #195b9b;left: 85px;top: 50%;transform: translatey(-50%);}
+.team_main{font-size:22px;font-weight:600;}
+.about_main{font-size:16px;font-weight:normal;}
+.team_main img{border:2px solid #55A5A0;border-radius:100px;max-width: 100px}
+.hidden-hover:hover img{transform:scale(1.2);}
+.hidden-hover{overflow:hidden;}
+.hidden-hover img{transition:all .5s;}
+.expert_team h4 span{font-weight:400;font-size:24px;line-height:24px;padding-top:9px;}
+.expert_team{background:rgba(242,242,242,0.5);border-radius:20px;padding:44px;border: 1px solid rgba(0, 49, 97, 1);}
+.expert_team .about_exp{font-weight:600;font-size:22px;line-height:24px;color:rgb(49 53 56);letter-spacing:normal;}
+.expert_team .about_exp + p{font-weight:400;font-size:16px;line-height:26px;color:rgba(0,0,0,0.85);padding: 0;}
+.pt-100{padding-top:100px;}
+.journey-block h4{font-weight:600;font-size: 21px;line-height:28px;color:#252525;padding-bottom: 0}
+.journey-block p{font-size: 15px;line-height: 20px;max-width:320px;color:#252525;}
+.journey-block{max-width:320px;position:absolute;}
+.journey-block.Prototype,.journey-block.Vision,.journey-block.Roadmap{text-align:right;}
+.journey-block.Deployment,.journey-block.Quality_Testing,.journey-block.Development{text-align:left;right:0;}
+.journey-block.Prototype,.journey-block.Deployment{top:250px;}
+.Deployment + img{display:block;margin:auto;}
+.journey-block.Vision{top:0;left: 30px;}
+.journey-block.Roadmap{left:0;}
+.top-left.journey-block.Maintenance{position:static;margin:30px auto 0px;}
+.journey-block.Roadmap,.journey-block.Quality_Testing{top:120px;}
+.journey-block.Prototype{left: 30px;}
+.inner-container{max-width:1090px;margin:auto;}
+
+
+.buitanda_cta {
+    background: rgba(0,49,97,1);
+    z-index: 1;
+    padding-top: 30px;
+    border-radius: 13px;
+}
+.buitanda_cta img {
+    max-width: 370px;
+    display: block;
+    margin:0 auto;
+}
+.gap-left-35{padding-left: 50px;}
+.buitanda_cta .row{align-items:center;}
+.buitanda_cta h3{font-size: 43px;font-weight:600;line-height:normal;color:#fff;}
+.buitanda_cta p{color:#FFF;font-weight:400;font-size:20px;line-height:30px;margin-bottom:20px;}
+.buitanda_cta a{border-radius:50px;color:#FFF;font-size:18px;font-weight:600;padding:12px 66px;border:1px solid #FFC220;line-height:normal;background:#FFC220;display:inline-block;}
+.buitanda_cta a:hover{background:#fff;border-color:#FFC220;color:#003161;}
+.qes-img {
+    position: absolute;
+    z-index: -1;
+    opacity: .2;
+
+}
+img.qes-img.img-left {
+    left: -100px;
+    bottom: 0;
+}
+.img-right-top {
+    top: 0;
+    right: 0;
+}
+
+@media(max-width : 1680px){
+    p{font-size: 16px}
+}
+@media(max-width : 1600px){
+    .buitanda_main h1{font-size:65px;line-height:75px;}
+    section.Client_testimonial{padding-bottom: 0px}
+    .result-card h2{line-height: 48px;font-size: 22px;padding-bottom: 8px;}
+    .case-study-result{padding:70px 0;}
+    .client_view{padding:50px 60px;}
+    .expert_team h2{font-size:30px;line-height:39px;}
+    .expert_team .about_exp + p{font-size:17px;}
+    .expert_team h2 span{font-size:20px;}
+    .expert_team{padding:30px;}
+     .buitanda_main{padding-top: 120px}
+    .buitanda_main img{max-width:1050px;}
+}
+@media(max-width : 1440px){
+    .case-study-Chose-us,section.Client_testimonial,.buitanda_Insights,.Glimpses_seciton,.tech_stack,.client_testimonial_2{padding:50px 0;}
+    .Architecture-box, .pt-100,.Technical_Architecture{padding-top:50px;}
+    .mt-100{margin-top:50px;}
+}
+@media(max-width : 1366px){
+    .buitanda_main h1{font-size:55px;line-height:65px}
+    .buitanda_main p{font-size:17px;line-height:19px;padding:0;}
+    .center-logo {max-width: 190px;}
+    .journey-block p{font-size:14px;line-height: 23px}
+    .journey-block h4{font-size: 19px;line-height: 23px}
+    .expert_team .about_exp{font-size: 21px}
+    .buitanda_title, .buitanda_title h2 {font-size: 38px;line-height: 45px;color: #000000;}
+    .highlight-project h4{font-size:26px;line-height:28px;padding-bottom:16px;}
+    .buitanda_main img{max-width:840px;}
+    .tech-box h5, .Additional.Services li, .dotted-line-container li,  .project_light  li {font-size: 14px;line-height: 17px;}
+}
+@media(max-width : 1280px){
+    .client_view{padding-left:20px;padding-right:20px}
+    .dotted-line-container ul li,.tech-box h5,.Additional.Services li{font-size:16px;line-height:20px;}
+}
+@media(max-width : 1199px){
+    .highlight-project .center-logo img{display:none;}
+    .journey-block{max-width:240px;}
+    .client_image:before,.client_image:after{width:50px;}
+    .client_image:after{left:20px;}
+    .view_more{padding:0 30px;}
+    .Architecture-box {margin-top: 90px;}
+    .buitanda_cta h3 {
+    font-size: 34px;
+    line-height:42px;
+}
+.buitanda_main img {
+    max-width: 100%;
+}
+
+section.buitanda_cta p {
+    font-size: 26px;
+    line-height: 40px;
+}
+}
+@media(max-width : 1024px){
+    .result-card h4{width:100%;max-width:100%;padding:15px 0;}
+}
+@media(max-width : 991px){
+    .client_image:before,.client_image:after{width:50px;}
+    .client_image:after{left:20px;}
+    .img-container:after{right:0;}
+.result-card h2{width:100%;font-size:17px;line-height:28px;}
+    .highlight-project img{max-width:89%;}
+    .client_image img{width:200px;}
+    .client_image{width:220px;flex:0 0 270px;display:flex;align-items:center;position:relative;z-index:2;padding-left:60px;}
+    .client_view{padding:50px 20px;}
+    .client_image{width:190px;flex:0 0 230px;}
+    .bg-blue-light .img-container:after{left:0;}
+    .dotted-line-container h4{font-size:18px;line-height: 22px; max-width:140px;margin-bottom:21px;}
+    .dotted-line-container ul{padding-top:12px;}
+    .dotted-line-container ul li,.tech-box h5,.Additional.Services li{font-size:16px;line-height:20px;}
+    .journey-block{position:static;width:50%;display: inline-block;max-width:50%;}
+    .journey-block.Prototype,.journey-block.Vision,.journey-block.Roadmap,.journey-block.Deployment,.journey-block.Quality_Testing,.journey-block.Development{text-align:center;padding: 10px 15px;}
+    .journey-block p{margin:0 auto;}
+    .journey-block.Deployment + img{order:-1;width: 51%;}
+    .result-card h4{line-height:24px;font-size:16px;}
+    .Architecture-box{padding-left:20px;padding-right:20px}
+    .top-left.journey-block{box-shadow:1px 3px 10px 0px rgb(5 5 5 / 12%);margin:14px 7px!important;padding:0;max-width:calc(50% - 15px);}
+    .journey-block h4{background:#0d5091;border-radius:10px 10px  0 0;color:#fff;padding:10px 0;}
+    .image_outer{width:170px;height:170px;}
+    .journey-block p{padding:10px 10px;}
+    section.buitanda_cta p{font-size:22px;line-height:30px;}
+    section.buitanda_cta a{margin-bottom:20px;}
+    .gap-left-35{padding-left:20px;}
+    .buitanda_cta p{font-size:17px;line-height:27px;}
+    .buitanda_cta h3{font-size:30px;}
+    .buitanda_cta a{padding:12px 25px;}
+}
+@media(max-width : 767px){
+    section.highlight-project:before{background:transparent;}
+    .dotted-line-container ul li{flex:0 0 100%;}
+    .journey-block.Deployment + img{width:auto;}
+    .dotted-line-container ul{flex-flow:column;}
+    .tech1_logo{max-width:210px;margin:0 auto;left:0;right:0;}
+    .Additional.Services li{flex:0 0 100%;max-width:100%;padding:0;}
+    .highlight-project h4::before{right:auto;left:0;}
+    .highlight-project h4::after{left:66px;right:auto;}
+    .project_light.bg-blue-light{text-align:left;padding-top:0;}
+    .bg-blue-light p{margin:0;max-width:100%;text-align:left;}
+    .Chose-us .sec_title:before,.buitanda_title:before{left:-30px;right:0;margin:auto;}
+    .Architecture-box {margin-top: 120px;}
+    .dotted-line-container ul{padding-left:30px;}
+    .Chose-us .sec_title:after,.buitanda_title:after{left:60px;right:0;margin:auto;}
+    .Client_testimonial > *{text-align:center;}
+    .Chose-us{padding: 15px}
+    .about_client h5{font-size:29px;}
+    .view_more{padding:0 0;text-align:center;position: relative;}
+    .client_image:before,.client_image:after{display:none;}
+    .tech-box{padding:0 10px;}
+    .tech-box h5{font-size:14px;}
+    .dotted-line-container h4{font-size:15px;line-height:19px;padding:0 4px;}
+    .Additional.Services li img{display:block;margin:0 auto!important;}
+    .Additional.Services li{display:block;padding-bottom:20px;text-align:center;}
+    .journey-block {width: 100%;max-width: 100%;}
+    .bg-gray.testimonial_card{padding: 46px 15px 20px 15px}
+    .expert_team{padding:20px;}
+    .result-card{margin:40px 0 0;}
+    .case-study-result, .Technical_Architecture{padding :30px 0}
+    .buitanda_title,.buitanda_title h2{font-size:30px;line-height:38px;}
+    .buitanda_main{padding-top:120px;height:350px;}
+    .dotted-line-container{padding:25px 15px  20px;}
+    .case-study-Chose-us,section.Client_testimonial,.buitanda_Insights,.Glimpses_seciton,.tech_stack,.client_testimonial_2{padding:30px 0;}
+    .client_image{padding:0;margin:auto;}
+    .client_view{padding:30px 15px;}
+    .about_client .quote-left{position:absolute;left:0;max-width:40px;}
+    .about_client .quote-left,.about_client .quote-right{max-width:50px;position:absolute;}
+    .about_client .quote-right{right:0;bottom:-10px;top:auto;}
+    .view_more ul{justify-content:center;margin:0;}
+.buitanda_cta {
+    padding: 50px 0;
+}
+}
+@media(max-width:575px){
+    .top-left.journey-block.Maintenance{flex:0 0 100%;max-width:100%;}
+    .top-left.journey-block{max-width:100%}
+    .journey-block.Prototype,.journey-block.Vision,.journey-block.Roadmap,.journey-block.Deployment,.journey-block.Quality_Testing,.journey-block.Development{max-width:100%;width:100%;padding:0}
+    .result-card{padding-left:8px;padding-right:8px}
+}
+@media(max-width:400px){
+    .tech-box{padding:0 10px;flex:0 0 100%;max-width:100%;}
+}

@@ -1,0 +1,127 @@
+.emizentech-toggle .sprites-image,  .emizentech-logo img {filter: brightness(0) invert(1);}
+.emizentech-navigation.open img {filter: none;}
+section.form_Section {margin: 50px 0;}
+h1{font-size:65px;font-weight:600;}
+h2{font-size:35px;font-weight:600;}
+.main_title{font-size:40px;margin-bottom:20px;}
+.banner-info.text-md-left{padding:70px 0;}
+.form_inner {
+    -ms-box-shadow: 0 4px 26px rgba(0,0,0,.1);
+    -o-box-shadow: 0 4px 26px rgba(0,0,0,.1);
+    box-shadow: 0 4px 26px rgba(0,0,0,.1);
+    width: 100%;
+    padding: 30px 25px 25px;
+    border-radius: 8px;
+    box-shadow: rgb(35 152 221 / 42%) 0px 0px 30px;
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+}
+.form_inner input,.form_inner select{width:100%;background:transparent;border:1px solid #00000030;padding:0 10px;color:#222;font-size:15px;height:50px;font-weight:600;margin:0;}
+.form_inner input:focus,.form_inner select:focus{outline:none;}
+.wpcf7-form-control-wrap{margin-bottom:20px;display:inline-block;width:100%;}
+.form-control:focus{color:#212529;background-color:#fff;border:1px solid #00000030;outline:0;box-shadow:none;}
+.bullet-list li{position:relative;margin-bottom:10px;font-size:18px;}
+.bullet-list li:before{width:0;height:0;border-top:5px solid transparent;border-bottom:6px solid transparent;border-left:8px solid #007db2;content:"";position:absolute;left:0;top:9px;}
+.form_inner textarea{border-color:#00000030;padding:15px;max-height:120px;font-size:16px;font-weight:600;}
+.wpcf7-not-valid-tip{font-size:14px}
+.form_inner_back{background-color:#0585ce0f;padding:20px 25px;border-radius:30px;}
+input.wpcf7-form-control.has-spinner.wpcf7-submit{background:#0058a5!important;border:1px solid #0058a5!important;color:#fff!important;cursor:pointer;display:block;font-size:17px;font-weight:600;line-height:1;outline:none;padding:0.875em 1.75em;position:relative;text-align:center;    /* text-transform: uppercase; */transition:all .2s ease;width:auto;margin-left:auto;}
+p{font-size:20px;font-weight:500;}
+.left-content{flex-wrap:wrap;max-width:51.50%;padding:70px 30px 18px 150px;width:100%;}
+.ser-right{align-items:center;display:flex;max-width:48.4%;width:100%;}
+section.ecommerce_Service{background:#f1f1f1;margin-top:93px;}
+.our_client {text-align: center;}
+.our_client img{max-width:180px;padding: 0 10px;}
+.our_client li{margin:0 0 40px;padding:0 15px;width:16.66%;}
+.main-banner img{width:100%;}
+.Shopify_dev_main .emizentech-btn{background:#007DB2;border:1px solid;}
+.Shopify_dev_main .sec_main_img{max-width:none;padding-right:60px;position:absolute;top:130px;right:0;}
+.Shopify_dev_main .col-lg-7{max-width:700px;}
+.emizentech-certified,.emiz_partner{border-radius:22px;background-size:100% 100%;padding:32px 0;}
+.emizentech-certified{width:100%;padding:2px 2px;   border-radius: 20px;}
+.inner_bg{background: linear-gradient(45deg, #06124e, #612653);border-radius:20px;padding: 39px 0 40px;color: #fff;}
+.emiz_partner{width:786px;margin:auto;background:#fff;padding:26px 50px;height:auto;}
+.emizentech-certified .Certified_heading span{color: #ffffff94; font-weight:bold;font-size:70px;line-height:85px;}
+.cwhite{color:#dfff}
+.Certified_heading{font-weight: 300}
+.content-line{position: relative;}
+.content-line:before {
+    background: url(/wp-content/uploads/2023/05/text_bottom_lin.png) no-repeat center center;
+    background-size: contain;
+    width: 131px;
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    content: "";
+    left: 0;
+}
+.text-center.content-line:before{right:0;margin:auto;}
+h1.main_title{position:relative;font-size:39px;line-height:50px;}
+.wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output,.wpcf7 form.payment-required .wpcf7-response-output{border-color:red;color:#000;}
+section.emizentech-clients{display:none;}
+section.emizentech-shy{display:none;}
+@media(max-width:1680px){
+
+.our_client img {
+    max-width: 120px;
+}
+}
+@media(max-width:1024px){
+    .banner-info.text-md-left {
+    padding: 70px 0 0;
+    max-width: 100%;
+}
+.inner_bg {
+    padding: 15px  20px;
+ }
+.Certified_heading{font-size: 20px}
+.emizentech-certified .Certified_heading span{font-size: 48px}
+h1.main_title {
+    position: relative;
+    font-size: 30px;
+    line-height: 50px;
+}
+}
+@media(max-width:991px){
+    .Certified_heading {
+    font-size: 16px;
+}
+}
+@media(max-width:768px){
+    section.form_Section{margin-top: 0}
+    .banner-info.text-md-left{padding-top: 0}
+    .form_inner_back{margin-top: 40px;padding: 15px}
+    .our_client img{max-width:100%;}
+    .our_client li{margin-bottom:20px;width:33.33%}
+    .ser-right,.left-content{padding:40px 15px 26px;max-width:100%}
+    .ser-right{padding:0}
+    .our_client img {
+    max-width: 90px;
+}
+.emizentech-certified .Certified_heading span {
+    font-size: 33px;
+    line-height: 52px;
+}
+h2.content-line {
+    font-size: 26px;
+}
+}
+
+@media(max-width:575px){
+.our_client img {
+    max-width: 100%;
+}
+}
+@media(max-width:640px){
+    .main-banner img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    object-position: bottom;
+    padding-top: 40px;
+    background: #02307d;
+}
+.our_client li{width: 50%}
+}
+label.form-label{font-size:14px;}

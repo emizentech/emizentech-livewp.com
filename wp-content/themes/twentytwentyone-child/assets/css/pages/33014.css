@@ -1,0 +1,405 @@
+section.mobile-hero-section{background:linear-gradient(100.75deg,#F3F2FF -14.53%,#EDFFFE 83.53%,#FFF 106.41%);margin:80px 0 0;padding:80px 0 80px;z-index:1;}
+section.mobile-hero-section .hero-title-sec{max-width:52%;}
+section.mobile-hero-section .sec-title{color:#000;padding-bottom:15px;font-weight:600;font-size:52px;line-height:68px;background:linear-gradient(#0E1A2E,#04618D);background-clip:border-box;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+section.mobile-hero-section .sec-title span{color:#007DB2;font-weight:600;}
+p.sec-disc{font-size:16px;color:#333;line-height:24px;}
+section.mobile-hero-section .hero-disc{color:#333;font-size:16px;font-weight:400;line-height:28px;}
+img.curved-img{position:absolute;right:0;z-index:-1;top:0;}
+.btn{transition:all .4s ease 0s;}
+.btn img{transition:all .4s ease 0s;}
+ul.home-bredcrumbs.breadcrumbs{color:#096e99;gap:0 10px;text-transform:capitalize;padding-left:0}
+ul.home-bredcrumbs.breadcrumbs li a{color:#096e99;text-decoration:underline;font-weight:600}
+ul.home-bredcrumbs.breadcrumbs li:after{content:'/';position:absolute;padding:0 6px;}
+ul.home-bredcrumbs.breadcrumbs li{padding:0 3px;}
+ul.home-bredcrumbs.breadcrumbs li:last-child:after{display:none;}
+section.mobile-hero-section .btn.emizen-btn{background:#007DB2;border: 1px solid #007DB2;color:#FFF;font-size:16px;font-weight:600;line-height:normal;padding:14px 18px;letter-spacing:0.16px;text-transform:capitalize;position:relative;overflow:hidden;z-index:1;}
+section.mobile-hero-section .btn.emizen-btn:hover{background:#fff;color:#007DB2;}
+.img-outer-slider{position:relative;width:48%;}
+.img-outer-slider .portfolio_slider.owl-carousel{width:602px;margin:0 auto;background:url(http://emizentech.com/wp-content/uploads/2025/12/latptop-bg.png);padding:0;background-repeat:no-repeat;overflow:hidden;background-size:cover;height:343px;}
+.img-outer-slider .slider-outer-girl{margin-left:90px;}
+.img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer{border-radius:0;max-width:462px;margin:0 auto;padding:19px 0;}
+.btn.emizen-btn{border-radius:40px;position:relative;overflow:hidden;z-index:1;padding:14px 18px;font-size:16px;font-weight:600;line-height:normal;}
+.img-outer-slider .hero-img-box img{position:absolute;bottom:0;right:0;}
+.hero-review-box{position:absolute;left:250px;bottom:0;width:371px;border-radius:10px;overflow:hidden;}
+.img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer .portfolio-img img{height:290px;}
+.hero-review-box .owl-carousel{background:#fff;padding:15px;}
+.review-content-box{display:flex;gap:10px;flex-wrap:wrap;}
+.review-content-box .review-user{width:30px;height:30px;overflow:hidden;border-radius:50%;}
+.review-content-box .review-content{width:calc(100% - 45px);display:flex;flex-wrap:wrap;align-items:center;}
+.review-content-box .review-content .user-content-des{width:calc(100% - 100px);padding-right:15px;}
+.review-content-box .review-user img{width:100%;height:100%;object-fit:cover;}
+.review-content-box .review-content .user-content-des .user-name{font-weight:600;font-size:16px;line-height:100%;color:#000;margin-bottom:4px;}
+.review-content-box .review-content .user-content-des p.user-review{font-weight:400;font-size:10px;line-height:14px;color:#333;padding:0;}
+.img-outer-slider .s_shop_icon{position:absolute;right:75px;bottom:6px;z-index:11;}
+
+section.mobile-hero-section .sec-title::selection {
+  background: #3a5897;
+  background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: #fff;
+}
+@media (min-width:1350px) and (max-width:1539px){
+    .img-outer-slider .portfolio_slider.owl-carousel{width:530px;height:300px;}
+    .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer{max-width:404px;padding:16px 0;}
+    .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer .portfolio-img img{height:255px;}
+    section.mobile-hero-section{padding:50px 0 65px;}
+    section.mobile-hero-section .sec-title{font-size:40px;line-height:55px;}
+    .img-outer-slider .angle-green{left:25px;}
+    .img-outer-slider .slider-outer-girl{margin-left:0;}
+    .img-outer-slider .s_shop_icon{right:60px;}
+    .img-outer-slider .s_shop_icon img{max-width:90px;}
+    .hero-review-box{left:270px;top:23%;}
+}
+@media (min-width:1200px) and (max-width:1349px){
+    .img-outer-slider .portfolio_slider.owl-carousel{width:500px;height:285px;}
+    .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer{max-width:384px;padding:16px 0;}
+    .img-outer-slider .s_shop_icon{right:20px;}
+    .img-outer-slider .s_shop_icon img{max-width:80px;}
+    .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer .portfolio-img img{height:241px;}
+    section.mobile-hero-section .sec-title{font-size:45px;line-height:65px;}
+    .img-outer-slider .angle-green{left:5px;}
+    .img-outer-slider .slider-outer-girl{margin-left:20px;}
+    section.mobile-hero-section{padding:40px 0 50px;}
+    .hero-review-box{left:225px;top:23%;}
+}
+@media (max-width:1199px){
+    section.mobile-hero-section .hero-title-sec{max-width:100%;}
+    section.mobile-hero-section .hero-disc{padding-right:0;}
+    section.mobile-hero-section .img-outer-slider{display:none;}
+}
+@media (max-width:767px){
+    section.mobile-hero-section .sec-title{font-size:24px;line-height:36px;}
+    section.mobile-hero-section{padding:40px 0 40px;}
+    }
+@media (min-width:768px) and (max-width:1199px){
+    section.mobile-hero-section .sec-title{font-size:30px;line-height:45px;}
+}
+section.hire-industry-section{background:#F3F4F6;}
+
+/*Brands Weâ€™ve Partnered With & Case Studies*/
+:root{--size:clamp(20rem,1rem + 300vmin,20rem);--gap:calc(var(--size) / 5);--duration:40s;--scroll-start:0;--scroll-end:calc(-100% - var(--gap));}
+.marquee{display:flex;user-select:none;gap:20px;width:100%;}
+.marquee__group{gap:20px;min-width:100%;flex-shrink:0;display:flex;align-items:center;justify-content:space-around;gap:20px;animation:scroll-x var(--duration) linear infinite;}
+.marquee_group_item:hover .casestudy-popup{transform:translateY(0);opacity:1;pointer-events:all;}
+.marquee_group_item a.view-more-btn{display:block;padding:15px 10px 10px;font-size:16px;background:url(https://emizentech.com/wp-content/uploads/2025/03/right-arrow.svg) no-repeat 95% 60%;}
+.casestudy-popup:hover a.view-more-btn{background-position:100% 60%}
+.casestudy-popup{display:flex;flex-direction:column;position:absolute;bottom:100%;left:0;background-color:#fdfdfd;border-radius:8px;width:553px;transition:opacity .15s ease-out,transform .25s ease-out,border-color .3s cubic-bezier(.165,.84,.44,1),background-color .3s cubic-bezier(.165,.84,.44,1);opacity:0;pointer-events:none;z-index:1;border-radius:15px;padding:25px 0 0;border:1px solid #ddd;}
+.casestudy-popup h3{font-size:20px;font-weight:600;color:#000;}
+p.casestudypera{color:#555;font-size:15px;font-weight:400;padding-bottom:20px;}
+.instry-iconbox{display:inline-block;width:100%;text-align:center;}
+.casestudy-popup .case-box-btm{background:#E6F7FF;display:flex;align-items:center;justify-content:space-between;padding:15px 25px;}
+.casestudy-popup p.casestudypera{padding:0 25px;margin-bottom:10px;}
+.casestudy-popup h3{font-size:44px;font-weight:600;color:#0071DC;line-height:100%;padding:0 25px;margin-bottom:20px;text-transform:uppercase;}
+.casestudy-popup .case-box-btm .case-btm-content h4{font-weight:600;font-size:18px;line-height:100%;color:#007DB2;margin-bottom:2px;padding:0;}
+.casestudy-popup .case-box-btm{background:#E6F7FF;display:flex;align-items:center;justify-content:space-between;padding:15px 25px;}
+.casestudy-popup .case-box-btm .case-btm-content p{padding:0;}
+.marquee_group_item:hover .casestudy-popup{transform:translateY(0);opacity:1;pointer-events:all;}
+.marquee_group_item a.view-more-btn{display:block;padding:15px 10px 10px;font-size:0;background:url(https://emizentech.com/wp-content/uploads/2025/03/right-arrow.svg) no-repeat 95% 60%;}
+.casestudy-popup:hover a.view-more-btn{background-position:100% 60%}
+
+/* Element styles */
+.marquee-full-sect{padding:80px 0;overflow-x:hidden;background:#fff;}
+.section-head{max-width:1320px;margin:0 auto 30px auto;}
+.section-head h2{font-weight:600;font-size:36px;line-height:50px;}
+.marquee-head h2{color:#0F1528;}
+.marquee div.marquee_group_item img.insdrstry-imgg{width:108px;object-fit:contain;height:65px;}
+.marquee div.marquee_group_item{display:flex;place-items:center;width:100%;padding:10px;border-radius:10px;background:linear-gradient(90deg,#000 5.06%,#1d4352 89.55%);justify-content:center;align-items:center;height:auto;position:relative;}
+.marquee--vertical div.marquee_group_item{aspect-ratio:1;width:calc(var(--size) / 1.5);padding:calc(var(--size) / 6);}
+a.infinite-link-tag{position:absolute;top:-10px;right:0;width:auto;color:#fff;border-radius:100px;background:#007DB2;padding:5px 10px;}
+@keyframes fade{
+    to{opacity:0;visibility:hidden;}
+}
+@keyframes scroll-x{
+    from{transform:translateX(var(--scroll-start));}
+    to{transform:translateX(var(--scroll-end));}
+}
+@media (prefers-reduced-motion:reduce){
+    .marquee__group{animation-play-state:paused;}
+}
+.marquee--vertical{--mask-direction:to bottom;}
+.marquee--vertical,.marquee--vertical .marquee__group{flex-direction:column;}
+.marquee--vertical .marquee__group{animation-name:scroll-y;}
+.marquee--reverse .marquee__group{animation-direction:reverse;animation-delay:-3s;}
+@keyframes scroll-y{
+    from{transform:translateY(var(--scroll-start));}
+    to{transform:translateY(var(--scroll-end));}
+}
+@media(max-width:991px){
+    .marquee_group_item a.view-more-btn{padding:5px 10px 5px;font-size:15px;}
+    p.casestudypera{font-size:14px;padding-bottom:10px;}
+    .casestudy-popup h3{font-size:16px;}
+    .section-head h2{font-size:28px;line-height:37px;}
+}
+
+/*Complete Digital Solutions for Every Industry*/
+h2.sec-title2{color:#0F1528;font-size:42px;font-weight:600;line-height:55px;padding-bottom:10px;}
+p.ai-sec-disc{color:#333333;font-size:16px;}
+section.clone-Solutions{background:#fff;padding:80px 0 50px 0;position:relative;z-index:1;}
+section.techno-work .process-continer{border-radius:10px;background:#E7F4FC;transition:all .4s;transition:all .4s;display:flex;align-items:center;}
+section.techno-work .process-title,section.techno-work .process-title a{color:#0F1528;font-size:18px;font-weight:600;line-height:24px;}
+section.techno-work .process-title:hover,section.techno-work .process-title a:hover{color:#007DB2;}
+section.techno-work .process-title a {
+    text-decoration: underline;
+    color: #007DB2;
+}
+section.techno-work .process-continer:hover a{padding-left:4px;}
+section.techno-work .process-continer img{transition:all .3s;}
+section.techno-work .process-continer:hover{background:#d7f2fd;}
+section.techno-work .process-continer:hover img{transform:scale(1.1);}
+
+
+section.techno-work .process-continer .techno-left{flex:0 0 80px;}
+.techno-work .row{gap:20px 0;}
+section.techno-work .process-disc{font-size:16px;line-height:24px;font-weight:400;color:#333;}
+section.techno-work .process-continer .techno-right{flex:calc(100% - 80px);padding-left:20px;}
+section.clone-Solutions .process-continer .techno-left img{margin:0!important;}
+@media(max-width:1680px){
+    section.clone-Solutions .process-continer .techno-left img{max-width: 60px;}
+    section.techno-work .process-continer .techno-left {flex: 0 0 65px;}
+    section.techno-work .process-continer .techno-right {flex: calc(100% - 65px);padding-left: 10px;}
+}
+@media(max-width:1024px){
+    section.clone-Solutions{padding:40px 0}
+    section.clone-Solutions .process-title,section.clone-Solutions .process-title a{font-size:18px}
+}
+@media(max-width:991px){
+    section.clone-Solutions .process-disc{font-size:15px;line-height:21px;}
+    section.shp_tech-stack .tab-container{padding:15px;gap:20px 0;}
+    section.clone-Solutions .process-continer{margin-bottom:20px}
+    section.clone-Solutions{padding:30px 0 40px 0;}
+    h2.sec-title2{font-size:32px;font-weight:600;line-height:44px;}
+    section.clone-Solutions .process-continer .techno-right{text-align:left;}
+}
+@media(max-width:767px){
+    section.techno-work .process-continer .techno-right{padding-left:0;text-align:center;}
+    section.techno-work .process-continer{margin-bottom:0;flex-direction:column;}
+    section.techno-work .process-continer .techno-left{flex:0 0 50px;}
+    section.techno-work .process-continer .techno-left img{max-width:50px;}
+}
+
+/*What We Build with Our Technologies*/
+.build-techno{background:#F0F9FF;padding:70px 0;}
+.techno-list li{display:flex;align-items:center;font-size:18px;font-weight:600;}
+.techno-list li img{max-width:40px;}
+
+.we-build{padding-left:20px;}
+.build-techno .techno-left img{margin-bottom:0!important;}
+@media(max-width:991px){
+    .we-build{padding-left:0;margin-top:20px;}
+    .we-build .sec-title2{font-size:26px;}
+    .we-build .ai-sec-disc{font-size:16px;}
+    .techno-list li{font-size:15px;}
+    .techno-list li img{margin-right:10px;top:auto;}
+    .build-techno{padding:40px 0;}
+    
+}
+@media(max-width:767px){
+    .we-build{margin-top:0}
+}
+
+/* cta */
+.case-study-link{border-radius:100px;background:#007DB2;font-size:16px;line-height:20px;font-weight:400;color:#fff;position:absolute;right:0;top:0;padding:7px 10px;font-weight:400;}
+.industries-top-slider{display:flex;flex-wrap:wrap;gap:32px;}
+.brand_su_inner{border-radius:20px;background:#000 url(https://emizentech.com/wp-content/uploads/2025/12/mb-cta.png) no-repeat center center;padding:20px 40px;display:flex;flex-wrap:wrap;justify-content:space-between;background-size:cover;position:relative;overflow:hidden;z-index:1;}
+.brand_su_content{max-width:52%;padding:30px 0;}
+.brand_su_content p{font-size:16px;color:#fff;}
+.brand_su_inner a.btn.emizen-btn{background:#007DB2;color:#fff;position:relative;overflow:hidden;border:1px solid #007DB2;border-radius:100px;padding:14px 20px;z-index:1;}
+.brand_su_inner a.btn.emizen-btn:hover{background:#fff;color:#007DB2;}
+.brand_su_inner:after{content:'';position:absolute;border-radius:716px;opacity:0.85;background:#007DB2;filter:blur(400px);width:716px;height:716px;left:0;right:0;margin:auto;top:0;z-index:-1;}
+.m_brand_success.high-quality-app{background:url(https://emizentech.com/wp-content/uploads/2025/12/high-quality-app-bg.png) no-repeat center center / cover;}
+.m_brand_success.high-quality-app .brand_su_inner{background:transparent!important;border-radius:0;padding:20px 0;}
+.brand_su_inner.ant_brand_box .brand_su_img{padding-right:50px;}
+.brand_su_inner .brand_su_img{padding-right:0;max-width:48%;padding-left:50px;}
+.m_brand_success .brand_su_inner::after{display:none;}
+.m_brand_success.next-breakthrow-box{padding-bottom:80px;}
+.m_brand_success .brand_su_inner{background:url(https://emizentech.com/wp-content/uploads/2025/12/break-throw-bg.png) center center /cover;}
+.m_brand_success.high-quality-app .brand_su_inner{background:url(https://emizentech.com/wp-content/uploads/2025/12/high-quality-app-bg.png) no-repeat center center / cover;}
+
+/*faq section */
+section.home_faq_sec{padding-bottom: 80px}
+section.home_faq_sec .faq_card button.btn.btn-link{position:relative;border-radius:10px;border:1px solid #E1ECF0;background:#E6F1F6;color:#0F1528;font-size:18px;font-weight:400;line-height:normal;padding:20px;}
+section.home_faq_sec .faq_card button.btn.btn-link{    /*font-size:15px;padding:10px 50px 10px 10px;*/}
+section.home_faq_sec .card-header .btn-link:after{width:25px;height:25px;top:14px;right:7px;}
+section.home_faq_sec .card-body{font-size:15px;max-width:calc(100% - 20px);}
+section.home_faq_sec .faq_card .collap-card{border-radius:0 0 10px 10px;}
+section.home_faq_sec .card-body{overflow:auto;border-radius:8px;background:#FFF;padding:20px;color:#333333;font-size:16px;font-weight:400;max-width:calc(100% - 40px);margin:0 auto 20px;}
+.home_faq_sec .ai-center-btn a{overflow:hidden;background:#007DB2;max-width:100%;width:auto;display:inline-block;padding:15px 20px 11px 20px;position:relative;z-index:1;color:#fff;}
+.home_faq_sec .ai-center-btn a:hover{color:#007DB2}
+.home_faq_sec .ai-center-btn a:hover::after{background:#fff;z-index:-1;transform:translate(0);border-radius:100px;}
+section.home_faq_sec .faq_card button.btn.btn-link[aria-expanded="true"]{border:0;background:#E6F1F6;}
+section.home_faq_sec .card-header .btn-link:after{background:#fff url(https://emizentech.com/wp-content/uploads/2025/12/plus.svg) no-repeat center center;border-radius:100%;background-size:14px;width:30px;height:30px;right:15px;top:50%;transform:translateY(-50%);}
+section.home_faq_sec .faq_card{border-radius:10px;border:1px solid #E1ECF0;background:#E6F1F6;}
+section.home_faq_sec .faq_card button.btn.btn-link[aria-expanded="true"]::after{background-image:url(https://emizentech.com/wp-content/uploads/2025/12/minus.svg);}
+section.home_faq_sec .btn.emizen-btn:hover{background:#fff;color:#017DB2;}
+.btn.emizen-btn:hover img{transform:rotate(45deg);}
+.app-technologies-sec .faq_card{margin-bottom:30px!important;}
+
+@media (min-width:1540px) and (max-width:1670px){
+    .img-outer-slider .hero-img-box img{max-width:90%;}
+    section.techno-work .process-continer .techno-left {
+    flex: 0 0 60px;
+}
+.brand_su_inner{padding-right: 10px;}
+.techno-list li{font-size: 16px;}
+    .marquee div.marquee_group_item img.insdrstry-imgg{width:108px;margin:0 auto;text-align:center;}
+    .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer{border-radius:30px;}
+    .img-outer-slider .portfolio_slider.owl-carousel{width:258px;padding:10px 13px;}
+    section.mobile-hero-section .hero-title-sec{padding-top:60px;}
+    .img-outer-slider .portfolio_slider.owl-carousel img{width:236px;}
+    section.mobile-hero-section{padding:60px 0 55px;}
+    section.mobile-hero-section .sec-title{font-size:42px;line-height:55px;}
+}
+@media (min-width:1350px) and (max-width:1539px){
+    .section-head h2,.section-head h2,.section-head h2,section.ms_services .sec-title2,h2.sec-title2{font-size:34px;line-height:46px;}
+    .marquee-full-sect,.py-80,section.services_sec,section.ms_services,section.ms_process,section.development-flow{padding:60px 0;}
+    .m_brand_success.next-breakthrow-box{padding-bottom:60px;}
+    section.home_faq_sec{padding:0 0 60px!important;}
+    .hero-review-box{left:65px;}
+    .img-outer-slider .hero-ellips-box-one{right:0;top:10%;}
+    .img-outer-slider .hero-ellips-box-two{position:absolute;top:55%;transform:translateY(-55%);left:140px;}
+    .review-content-box .review-content .user-content-des{width:calc(100% - 80px);}
+    .review-content-box .review-content .clutch-rateing img{max-width:80px;}
+    .benifits_card_box h3 span,.benifits_card_box h3{font-size:20px;line-height:30px;}
+    .benifits_card_box::before{font-size:24px;top:2px}
+    .benifits_card_box{padding-bottom:0;}
+    .hero-banner-marquee{transform:rotate(10deg);bottom:32px;width:970px}
+    .marquee div.marquee_group_item{padding:5px 0;}
+    .marquee div.marquee_group_item .instry-iconbox{text-align:center;}
+    .marquee div.marquee_group_item img.insdrstry-imgg{width:108px;margin:0 auto;text-align:center;}
+    .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer{border-radius:30px;}
+    .img-outer-slider .portfolio_slider.owl-carousel{width:252px;padding:10px 13px;}
+    .img-outer-slider .portfolio_slider.owl-carousel img{width:240px;}
+    .casestudy-popup h3{font-size:24px;margin-bottom:10px;}
+    .casestudy-popup{padding:20px 0 0;}
+    .casestudy-popup .case-box-btm{padding:12px 25px;}
+}
+@media (min-width:1201px) and (max-width:1380px){
+    section.mobile-hero-section .hero-title-sec{padding-bottom:0}
+}
+@media (min-width:1200px) and (max-width:1349px){
+    section.mobile-hero-section .hero-title-sec{padding-bottom:0;padding-top:0;}
+    .hero-review-box{left:65px;width:325px}
+    .development-flow .development-flow-circle img{top:120px;width:250px;}
+    .img-outer-slider .hero-ellips-box-one{right:-20px;top:10%;}
+    .img-outer-slider .hero-ellips-box-two{position:absolute;top:55%;transform:translateY(-55%);left:110px;}
+    .review-content-box .review-content .user-content-des{width:calc(100% - 80px);}
+    .review-content-box .review-content .clutch-rateing img{max-width:80px;}
+    .img-outer-slider .portfolio_slider.owl-carousel .owl-stage-outer{border-radius:25px;}
+    .img-outer-slider .portfolio_slider.owl-carousel{width:235px;padding:9px 12px 7px;}
+    .img-outer-slider .portfolio_slider.owl-carousel img{width:211px;}
+    section.mobile-hero-section .sec-title{font-size:40px;line-height:52px;}
+    .section-head h2,.section-head h2,.section-head h2,section.ms_services .sec-title2,h2.sec-title2{font-size:30px;line-height:45px;}
+    .marquee-full-sect,.py-80,section.services_sec,section.ms_services,section.ms_process,section.development-flow{padding:50px 0;}
+    .m_brand_success.next-breakthrow-box{padding-bottom:50px;}
+    section.home_faq_sec{padding:0 0 50px!important;}
+    .hero-banner-marquee{width:900px;transform:rotate(11deg);bottom:36px;}
+    .hero-banner-marquee .marquee div.marquee_group_item p{font-size:16px;letter-spacing:1px;}
+    .marquee div.marquee_group_item{padding:10px;}
+    .marquee div.marquee_group_item .instry-iconbox{text-align:center;}
+    .marquee div.marquee_group_item img.insdrstry-imgg{width:108px;margin:0 auto;text-align:center;}
+    section.mbs-tabs ul{gap:15px;}
+    section.ms_services .position-sticky{top:140px;}
+    .app-technologies-sec .sec-header{top:122px;}
+    .benifits_card_box h3 span,.benifits_card_box h3{font-size:24px;line-height:34px;}
+    .benifits_card_box::before{font-size:24px;}
+    section.services_sec .owl-stage .item{padding:0;}
+    .benifits_card_box{padding-bottom:0;}
+    .casestudy-popup h3{font-size:24px;margin-bottom:10px;}
+    .casestudy-popup{padding:20px 0 0;}
+    .casestudy-popup .case-box-btm{padding:12px 25px;}
+}
+@media (min-width:768px) and (max-width:1199px){
+    .benifits_card_box::before{top:2px;}
+    section.mobile-hero-section .sec-title{font-size:30px;line-height:45px;}
+    section.app-technologies-sec .card-body{padding:0 25px 0 90px!important;}
+    .section-head h2,.section-head h2,.section-head h2,section.ms_services .sec-title2,h2.sec-title2{font-size:28px;line-height:38px;}
+    .marquee-full-sect,.py-80,section.services_sec,section.ms_services,section.ms_process,section.development-flow,section.mobile-hero-section{padding:50px 0;}
+    .img-outer-slider{display:none;}
+    section.mobile-hero-section .hero-title-sec{max-width:100%;padding:0;}
+    .hero-banner-marquee{display:none;}
+    .marquee div.marquee_group_item img.insdrstry-imgg{width:100px;height:40px;}
+    .marquee div.marquee_group_item{padding:6px 20px;}
+    .industries-top-slider{gap:20px;}
+    section.mbs-tabs ul li a{font-size:12px;}
+    section.mbs-tabs ul{gap:15px;}
+    section.mbs-tabs .tab-content .tab-info-container{margin-top:0;padding-right:15px;}
+    section.mbs-tabs .tab-content{padding-top:30px;}
+    .benifits_card_box{padding-left:30px;padding-bottom:0;}
+    .benifits_card_box h3 span,.benifits_card_box h3{font-size:20px;line-height:32px;}
+    section.ms_services .sec-title2,.app-technologies-sec .sec-title2{font-size:26px;line-height:37px;}
+    section.ms_services .position-sticky{top:45px;}
+    .brand_su_inner .brand_su_img{display:none;}
+    .brand_su_content{max-width:100%;padding:30px 0;}
+    .development-flow .development-flow-circle{display:none;}
+    .development-flow .development-flow-circle + div{max-width:100%;flex:0 0 100%;}
+    .process-card-box:after{display:none;}
+    .process-card-container{padding:15px!important;}
+    section.app-technologies-sec .card-header .btn-link{padding:0 45px 10px 10px;font-size:16px;}
+    .app-technologies-sec .sec-header{top:45px;}
+    .m_brand_success.next-breakthrow-box{padding-bottom:40px;}
+    section.home_faq_sec{padding:0 0 40px!important;}
+    a.infinite-link-tag{padding:4px 10px;font-size:12px;}
+    .benifits_card_box::before{font-size:24px;}
+    .techcard li{flex:0 0 127px;}
+}
+@media(max-width:1199px){
+     section.home_faq_sec{padding-bottom:40px}
+    section.home_faq_sec .faq_card button.btn.btn-link{font-size:16px;padding:10px 50px 10px 10px;}
+    .marquee_group_item a.view-more-btn{padding:5px 10px 5px;font-size:0;}
+    p.casestudypera{font-size:14px;padding-bottom:10px;}
+    .casestudy-popup h3{font-size:16px;margin-bottom:5px;padding:0 15px}
+    .casestudy-popup .case-box-btm .case-btm-content h4{font-size:16px;}
+    .casestudy-popup{padding:15px 0 0;width:400px;}
+    .casestudy-popup p.casestudypera{padding:0 15px;margin-bottom:10px;}
+    .casestudy-popup .case-box-btm{padding:10px 15px;}
+}
+@media(max-width:991px){
+     .faq-wrap {
+    padding: 0;
+}
+    section.home_faq_sec .faq_card button.btn.btn-link{padding:15px 40px 15px 15px;font-size:15px;}
+}
+@media (max-width:767px){
+    section.mobile-hero-section{padding:0;}
+    .benifits_card_box::before{top:2px;}
+    .benifits-counts{margin-top:25px;}
+    section.mobile-hero-section .hero-title-sec{max-width:100%;padding:40px 0;}
+    section.mobile-hero-section .sec-title,.section-head h2,.section-head h2,.section-head h2,section.ms_services .sec-title2,h2.sec-title2{font-size:24px;line-height:36px;}
+    section.services_sec .benefit-box{border-right:none;}
+    section.services_sec .owl-carousel .owl-nav{left:0;right:0;}
+    section.services_sec .owl-carousel .owl-stage{padding-bottom:50px;}
+    .marquee-full-sect,.py-80,section.services_sec,section.ms_services,section.ms_process,section.development-flow{padding:40px 0;}
+    section.mbs-tabs ul li a{font-size:12px;}
+    .marquee div.marquee_group_item{padding:5px 10px;}
+    a.infinite-link-tag{font-size:10px;}
+    .marquee div.marquee_group_item img.insdrstry-imgg{width:80px;height:36px;}
+    .section-head{margin:0 auto 10px auto;}
+    .industries-top-slider,.marquee,.marquee__group{gap:10px;}
+    section.mbs-tabs ul{padding:12px;gap:20px;}
+    section.mbs-tabs .tab-content{padding-top:40px;}
+    section.mbs-tabs .tab-content .tab-info-container{width:100%;max-width:100%;margin-top:0;}
+    .benifits_card_box::before{font-size:24px;}
+    .benifits_card_box h3{font-size:28px;line-height:38px}
+    .benifits_card_box h3 span,.benifits_card_box h3{font-size:20px;line-height:30px;}
+    .benifits_card_box{padding:0 0 0 35px;}
+    .m_brand_success .brand_su_img,section.mbs-tabs .tab-img-right,.process-card-box::after,.img-outer-slider,.hero-banner-marquee{display:none;}
+    .brand_su_content{max-width:100%;padding:0;}
+    .brand_su_inner{padding:20px 20px;}
+    .brand_su_inner a.btn.emizen-btn{padding:10px 15px;}
+    .process-card-container{padding:15px!important;}
+    .development-flow .container-box{padding:0;}
+    .flow-container{gap:20px;}
+    .process-sec-img{flex:0 0 60px;}
+    .techcard{gap:15px;}
+    section.app-technologies-sec .card-body{padding:0 25px 0 80px!important;}
+    section.app-technologies-sec .card-header .btn-link{padding:0 45px 10px 0;font-size:16px;}
+    .brand_su_inner.ant_brand_box .brand_su_content{width:100%;}
+    .app-technologies-sec .sec-header{position:static;}
+    .card-header .btn-link{padding:15px 45px 15px 0;font-size:18px;font-weight:600;color:#151515;text-align:left;}
+    .m_brand_success.next-breakthrow-box{padding-bottom:40px;}
+    section.app-technologies-sec .card-body{padding:20px 25px 20px 73px;}
+}
+
+

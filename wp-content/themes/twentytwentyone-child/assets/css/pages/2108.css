@@ -1,0 +1,398 @@
+section.mobile-hero-section{background:linear-gradient(357deg,#74b8d5,#ffffff);overflow:hidden;margin:100px 0 0;padding:100px 0 140px;}
+section.mobile-hero-section .hero-title-sec{max-width:40%;}
+section.mobile-hero-section .sec-title{color:#000;padding-bottom:35px;font-weight:600;font-size:52px;line-height:68px;background:linear-gradient(#0E1A2E,#04618D);background-clip:border-box;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;position:relative;}
+section.mobile-hero-section .sec-title::after{background:url(https://multisitelocal.ezxdemo.com/wp-content/uploads/2026/03/head-line-img.png) no-repeat center center;content:"";border-radius:100%;width:312px;height:77px;left:0;bottom:-20px;display:block!important;border:none;position:absolute;}
+section.mobile-hero-section .sec-title span{color:#007DB2;font-weight:600;}
+p.sec-disc{font-size:16px;color:#333;line-height:24px;}
+section.mobile-hero-section .hero-disc{color:#333;font-size:18px;font-weight:500;line-height:28px;}
+img.curved-img{position:absolute;right:0;z-index:-1;top:0;}
+.btn{transition:all .4s ease 0s;}
+.btn img{transition:all .4s ease 0s;}
+ul.home-bredcrumbs.breadcrumbs{color:#096e99;gap:0 10px;text-transform:capitalize;padding-left:0}
+ul.home-bredcrumbs.breadcrumbs li a{color:#096e99;text-decoration:underline;font-weight:600}
+ul.home-bredcrumbs.breadcrumbs li:after{content:'/';position:absolute;padding:0 6px;}
+ul.home-bredcrumbs.breadcrumbs li{padding:0 3px;}
+ul.home-bredcrumbs.breadcrumbs li:last-child:after{display:none;}
+section.mobile-hero-section .btn.emizen-btn{background:#007DB2;border:1px solid #007DB2;color:#FFF;font-size:16px;font-weight:600;line-height:normal;padding:14px 18px;letter-spacing:0.16px;text-transform:capitalize;position:relative;overflow:hidden;z-index:1;}
+section.mobile-hero-section .btn.emizen-btn:hover{background:#fff;color:#007DB2;}
+/*about-our-services*/
+.pt-80{padding-top:80px}
+.py-80{padding:80px 0}
+.emizen-btn{font-size:18px;background:#0073aa;color:#fff;padding:10px 20px;border:none;border-radius:10px;cursor:pointer;line-height:28px;box-shadow:0px 10px 15px -3px #0000001A;}
+body{background:#FFFFFF!important;}
+.about-our-service .card{max-width:296px;padding:30px 25px;border-radius:24px;transition:0.3s ease;box-shadow:0px 4px 4px 0px #0000001A;}
+.about-our-service .card:hover{transform:translateY(-5px);}
+.about-our-service .icon{width:64px;height:64px;background:#EFF6FF;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:20px;}
+a.emizen-btn::after{content:"";position:absolute;z-index:-1;top:0px;left:0px;right:0px;bottom:0px;transform-origin:50% 100%;transition-property:transform;transition-duration:0.3s;transition-timing-function:ease-out;transform:translate3d(0px,110px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg,0deg);transform-style:preserve-3d;background:#fff;border-radius:10px;}
+a.emizen-btn:hover::after{z-index:-1;transform:translate(0px);}
+.about-our-service .card:hover .icon img{-webkit-animation:toRightFrombottom 0.3s forwards;-moz-animation:toRightFrombottom 0.3s forwards;animation:toRightFrombottom 0.3s forwards;-webkit-animation:toRightFrombottom 0.3s forwards;-moz-animation:toRightFrombottom 0.3s forwards;animation:toRightFrombottom 0.3s forwards;filter:brightness(0) invert(1)}
+@keyframes toRightFrombottom{
+  49%{transform:translateY(-100%);}
+  50%{opacity:0;transform:translateY(100%);}
+  51%{opacity:1;}
+}
+.about-our-service  .card:hover .icon{background:linear-gradient(90deg,#007DB2 0%,#00B8DB 100%),linear-gradient(0deg,rgba(0,0,0,0),rgba(0,0,0,0));}
+.about-our-service .card .emizentech-counter{font-size:30px;margin-bottom:15px;font-weight:600;color:#000;background:linear-gradient(#007DB2,#00B8DB);background-clip:border-box;background-clip:border-box;background-clip:border-box;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+.about-our-service .card .counter-sign{font-size:30px;margin-bottom:15px;font-weight:600;color:#000;background:linear-gradient(#007DB2,#00B8DB);background-clip:border-box;background-clip:border-box;background-clip:border-box;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+.about-our-service .card .counter-title{font-size:20px;font-weight:600;color:#101828;margin-bottom:8px;line-height:28px;}
+.about-our-service .card p{font-size:16px;color:#4A5565;}
+.about-our-service .underline{height:3px;width:60px;background:#1e90a8;margin-top:20px;border-radius:2px;}
+.about-our-service .card::after{content:"";position:absolute;bottom:20px;left:0;width:85%;height:3px;border-radius:0 0 18px 18px;}
+.about-our-service .card::before{position:absolute;bottom:20px;left:0;width:0;height:0;background-color:#109cd8;content:"";border-radius:0;transition:all cubic-bezier(0.4,0,1,1) .4s;z-index:1;background:linear-gradient(90deg,#007DB2 0%,#00B8DB 100%);right:0;margin:auto;}
+.about-our-service .card:hover::before{height:3px;width:85%;}
+
+/*hiring team*/
+section.hiring-teams .hiring-box{background:#F2FDFF;padding:60px;}
+section.hiring-teams .hiring-box img{max-width:620px;box-shadow:0px 25px 50px -12px #00000040;border-radius:16px;}
+.header-tag{display:inline-block;font-size:14px;background:#007DB21A;font-weight:600;color:#007DB2;line-height:20px;padding:10px 16px;margin-bottom:10px;}
+section.hiring-teams p.sec-disc{font-size:18px;font-weight:400;color:#364153;line-height:30px;}
+section.hiring-teams .sec-head{max-width:715px;}
+.rounded-15{border-radius:15px;}
+.core-values-section a.emizen-btn:after{border-radius:10px;}
+.core-values-section a.emizen-btn.btn2{background:transparent;border:1px solid #FFFFFF;margin-left:20px;}
+.core-values-section a.emizen-btn.btn2:hover{color:#000;}
+.core-values-section a.emizen-btn:hover{color:#005c87;background:transparent;border-color:#fff;}
+section.growth-sec{background:linear-gradient(135deg,#F9FAFB 0%,#EFF6FF 100%);}
+section.growth-sec .video-container{display:inline-block;border-radius:30px;overflow:hidden;}
+section.growth-sec .video-container video{display:block;border-radius:30px;height:100%;}
+section.growth-sec h2{max-width:730px;}
+span.text-clr2{color:#007DB2;}
+section.growth-sec .sec-disc{color:#364153;margin-bottom:20px;max-width:700px;}
+section.growth-sec .sec-disc strong{font-size:18px;line-height:28px;font-weight:600}
+
+/*video container sec */
+.bg-white-box{background:#FFFFFFCC;border-left:4px solid #007DB2;padding:16px;max-width:620px;}
+.bg-white-box p.sec-disc{max-width:555px;font-size:18px;line-height:28px;margin:0;}
+.bg-white-box p.sec-disc span{font-size:14px;display:block;line-height:20px;margin-top:10px;}
+video.w-100{border-radius:16px;display:block;}
+.video-card{box-shadow:0px 25px 50px -12px #00000040;border-radius:16px;}
+.hiring-box{background:#F2FDFF;padding:80px 40px;border-radius:20px;}
+.hiring-box .hiring-box-contnet{max-width:1380px;margin:0 auto;}
+.hiring-box img{max-width:615px;border-radius:16px;box-shadow:0px 25px 50px -12px #00000040;}
+.header-tag img{border-radius:0;}
+.hiring-box .sec-disc{color:#364153;font-size:18px;line-height:30px;}
+.hiring-box-info{padding-left:50px;}
+
+/*heading css */
+h2.sec-title{padding-bottom:12px;color:#101828;font-weight:600;font-size:36px;line-height:48px;}
+
+/* Section */
+.timeline-section .timeline{max-width:1280px;margin:auto;}
+.timeline-section{text-align:center;max-width:1100px;margin:auto;padding:80px 0;}
+.timeline-section h2{font-size:32px;margin-bottom:10px;}
+.subtitle{color:#4A5565;font-size:16px;margin-bottom:50px;}
+
+/* Card */
+.content{padding:30px 20px;border-radius:14px;position:relative;background:linear-gradient(135deg,#F3FBFF 0%,#EAFCFF 100%);max-width:576px;}
+.content.left-col{margin-left:auto;}
+.content.right-col{margin-right:auto;}
+
+/* Year badge */
+.year{display:inline-block;color:#fff;font-size:14px;padding:5px 15px;border-radius:20px;margin-bottom:10px;background:linear-gradient(90deg,#007DB2 0%,#00B8DB 100%);}
+
+/* core-values-section */
+.content h3{font-size:18px;color:#101828;font-weight:600;margin-bottom:8px;}
+.content p{font-size:16px;color:#364153;}
+.core-values-wrapper{border-radius:24px;background:#FFFFFF33;box-shadow:0px 10px 84px 0px #00000014;padding:40px 40px 70px;background:linear-gradient(85.03deg,#042734 5.27%,#014867 53.86%,#042F44 95.25%);}
+.core-values-section .core-card{background:linear-gradient(131.31deg,#0083B6 3.77%,#00B8DB 98%);border-radius:12px;z-index:1;padding:40px;max-width:440px;}
+.core-values-section .core-card img{position:absolute;z-index:-1;top:0;left:0;}
+.core-values-section .card-box .icon{max-width:60px;margin-bottom:20px;}
+.core-values-section .card-box h3{font-size:20px;line-height:32px;font-weight:600;margin-bottom:10px;color:#F3F3F3;}
+.core-values-section .core-card > p{font-size:22px;line-height:35px;}
+.core-values-section .row.vertical-spacing{gap:70px 0;}
+.core-values-section .row.vertical-spacing .card-box:hover img{transform:scale(1.2);}
+.core-values-section .row.vertical-spacing .sec-disc{font-size:16px;color:#333;line-height:24px;color:#F3F3F3;max-width:450px;}
+.core-values-section .core-card h2.sec-title{padding-bottom:12px;font-weight:800;font-size:72px;line-height:88px;}
+.core-values-wrapper.core-cardbox{padding-left:80px;}
+
+/* section.hiring-teams */
+section.hiring-teams .hiring-box{background:#F2FDFF;padding:80px 40px;border-radius:20px;}
+section.hiring-teams .hiring-box .hiring-box-contnet{max-width:1380px;margin:0 auto;}
+section.hiring-teams .hiring-box img{max-width:615px;border-radius:16px;box-shadow:0px 25px 50px -12px #00000040;}
+section.hiring-teams .hiring-box .sec-disc{color:#364153;font-size:18px;line-height:30px;}
+section.hiring-teams .hiring-box-info{padding-left:50px;}
+section.hiring-teams .sec-head{margin-bottom:40px;}
+section.hiring-teams  .card-box{padding:32px;background:linear-gradient(135deg,#F3FBFF 0%,#EAFCFF 100%);border-radius:14px;transition:all .4s;}
+section.hiring-teams .card-box:hover .header-tag{rotate:6deg;}
+section.hiring-teams .card-box:hover{box-shadow:-1px 3px 20px 0px #00000033;}
+section.hiring-teams .header-tag{background:linear-gradient(135deg,#007DB2 0%,#00D6FF 100%);border-radius:8px;height:64px;width:64px;display:flex;align-items:center;justify-content:center;transition:all .4s}
+section.hiring-teams .header-tag img{max-width:32px;}
+section.hiring-teams  h3.sec-title{line-height:32px;font-size:20px;font-weight:600;margin-bottom:14px;}
+section.hiring-teams .card-box p.sec-disc,section.hiring-teams .card-box li{font-size:16px;line-height:26px;color:#364153;position:relative;}
+section.hiring-teams .card-box li:before{content:'';position:absolute;background:#007DB2;width:6px;height:6px;border-radius:100%;top:50%;transform:translateY(-50%);left:0;animation:blink 1s infinite;}
+section.hiring-teams .card-box li{padding:7px 0 6px 14px;}
+@keyframes blink{
+  0%{border-radius:0;}
+  50%{border-radius:100%;}
+  100%{border-radius:0;}
+}
+section.emz-award-section .award-box{background:#F2FDFF;}
+section.emz-award-section .award-box{background:#F2FDFF;padding:50px;border-radius:16px;}
+.award-icon.text-center{border:0;background:transparent;box-shadow:none;padding:0;justify-content:flex-start;}
+.award-icon img{max-height:160px;width:auto;}
+section.emz-award-section a.btn.emizen-btn{border-radius:10px;}
+section.emz-award-section a.btn.emizen-btn:hover{color:#007db2}
+section.emz-award-section .award-card-box{padding:15px;max-width:230px;flex:1;}
+section.emz-award-section .sec-head{margin-bottom:30px;}
+section.emz-award-section  .award-title-f{font-weight:400;}
+.rounded-15{border-radius:15px;}
+.hiring-teams .container,section.our-teams .container{max-width:1300px;}
+.team-card{max-width:405px;background:linear-gradient(111.57deg,#F0FBFF 2.81%,#F2FDFF 96.35%);border-radius:15px;margin:40px auto 0;overflow:hidden;display:block;}
+.team-card img{border-radius:14px 14px 0 0;transition:all .4s;}
+.team-card .team-name{font-size:20px;font-weight:600;padding:15px 0 5px;}
+.team-card .sec-disc{color:#364153;}
+.team-info{padding:0 24px 40px;}
+.team-card:hover img{transform:scale(1.1);}
+.animate-img:before{content:'';position:absolute;background:#ffffff14;height:0;width:0;z-index:-1;bottom:0;left:0;transition:all .4s;}
+.team-card:hover .animate-img:before{height:100%;width:100%;z-index:1;}
+.animate-img{z-index:1;}
+.designation{color:#007DB2;font-size:16px;font-weight:500;margin-bottom:15px;}
+.designation span{font-size:14px;color:#000000;font-weight:500;}
+
+/* Responsive */
+@media (max-width:768px){
+  .content p{font-size:14px;color:#364153;line-height:19px;}
+  .content{padding:15px 15px;}
+  .timeline-item{padding-bottom:20px}
+  .timeline-item.right{padding-left:30px;}
+  .timeline-item.left{padding-right:30px;}
+}
+
+/*Our-Journey*/
+.btn.emizen-btn{border-radius:10px;position:relative;overflow:hidden;z-index:1;padding:14px 18px;font-size:16px;font-weight:600;line-height:normal;border:1px solid #0073aa;}
+.hero-img-box img{position:absolute;bottom:0;right:0;}
+.hero-review-box .owl-carousel{background:#fff;padding:15px;}
+section.mobile-hero-section .sec-title::selection{background:#3a5897;background-clip:border-box;background-clip:border-box;-webkit-background-clip:unset;background-clip:unset;-webkit-text-fill-color:#fff;}
+@media (min-width:1380px) and (max-width:1750px){
+  .about-our-service .card{max-width:260px;}
+  h2.sec-title{font-size:32px;}
+  section.hiring-teams .card-box{padding:25px;}
+  .core-values-section .core-card{padding:65px 25px 25px;}
+  .slider-outer-girl{max-width:50%;}
+  section.mobile-hero-section .sec-title{font-size:40px;line-height:55px;}
+  h2.sec-title{font-size:32px;line-height:42px;}
+  .core-values-wrapper{padding:40px 30px 55px;}
+  .core-values-wrapper.core-cardbox{padding-left:40px;padding-right:40px;}
+}
+@media (min-width:1200px) and (max-width:1349px){
+  .about-our-service .card .emizentech-counter{font-size:26px;line-height:36px;}
+  section.mobile-hero-section .sec-title{font-size:45px;line-height:65px;}
+  section.mobile-hero-section{padding:40px 0 50px;}
+  .timeline-section .timeline{max-width:1120px;}
+  h2.sec-title{font-size:32px;line-height:40px;}
+  .core-values-section .row.vertical-spacing{gap:40px 0;}
+  .core-values-section .card-box .icon{max-width:50px;margin-bottom:15px;}
+  .hiring-teams .container,section.our-teams .container{max-width:1120px;}
+  section.hiring-teams .header-tag{height:55px;width:55px;}
+  section.hiring-teams .card-box{padding:18px;}
+  .core-values-section .core-card{padding:20px;}
+  section.hiring-teams h3.sec-title{line-height:27px;font-size:19px;margin-bottom:10px;}
+  .core-values-section .row.vertical-spacing{gap:40px 0;}
+  .subtitle{margin-bottom:41px;}
+}
+@media (max-width:1199px){
+  .about-our-service .card .emizentech-counter{font-size:24px;line-height:36px;}
+  .core-values-section .card-box .icon{max-width:50px;margin-bottom:10px;}
+  h2.sec-title{font-size:26px;line-height:32px;}
+  .hiring-teams .container,section.our-teams .container{max-width:980px;}
+  .hiring-box{padding:40px 20px;}
+  .hiring-box .hiring-box-contnet{flex-direction:column;gap:20px;}
+  .hiring-box-info{padding:0;}
+  section.hiring-teams h3.sec-title{line-height:23px;font-size:17px;margin-bottom:10px;}
+  section.hiring-teams .header-tag{height:55px;width:55px;}
+  section.emz-award-section .award-box{padding:30px 20px;}
+  .core-values-wrapper{padding:30px 25px 50px;}
+  section.hiring-teams .card-box{padding:15px}
+  .core-values-section .core-card{padding:18px;}
+  section.mobile-hero-section .hero-title-sec{max-width:50%;}
+  section.mobile-hero-section .hero-disc{padding-right:0;}
+  .core-values-section .core-card > p{margin-top:10px;}
+  .core-values-section a.emizen-btn.btn2{margin:20px 0 0;}
+}
+@media (min-width:650px){
+  .timeline-item{max-width:50%;padding:0;}
+  .ecom-stroy:last-child .timeline-item:after{content:"";position:absolute;width:16px;height:16px;border-radius:100%;background:#007DB2;right:-8px;bottom:0;}
+  .timeline-item.story-date.active .content{background:linear-gradient(321deg,#00c3ff33 0%,#EAFCFF 100%);box-shadow:2px 1px 20px 0px rgb(5 5 5 / 16%);transition:all .4s;}
+  .timeline-item.left{left:0;text-align:right;padding-right:60px;}
+  .timeline-item.right{left:50%;text-align:left;padding-left:60px;}
+  .timeline-item::before{width:48px;height:48px;border:4px solid #007DB2;z-index:2;background:#fff url(https://emizentech.com/wp-content/uploads/2026/03/check-icon-circle.svg) no-repeat center center;content:"";bottom:0;display:block!important;position:absolute;border-radius:100%;box-shadow:0px 10px 15px -3px #0000001A;}
+  .timeline-item.left::before{right:-25px;margin:auto;left:auto;top:0;}
+  .timeline-item.right::before{left:-24px;margin:auto;right:auto;top:0;}
+  .timeline-item.story-date.active::before{background-color:#d9f7ff;border-color:#0089ba;}
+  .timeline::before{content:"";position:absolute;width:3px;background:#1e90a84d;top:0;bottom:0;left:50%;transform:translateX(-50%);}
+  .timeline::after{content:"";position:absolute;width:16px;height:16px;border-radius:100%;background:#007DB2;top:0;left:50%;transform:translateX(-50%);}
+}
+@media (max-width:767px){
+  .core-values-section .row.vertical-spacing{gap:20px 0;}
+  .core-values-wrapper{text-align:center;padding:20px 15px 30px;}
+  section.mobile-hero-section{padding:40px 0 40px;}
+}
+@media (min-width:768px) and (max-width:1199px){
+  section.mobile-hero-section .sec-title{font-size:30px;line-height:45px;}
+}
+section.hire-industry-section{background:#F3F4F6;}
+.section-head{max-width:1320px;margin:0 auto 30px auto;}
+.section-head h2{font-weight:600;font-size:36px;line-height:50px;}
+a.infinite-link-tag{position:absolute;top:-10px;right:0;width:auto;color:#fff;border-radius:100px;background:#007DB2;padding:5px 10px;}
+@keyframes fade{
+  to{opacity:0;visibility:hidden;}
+}
+@keyframes scroll-x{
+  from{transform:translateX(var(--scroll-start));}
+  to{transform:translateX(var(--scroll-end));}
+}
+@media (prefers-reduced-motion:reduce){
+  .marquee__group{animation-play-state:paused;}
+}
+@media(max-width:991px){
+  .section-head h2{font-size:28px;line-height:37px;}
+}
+
+/*Complete Digital Solutions for Every Industry*/
+h2.sec-title2{color:#0F1528;font-size:42px;font-weight:600;line-height:55px;padding-bottom:10px;}
+p.ai-sec-disc{color:#333333;font-size:16px;}
+@media(max-width:991px){
+  section.shp_tech-stack .tab-container{padding:15px;gap:20px 0;}
+  h2.sec-title2{font-size:32px;font-weight:600;line-height:44px;}
+}
+
+/*faq section */
+.faq-wrap{max-width:850px;padding:0;margin-left:auto;}
+section.home_faq_sec{padding-bottom:80px;background:#F5F8FA;}
+section.home_faq_sec .sec-header{max-width:480px;}
+section.home_faq_sec .faq_card button.btn.btn-link{position:relative;border-radius:10px;border:1px solid #E1ECF0;background:#E6F1F6;color:#0F1528;font-size:18px;font-weight:400;line-height:normal;padding:20px;}
+section.home_faq_sec .faq_card button.btn.btn-link{font-weight:600}
+section.home_faq_sec .card-header .btn-link:after{width:25px;height:25px;top:14px;right:7px;}
+section.home_faq_sec .card-body{font-size:15px;max-width:calc(100% - 20px);}
+section.home_faq_sec .faq_card .collap-card{border-radius:0 0 10px 10px;}
+section.home_faq_sec .card-body{overflow:auto;border-radius:8px;background:#FFF;padding:20px;color:#333333;font-size:16px;font-weight:400;max-width:calc(100% - 40px);margin:0 auto 20px;}
+section.home_faq_sec .faq_card button.btn.btn-link[aria-expanded="true"]{border:0;background:#E6F1F6;}
+section.home_faq_sec .card-header .btn-link:after{background:#fff url(https://emizentech.com/wp-content/uploads/2025/12/plus.svg) no-repeat center center;border-radius:100%;background-size:14px;width:30px;height:30px;right:15px;top:50%;transform:translateY(-50%);}
+section.home_faq_sec .faq_card{border-radius:10px;border:1px solid #E1ECF0;background:#E6F1F6;}
+section.home_faq_sec .faq_card button.btn.btn-link[aria-expanded="true"]::after{background-image:url(https://emizentech.com/wp-content/uploads/2025/12/minus.svg);}
+section.home_faq_sec .btn.emizen-btn:hover{background:#fff;color:#017DB2;}
+.home_faq_sec .ai-center-btn a{overflow:hidden;background:#007DB2;max-width:100%;width:auto;display:inline-block;padding:15px 20px 11px 20px;position:relative;z-index:1;color:#fff;}
+.home_faq_sec .ai-center-btn a:hover{color:#007DB2}
+.home_faq_sec .ai-center-btn a:hover::after{background:#fff;z-index:-1;transform:translate(0);border-radius:100px;}
+.btn.emizen-btn:hover img{transform:rotate(45deg);}
+@media (min-width:1540px) and (max-width:1670px){
+  section.techno-work .process-continer .techno-left{flex:0 0 60px;}
+  .techno-list li{font-size:16px;}
+  section.mobile-hero-section .hero-title-sec{padding-top:60px;}
+  section.mobile-hero-section{padding:60px 0 85px;}
+  section.mobile-hero-section .sec-title{font-size:42px;line-height:55px;}
+}
+@media (min-width:1350px) and (max-width:1539px){
+  .core-values-section .core-card h2.sec-title {
+    font-size: 62px;
+    line-height: 78px;
+}
+.hiring-box .sec-disc {
+ 
+    font-size: 17px;
+    line-height: 26px;
+}
+  .slider-outer-girl{max-width:50%;}
+  section.mobile-hero-section{padding:60px 0 90px;}
+  .section-head h2,.section-head h2,.section-head h2,h2.sec-title2{font-size:34px;line-height:46px;}
+  .py-80{padding:60px 0;}
+  .m_brand_success.next-breakthrow-box{padding-bottom:60px;}
+  section.our-teams .container{max-width:1160px;}
+  section.growth-sec .sec-disc,section.growth-sec h2{max-width:560px;}
+  section.mobile-hero-section .sec-title{font-size:42px;line-height:58px;}
+}
+@media (min-width:1200px) and (max-width:1380px){
+  .core-values-section .core-card h2.sec-title{font-size:55px;line-height:68px;}
+  .about-our-service .card{max-width:22%;padding:15px 15px 35px;}
+  section.mobile-hero-section .hero-title-sec{padding-bottom:0}
+}
+@media (min-width:1200px) and (max-width:1349px){
+  .hiring-box .sec-disc {
+ 
+    font-size: 17px;
+    line-height: 26px;
+}
+  .slider-outer-girl{max-width:50%;}
+  section.mobile-hero-section .hero-title-sec{padding-bottom:0;padding-top:0;}
+  section.mobile-hero-section .sec-title{font-size:40px;line-height:52px;}
+  .section-head h2,.section-head h2,.section-head h2,h2.sec-title2{font-size:30px;line-height:45px;}
+  .py-80{padding:50px 0;}
+}
+@media (min-width:768px) and (max-width:1199px){
+  .hiring-box .sec-disc {
+ 
+    font-size: 17px;
+    line-height: 26px;
+
+}  .core-values-section .core-card h2.sec-title{font-size:40px;line-height:52px;}
+  section.mobile-hero-section .sec-title{font-size:32px;line-height:44px;}
+  .core-values-section .row.vertical-spacing{gap:30px 0;}
+  .section-head h2,.section-head h2,.section-head h2,h2.sec-title2{font-size:28px;line-height:38px;}
+  .py-80,section.mobile-hero-section{padding:50px 0;}
+  .slider-outer-girl{max-width:50%;}
+  .about-our-service .card .counter-title{font-size:17px;line-height:26px;}
+  section.mobile-hero-section .hero-disc{font-size:16px;}
+  .industries-top-slider{gap:20px;}
+  .benifits_card_box{padding-left:30px;padding-bottom:0;}
+  .benifits_card_box h3 span,.benifits_card_box h3{font-size:20px;line-height:32px;}
+  .process-card-container{padding:15px!important;}
+  .app-technologies-sec .sec-header{top:45px;}
+  a.infinite-link-tag{padding:4px 10px;font-size:12px;}
+  .benifits_card_box::before{font-size:24px;}
+  .techcard li{flex:0 0 127px;}
+}
+@media(min-width:769px){
+  section.mobile-hero-section{background:url(https://multisitelocal.ezxdemo.com/wp-content/uploads/2026/03/about-us-bg.png);background-repeat:no-repeat;overflow:hidden;background-size:cover;}
+}
+@media(max-width:1199px){
+  .about-our-service .card{max-width:23%;padding:15px 15px 35px;}
+  .bg-white-box,section.growth-sec .sec-disc,section.growth-sec h2{max-width:100%;}
+  .video-container{max-width:80%;}
+  section.home_faq_sec{padding-bottom:40px}
+}
+@media(max-width:991px){
+  section.emz-award-section .award-card-box p{font-size:14px;line-height:24px;}
+  section.emz-award-section .award-card-box img{max-width:80px;}
+  .card-main{gap:20px 10px;}
+  .bg-white-box p.sec-disc,section.mobile-hero-section .hero-disc{font-size:16px;}
+  .about-our-service .card p{font-size:15px;line-height:22px;}
+  .about-our-service .icon{width:50px;height:50px;margin-bottom:10px;}
+  .about-our-service .icon img{max-width:30px;}
+  .about-our-service .card .counter-title{font-size:17px;line-height:24px;}
+  .about-our-service .card{max-width:48%;padding:15px 15px 35px 15px;}
+  h2.sec-title{font-size:27px;line-height:36px;}
+  section.home_faq_sec .faq_card button.btn.btn-link{padding:15px 40px 15px 15px;font-size:15px;}
+  .team-info{padding:0 14px 20px;}
+  .designation{display:flex;justify-content:space-between;}
+  section.home_faq_sec .card-header .btn-link:after{background-size:14px;width:25px;height:25px;right:10px;}
+  .team-card .team-name{font-size:18px}
+  .core-values-section a.emizen-btn.btn2{margin:0;}
+  .core-values-wrapper.core-cardbox img{display:block;margin:0 auto;}
+  .core-values-wrapper.core-cardbox{padding:30px;text-align:center;}
+}
+@media (max-width:767px){
+  .core-values-section .core-card h2.sec-title{font-size:45px;line-height:58px;}
+  h2.sec-title{font-size:24px;line-height:32px;}
+  section.home_faq_sec .sec-header{max-width:100%;margin-bottom:40px;}
+  .hiring-box .sec-disc{font-size:16px;}
+  section.emz-award-section .award-card-box{max-width:33%;flex:0 0 33%;}
+  section.mobile-hero-section .sec-title::after{width:212px;height:57px;left:0;bottom:-10px;}
+  section.growth-sec{text-align:center;}
+  section.mobile-hero-section{padding:0;}
+  section.mobile-hero-section .hero-title-sec{max-width:100%;padding:40px 0;}
+  section.mobile-hero-section .sec-title,.section-head h2{font-size:27px;line-height:36px;font-weight:600}
+  .py-80{padding:40px 0;}
+  .about-our-service .icon{margin:0 auto 10px;}
+  .section-head{margin:0 auto 10px auto;}
+  .core-values-section .card-box .icon{margin:0 auto 10px;}
+  .card-header .btn-link{padding:15px 45px 15px 0;font-size:18px;font-weight:600;color:#151515;text-align:left;}
+  .map-inner img,.core-values-section .row.vertical-spacing .sec-disc,.hiring-img img,.core-values-section .core-card{max-width:100%;}
+  .core-values-wrapper.core-cardbox{padding:20px;}
+  .core-values-wrapper.core-cardbox a.btn.emizen-btn{margin:10px 0;}
+}
+@media (max-width:640px){
+  .core-values-section .core-card h2.sec-title{font-size:31px;line-height:42px;}
+  section.emz-award-section .award-card-box{max-width:50%;flex:0 0 50%;}
+  .about-our-service .card{max-width:100%;}
+  .about-our-service .icon{margin:0 auto 15px}
+}

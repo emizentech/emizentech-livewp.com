@@ -1,0 +1,20 @@
+.emz-cstm-box,
+.emz-q-cstm-box {
+    border: 2px solid #d0edfd;
+    box-shadow: none !important;
+    border-radius: 0;
+    position: relative;
+    padding: 25px;
+}
+
+.emz-q-cstm-box:before {
+    content: "";
+    background-image: url(https://emizentech.com/blog/wp-content/uploads/sites/2/2025/09/ql-icon.svg);
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    right: -15px;
+    background-size: 100%;
+}

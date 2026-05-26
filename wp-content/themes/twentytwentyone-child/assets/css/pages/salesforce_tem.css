@@ -1,0 +1,145 @@
+html{scroll-behavior: smooth;}
+.Shopify_form input:focus{outline:none;}
+.banner-heading.banner-title-smaller span{padding-right:10px;}
+.Shopify_form input{min-height:50px;margin-bottom:5px;padding: 5px 20px;border:1px solid #b3c9d4;border-radius:40px;background-color:#f1f7fa;color:#000;font-weight:500;width:100%;letter-spacing:1px;}
+.emizen_sopify_form h2{font-size:38px;line-height:1.2em;font-weight:600;}
+.emizen_sopify_form .sub_title{font-size:20px;}
+.scheule-form-sub{font-size:18px;line-height:26px;}
+.emizen_sopify_form{width:100%;padding:25px;border-radius:30px;background-color:#fff;box-shadow:4px 4px 30px 0 rgba(179,201,212,0.4);height: fit-content;}
+.Shopify_form{margin:10px 0 0;padding:30px 20px 10px;border-radius:30px;background-color:#f7fbfd;}
+.Shopify_form .wpcf7-form-control.wpcf7-textarea{max-height:117px;padding:20px 30px;width:100%;border:1px solid #b3c9d4;background-color:#f1f7fa;border-radius:20px;}
+.Shopify_form input[class*="submit"]{width:100%;min-height:51px;margin-top:10px;border-radius:40px;background-color:#91bc47;color:#fff;font-size:21px;letter-spacing:1px;text-transform:uppercase;font-weight:600;}
+.sopify_popup a.close-modal{right:2px;top:4px;position:absolute;}
+.Shopify_form h3{font-weight:600;text-align:center;font-size:22px;margin-bottom:10px;}
+#sopify_popup a.close-modal{right:2px;top:4px;position:absolute;}
+.Shopify_form h3{font-weight:600;text-align:center;font-size:22px;margin-bottom:10px;}
+.form-inner{padding:40px 30px 28px;}
+.form-inner form{padding-top:25px}
+.wpcf7-not-valid-tip {margin-bottom: 0;}
+
+section.emizen-saleforce{padding-top:8rem;}
+.emizen-saleforce h1{font-size:40px;font-weight:bold;text-align:left;margin:0 0 1.4rem;color:#204980;line-height:44px;padding:0;}
+.emizen-saleforce p{font-style:normal;font-weight:400;text-decoration:none;margin:0 0 1.4rem;font-size:18px;}
+.emizen-saleforce ul{padding-left:10px;list-style:circle;}
+.emizen-saleforce ul li{font-size:18px;list-style:disc;margin:0.7rem;}
+.emizen-saleforce .form-inner{background:#f7f7f7;box-shadow:1px 0 6px 0px rgb(2 5 5 / 23%);}
+.emizen-saleforce .form-inner h2{font-weight:600;line-height:1;color:#000;font-size:32px;text-transform:none;}
+.emizen-saleforce form{padding:0;}
+.emizen-saleforce  .form-inner form{padding-bottom:40px;}
+.emizen-saleforce .form-inner p{color:#000;font-size:16px;margin-bottom:0;line-height:26px;padding:0}
+.emizen-saleforce .form-inner input{height:55px;padding:13px 18px;background-color:transparent;color:#7d7d7d;font-weight: 400; font-size:18px;border:1px solid #858585;border-radius:0;margin:0 0 10px;background:#fff;width:100%;}
+.emizen-saleforce .form-inner textarea{height:100px;margin:0;padding:13px 18px;border:1px solid #858585;}
+.emizen-saleforce .form-inner label{margin-bottom:10px;font-weight:normal;font-size:16px;width:100%;}
+.emizen-saleforce .form-inner input.emizentech-btn{background-color:transparent;background-image:none;border-radius:7px;font-size:21px;width:100%;color:#fff!important;}
+.emizen-saleforce .form-inner textarea#message{height:60px;border-radius:0;background:#fff;}
+.emizen-saleforce .form-inner input[type="submit"]{background:#007db2!important;color:#fff!important;text-transform:uppercase;font-weight:600;border-radius:3.6px;letter-spacing:1px;border:1px solid #109cd8!important;margin:0;}
+.emizen-saleforce .form-inner form{padding-bottom:0;}
+section.emizen-saleforce-services h2,.emizen-saleforce-Administrator h2,section.emizen-saleforce-Value h2,.emizen-Certified-Sf-Dev h2,.emizen-partnerships h2{width:100%;margin-right:auto;text-align:center;color:#204980;font-weight:bold;padding-top:10px;}
+section.emizen-saleforce-services{margin-top:30px;}
+.emizen-saleforce .form-inner h2{padding-top:0;border:0;text-align:center;}
+.form-header p{color:#fff;font-size:16px;line-height:16px;}
+.emizen-saleforce .form-inner textarea::placeholder{font-weight:normal;}
+.emizen-saleforce-services img{margin:32px 0;}
+.emizen-saleforce-services img{margin:32px 0;}
+.services-col-top p{line-height:1.4;text-align:center;color:#231f20;font-size:16px;}
+.services-col-top h2{text-align:center;}
+.emizen-saleforce-services h4{text-align:center;padding-bottom:12px;font-weight:600;}
+section.emizen-saleforce-services{padding-bottom:30px;}
+.emizen-saleforce-Administrator{background:rgb(0 125 178);}
+.emizen-saleforce-Administrator h2{color:#fff;}
+.emizen-saleforce-Administrator p{color:#fff;}
+.emizen-saleforce-Administrator a{background:#fff;color:#000;border-radius:15px;padding:10px 30px;display:inline-block;font-size:18px;text-transform:capitalize;font-weight:bold;}
+section.emizen-saleforce-Value{padding-top:15px;}
+section.emizen-saleforce-Value h2{padding-top:30px;}
+section.emizen-saleforce-Value p{font-size:16px;line-height:26px;padding-top:10px;color:#555;}
+section.emizen-Certified-Sf-Dev{margin-top:50px;padding-bottom:40px;}
+section.emizen-Certified-Sf-Dev img{margin-top:20px;}
+.testimonial-content h4{font-size:18px;max-width:150px;font-weight:600;padding-bottom:0;}
+.bgfasfd{background-color:rgb(247 247 247);border-radius:20px;margin-top:0px;margin-bottom:0px;padding:30px;padding-bottom:10px;border:1px solid #444444;height:100%;}
+.testimonial-content h4{font-size:18px;max-width:150px;font-weight:600;padding-bottom:0;}
+section.emizen-Certified-Sf-Dev h2{margin-bottom:40px;}
+section.emizen-Business-Sf-Dev a{background-color:#f5821f;background-image:none;border-color:#000000;border-radius:7px;font-size:21px;color:#fff;line-height:38px;height:auto!important;padding:10px 30px;width:auto;}
+section.emizen-testimonial-client{background:rgba(204,204,204,0.5)!important;margin-top:50px;padding-top:10px;}
+.emizen-testimonial-client p{font-style:italic;}
+.emizen-saleforce-Value h4{font-weight:700;color:#204980;margin-top:0;}
+.bg-light-box{background:#f7f7f7;padding:30px 20px;}
+.emizen-testimonial-client h2{padding-bottom:30px;color:#204980;}
+.border-btm{border-bottom:1px solid rgba(0,0,0,1.0);padding-bottom:15px;}
+.emizen-awards{max-width:20%;float:left;}
+
+.sf_cta{display:flex;padding:15px;background:#00bff3;color:#fff;border-radius:5px;width:100%;align-items:center;justify-content:space-between;}
+.sf_cta p{float:left;padding:0;font-size:19px;word-break:break-all;}
+.sf_cta a{background:#fff;float:right;color:#00bff3;border:1px solid #fff;border-radius:50px;padding:12px 0;font-size:18px;text-transform:capitalize;font-weight:600;width:210px;text-align:center;}
+
+.emizen-saleforce .form-inner p{padding:15px 0;text-align:center;display:block;}
+.form-inner .wpcf7-form-control.wpcf7-submit{font-weight: 500; margin-top:11px!important;}
+span.wpcf7-spinner{position:absolute;bottom:50px;left:10px;}
+.wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output,.wpcf7 form.payment-required .wpcf7-response-output{border:0;font-size:13px;width:100%;display:block;margin:0;padding:0;text-align:center;color:red}
+.emizen-saleforce .wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    text-align: left;
+    line-height: 14px;
+}
+.wpcf7-form-control-wrap {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+@media (max-width:991px){
+    .sf_cta a{float:none;padding:10px 30px;display:block;width:auto;margin:10px auto;}
+    .sf_cta{text-align:center;flex-wrap:wrap;}
+	.navbar-light .navbar-toggler{background-color:transparent!important;}
+	.wpcf7-not-valid-tip{margin-bottom:0px;bottom:-15px;left:10px;font-size:12px;}
+	.emizen-partnerships .col-md-12{justify-content:center;display:flex;flex-wrap:wrap;}
+	.emizen-saleforce .form-inner{padding:15px;}
+	.emizen-saleforce .form-inner input{height:45px;}
+	.emizen-saleforce .form-inner form{padding-top:0;}
+	section.emizen-saleforce .wpcf7-form-control-wrap{margin-bottom:5px;}
+	section.emizen-saleforce .wpcf7-form-control.has-spinner.wpcf7-submit {
+    line-height: 16px;
+}
+.Shopify_form .wpcf7-not-valid-tip {margin: 0;}
+section.emizen-saleforce .wpcf7-form-control-wrap .wpcf7-not-valid-tip{position:static;}
+.wpcf7-not-valid-tip{margin-bottom:15px;}
+}
+@media (max-width:767px){
+	.Shopify_form{padding:0;}
+	.Shopify_form input{height:auto;min-height:35px;}
+	.Shopify_form input[class*="submit"]{font-size:14px;height:auto;min-height:45px;margin-bottom:0;}
+.Shopify_form .wpcf7-form-control.wpcf7-textarea {
+    max-height: 87px;
+    padding: 10px 20px;
+ }
+	.Shopify_form .wpcf7-spinner{position:absolute;left:0;right:0;margin:auto;bottom:15px;}
+	.Shopify_form h3 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.sopify_popup span.wpcf7-not-valid-tip {bottom: -29px; margin-bottom: 0;line-height: 16px}
+
+div.sopify_popup {
+    padding: 15px;
+}
+}
+@media (max-width:576px){
+	section.emizen-saleforce h1 {font-size: 30px;}
+	section.emizen-saleforce {padding-top: 6rem;}
+	.emizen-saleforce .form-inner h2 {font-size: 29px;}
+.emizen-awards {
+    max-width: 30%;
+    display: inline-block;
+}
+.emizen-partnerships .col-md-12 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+
+

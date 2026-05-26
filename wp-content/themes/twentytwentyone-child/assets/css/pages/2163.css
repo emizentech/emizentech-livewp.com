@@ -1,0 +1,36 @@
+.emizen_app_ptf  img {max-width: 120px;}
+.card_title{font-weight: 600;font-size: 24px;line-height: 24px;}
+.emizen_app_ptf {padding: 40px 0 20px;}
+.cwhite{color:#fff}
+.emizen_app_ptf{padding:40px 0 20px; box-shadow: rgb(0 125 178 / 38%) 0px 0px 2px;}
+.emizen_app_ptf p{max-width:320px;}
+.Emizen_android_work{background:url(/wp-content/uploads/2023/01/sucess_bg.png) no-repeat center center;background-size:cover;padding:100px 0;}
+.slider_container{border-radius:20px;background:rgba(255,255,255,0.15);backdrop-filter:blur(20px);}
+.technologies_slider{padding: 20px 25px 0;position: relative;} 
+.app_type{font-weight:400;font-size:16px;line-height:19px;display:block;}
+.Emizen_about_app p{font-weight:400;font-size:18px;line-height:27px;}
+.app_span{background:#fff;height:50px;width:50px}
+.server_links p{display:flex;align-items:center;}
+.server_links p .app_span{max-width:50px;align-items:center;padding:7px;margin-left:14px;display:flex;border-radius:5px;}
+.feedback_card{border-radius:10px;}
+.title{font-style:normal;font-weight:700;font-size:18px;line-height:22px;border-bottom:1px solid #000000;}
+.feedback_card .quote-center{position:absolute;left:50%;margin:auto;transform:translatex(-50%);z-index:-1;}
+.feedback_card .quote-center i{font-size:110px;color:rgba(255,146,142,0.08);}
+.technologies_slider.owl-carousel .owl-nav{top:50%;transform:translatey(-50%);width:100%;left:0;bottom:auto;}
+.technologies_slider.owl-carousel button.owl-prev,.technologies_slider.owl-carousel button.owl-next{height:35px;width:35px;position:absolute;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.7)!important;border-radius:50pX;padding-left:6px;}
+.technologies_slider.owl-carousel button.owl-prev:before, .technologies_slider.owl-carousel button.owl-next:before{-webkit-transform:rotate(-45deg);border:solid #2B3539;border-width:2px 0px 0px 2px;padding:6px;}
+.technologies_slider.owl-carousel button.owl-next{padding:0 4px 0 0;right:-20px;}
+.technologies_slider.owl-carousel button.owl-prev{left:-20px;}
+.technologies_slider.owl-carousel button.owl-next:before, .on-demand_services .owl-carousel button.owl-next:before{border-width:0 2px 2px 0;}
+.technologies_slider.owl-carousel .owl-prev:before, button.owl-next:before {content: "";}
+.server_links {justify-content: left;}
+@media(max-width : 768px){
+    .server_links {justify-content: center;}
+}
+@media(min-width : 768px){
+    .emizen_apps_devep {flex: 0 0 50%;margin-top: -10px;}
+    .Emizen_android_work {padding: 100px 0;}
+    .technologies_slider{padding:50px 105px;position: relative;} 
+    .Emizen_about_app {padding-left: 20px;}
+    .Emizen_about_app p {font-size: 16px;line-height: normal;margin-bottom: 0;padding-bottom: 0;}
+}

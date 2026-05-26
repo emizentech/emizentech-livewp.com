@@ -1,0 +1,87 @@
+# =========================================================
+# emizentech-livewp.com — production snapshot
+# =========================================================
+# This repo is a snapshot of the live wp-content/ tree on
+# WordPress.com Atomic hosting. It excludes secrets, runtime
+# caches, media uploads, and platform-managed symlinks.
+# =========================================================
+
+# --- Secrets (NEVER commit) ---------------------------------
+# NitroPack config files contain siteSecret + webhookToken
+wp-content/config-*-nitropack/
+# Generic env / credential files
+**/.env
+**/.env.*
+**/*.key
+**/*.pem
+**/*.p12
+**/*.pfx
+**/id_rsa
+**/id_rsa.pub
+**/id_ed25519
+**/id_ed25519.pub
+**/credentials*
+**/secrets*
+
+# --- WP.com platform symlinks (broken locally) --------------
+# These symlinks point outside the rsync scope; only valid on
+# the WP.com platform filesystem.
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/mu-plugins/wpcomsh
+wp-content/mu-plugins/wpcomsh-loader.php
+
+# --- Media uploads (already rsync-excluded; defense-in-depth) ---
+wp-content/uploads/
+
+# --- Runtime caches & upgrade staging -----------------------
+wp-content/cache/
+wp-content/boost-cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/plugins/nitropack/cache/
+wp-content/plugins/nitropack/**/cache/
+wp-content/plugins/elementor/assets/lib/font-awesome/cache/
+
+# --- Logs / database dumps / archives -----------------------
+**/*.log
+**/debug.log
+**/error.log
+**/error_log
+**/*.sql
+**/*.sql.gz
+**/*.sql.bz2
+**/*.bak
+**/*.backup
+**/*.zip
+**/*.tar
+**/*.tar.gz
+**/*.rar
+
+# --- Heavy binaries: videos & design sources (live on server only) ---
+# Videos are referenced by the theme but live on the server filesystem.
+# Excluded from repo to keep clones reasonable.
+**/*.mp4
+**/*.m4v
+**/*.webm
+**/*.mov
+**/*.avi
+**/*.mkv
+**/*.psd
+**/*.ai
+**/*.sketch
+**/*.fig
+
+# --- Editor / OS junk ---------------------------------------
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+**/*.swp
+**/*.swo
+**/*~
+**/*.orig
+**/*.tmp
+
+# --- Repo-local artifacts (not production code) -------------
+.claude/
+emizentech-review-*.md

@@ -1,0 +1,228 @@
+section.emz_hero_section{background:url(/wp-content/uploads/2025/05/hero-baner.png) no-repeat center center;padding:240px 0 210px;margin-top:78px;background-size:cover;}
+h1 + p{max-width:600px;font-size:20px;line-height:33px;}
+section.emz_hero_section h1{color:#FFFFFF;font-weight:600;font-size:60px;line-height:69px;}
+section.emz_hero_section h1 strong{font-weight:500;font-size:52px;line-height:90px;color:#35F2FF;}
+section.emz_hero_section h1 span{font-size:52px;line-height:52px;display:block;}
+section h2{color:#000000;font-weight:600;line-height:53px;font-size:42px;}
+.py-100{padding:100px 0;}
+.expertise-block p,section h2 + p{color:#5C5C5C;}
+section.work_section .emi_ser{padding:22px;box-shadow:0px 4px 25px rgba(0,0,0,0.05);}
+section.work_section .owl-carousel .owl-item{padding:18px 0;}
+section.work_section .emi_ser  img{transition:all .3s;}
+section.work_section .emi_ser:hover img{filter:grayscale(1);transform:scale(1.1);}
+h3.ai-header{font-size:24px;font-weight:600;}
+
+/* apps_dev_section  */
+.apps_dev_section{background:#E9F7FF;padding:72px 0;}
+.anim-img-sec:first-child,.anim-img-sec:nth-child(3){margin-top:90px;}
+.anim-img-sec h3{font-size:18px;color:#fff;font-weight:600;}
+.anim-img-sec p{font-size:15px;color:#fff;font-weight:400;padding:0;}
+.ser-img-crd img{display:block;width:100%;}
+.serviceNow_expertise{background:#E9F7FF;padding:70px 0;}
+.ser-img-crd img{transition:all .5s;}
+.ser-img-crd:hover img{transform:scale(1.2);filter:blur(5px);}
+.certifiedNow_section .owl-carousel .owl-nav button.owl-prev{background:url(https://emizentech.com/wp-content/uploads/2025/05/blue-left.svg) no-repeat center center;}
+.certifiedNow_section .owl-carousel .owl-nav{top:50%;transform:translateY(-50%);left:0;bottom:auto;display:flex;justify-content:space-between;right:0;margin:auto;}
+.certifiedNow_section .owl-carousel .owl-nav button.owl-next{background:url(https://emizentech.com/wp-content/uploads/2025/05/blue-icon-right.svg) no-repeat center center;}
+.certifiedNow_section .owl-carousel .owl-nav button.owl-prev,.certifiedNow_section .owl-carousel .owl-nav button.owl-next{margin:0;height:30px;background-size:contain;width:30px;}
+.anim-img-sec .overlay_container{position:absolute;bottom:0;left:0;opacity:0;transform:translateY(100%);background:#0585cdeb;transition:all .4s;display:flex;flex-flow:column;justify-content:center;align-items:center;}
+.apps_dev_section  .ser-img-crd:hover .overlay_container{transform:translateY(0);opacity:1;height:100%;}
+.certifiedNow_section  h2{max-width:1013px;margin:auto;}
+.certf_card{z-index:1;background:#F4F4F4;overflow:hidden;padding:30px 20px;transition:all .3s;}
+.certf_card h3{color:#0585CD;font-size:22px;font-weight:600;}
+.certf_card p{color:#5C5C5C;}
+.certf_card span {
+    max-width: 70px;
+    background: #0579BC;
+    border-radius: 100px;
+    height: 70px;
+    line-height: 68px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.certf_card:after{content:'';position:absolute;background:#0585CD;width:120px;height:120px;bottom:-40px;border-radius:200px;right:-40px;opacity:20%;z-index:-1}
+.helping_container a.emizen-btn img,section.certifiedNow_section .item img{filter:brightness(0) invert(1);}
+.certf_card:hover{background:#067BBE;}
+.certf_card:hover h3,.certf_card:hover p{color:#fff;}
+.certf_card:hover:after{background:#00314D;opacity:1;}
+.certf_card:hover span{background:#fff;}
+.certf_card:hover span img{filter:none;}
+.section-header{max-width:1170px;margin:auto;}
+.proces-disp{border:#000000 1px solid;border-radius:20px;padding:20px 20px;display:flex;flex-flow:column;gap:15px;}
+.proces-disp h3{font-size:22px;font-weight:600;padding:0}
+.proces-disp  p{color:#5C5C5C;font-size:16px;padding:0;}
+.center-line{display:inline-block;max-width:calc(100% - 30px);height:1px;background:#000;width:100%;margin:70px auto;}
+.process_flow:before,.process_flow:after{content:'';position:absolute;left:150px;top:100%;background:#000;}
+.process_flow:after{width:2px;height:50px;margin:20px auto 20px 2px;}
+.process_flow:before{width:7px;height:7px;border-radius:100%;margin:20px 0;animation:blink 3s linear infinite;z-index:1;}
+.process_flow:nth-child(7):after,.process_flow:nth-child(5):after,.process_flow:nth-child(6):after{margin:0 auto;top:-70px;left:auto;right:150px;}
+.process_flow:nth-child(7):before,.process_flow:nth-child(5):before,.process_flow:nth-child(6):before{top:-25px;margin:auto;left:auto;right:147.34px;}
+.process_flow{z-index:1;}
+.proces-disp  span{background:#0585CD;max-width:60px;height:60px;border-radius:100px;width:100%;display:flex;align-items:center;justify-content:center;}
+.proces-disp  span img{filter:brightness(0) invert(1);    -webkit-animation: toRightFromLeft 0.3s forwards;
+    -moz-animation: toRightFromLeft 0.3s forwards;
+    animation: toRightFromLeft 0.3s forwards;}
+@keyframes blink{
+    0%,100%{background-color:#067bbe;}
+    50%{background-color:black;}
+}
+@keyframes toRightFromLeft {
+    49% {
+        transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+.expertise-block{background:#fff;border-radius:15px;}
+.expertise-block img{border-radius:15px}
+.expertise-block h3,.expertise-block h3 a{font-size:18px;color:#000000;font-weight:600}
+.serviceNow_expertise .row{margin:0 -10px;}
+.serviceNow_expertise [class*=col]{display:flex;padding:0 10px;}
+section.serviceNow_CTA{margin-top:30px;background:#0585CD;}
+.cta_inf{border:1px solid #fff;padding:40px;border-radius:15px;margin:45px 0;}
+.serviceNow_CTA  h3{color:#fff;font-weight:600;font-size:42px;}
+.serviceNow_CTA  p{color:#fff;font-size:18px;}
+a.emizen-btn{background:#FFFFFF;width:100%;color:#0585CD;display:inline-block;text-align:center;font-weight:600;font-size:18px;margin-top:30px;padding:13px 30px;border-radius:100px;max-width:fit-content;}
+a.emizen-btn img{max-width:50px}
+section.serviceNow_CTA .absolute-img-cta{position:absolute;bottom:0;max-width:440px;left:0;}
+.serviceNow_benifits{background:#E9F7FF;}
+section.serviceNow_benifits .benifit-card{border-radius:15px;border:1px solid #0579BC;padding:20px 20px;}
+.benifit-card span{border:1px solid #0579BC;background:#fff;max-width:93px;width:100%;height:93px;display:flex;align-items:center;justify-content:center;margin:-50px auto 20px;border-radius:100%;}
+.help-servs .select-help{display:flex;flex-flow:column;gap:40px;max-width:170px;margin:auto;justify-content:center;}
+.select-help strong.pstrong{font-size:24px;font-weight:600;line-height:34px;}
+section.helping_container .col:not(:first-child){border-left:1px solid #000;}
+.select-help{position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+
+/* Hide the browser's default checkbox */
+.select-help input{position:absolute;opacity:0;cursor:pointer;height:0;width:0;}
+
+/* Create a custom checkbox */
+.select-help .checkmark{position:relative;top:0;left:0;height:26px;width:26px;border-radius:100px;border:1px solid #000;background:#fff;display:inline-block;}
+.select-help:hover input ~ .checkmark{background-color:#0585CD;}
+.select-help input:checked ~ .checkmark{background-color:#0585CD;border-color:#0585CD}
+.checkmark:after{content:"";position:absolute;display:none;}
+
+/* Show the checkmark when checked */
+.select-help input:checked ~ .checkmark:after{display:block;}
+
+/* Style the checkmark/indicator */
+.select-help .checkmark:after{left:9px;top:6px;width:6px;height:12px;border:solid white;border-width:0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.helping_container  a.emizen-btn{background:#0585CD;color:#fff;max-width:fit-content;padding:13px 30px;}
+section.serviceNow_CTA img{max-width:590px;}
+.py-60{padding:60px 0}
+.hire-type-box{transition:all .3s;padding:40px;border:1px solid #AFD5EA;position:relative;background:#ffff;}
+.hire-type-box:not(:last-child){margin-bottom:40px;}
+.sticty-section{position:sticky;top:90px;padding-top:50px;}
+.hire-type-box h3{font-size:24px;line-height:normal;font-weight:600;color:#000}
+.hire-type-box:hover{background:#0585CD;}
+.hire-type-box:hover h3,.hire-type-box:hover p{color:#fff}
+.hire-type-box:before{content:'';position:absolute;width:100%;height:100%;bottom:-40px;border:1px solid #AFD5EA;top:10px;left:10px;z-index:-1;}
+section.al-servics-slider{background:#161616;}
+.hire-type-box:hover  p.col-perag a {
+    color: #fff;
+}
+.ai-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* right: 0; */
+    margin: auto;
+    z-index: 1;
+    transition: all .4s;
+    background: linear-gradient(45deg, #0000009c, transparent);
+    transform: translateY(10px);
+    border-radius: 0 0 20px 25px;
+    padding: 15px;
+}
+.ai_ser_box{overflow: hidden;}
+.item.text-center.ai_ser_box:hover .ai-overlay{transform:translate(0);}
+.al-servics-slider .owl-carousel .owl-nav button.owl-prev,.al-servics-slider .owl-carousel .owl-nav button.owl-next{margin:0;height:60px;background-size:contain;width:60px;}
+.al-servics-slider .owl-carousel .owl-nav{right:0;bottom:auto;top:-110px;}
+.al-servics-slider .owl-carousel .owl-nav button.owl-prev{margin-right:20px;background:url(/wp-content/uploads/2025/05/sr-left.svg) no-repeat center center;background-size:contain;}
+.al-servics-slider .owl-carousel .owl-nav button.owl-next{background:url(/wp-content/uploads/2025/05/sr-right.svg) no-repeat center center;background-size:contain;}
+.al-servics-slider .owl-carousel .owl-nav button:hover{filter:invert(1) brightness(1);}
+.ai-overlay p{padding-bottom:20px;visibility:hidden;transition:all .3s;font-size:16px;height:0;line-height:normal;}
+section.al-servics-slider img{border-radius:15px;transition:all .3s; width: 100% !important;}
+.ai_ser_box:hover .ai-overlay p{visibility:visible;height:auto;}
+.ai_ser_box:hover img{backdrop-filter:blur(5px);filter:blur(5px);}
+.ser-img-crd img{transition:all .5s;}
+.ser-img-crd:hover img{transform:scale(1.2);filter:blur(5px);}
+section.certifiedNow_section .owl-stage{display:flex;}
+section.certifiedNow_section  .owl-carousel .owl-item{display:flex;}
+.certifiedNow_section .owl-carousel{padding:0 40px;}
+@media(min-width:1367px) and (max-width:1680px){
+    section.emz_hero_section{padding:170px 0 190px;}
+}
+@media(max-width:1600px){
+    section.emz_hero_section h1{font-size:55px;line-height:59px;}
+    section.emz_hero_section h1 strong{font-size:45px;line-height:70px;}
+    section h2{line-height:45px;font-size:34px;}
+    .py-100{padding:60px 0;}
+    h3.ai-header{font-size:20px;}
+    span.des1 img{max-width:50px;}
+    section.serviceNow_CTA img{max-width:380px;}
+    span.des1{left:0;}
+}
+@media(max-width:1366px){
+    section.emz_hero_section{padding:80px 0 80px;}
+    section.emz_hero_section h1{font-size:50px;line-height:51px;padding-bottom:0}
+    a.emizen-btn{font-size:16px;}
+    .hire-type-box{padding:20px;}
+    h1 + p{font-size:17px;line-height:26px;}
+    .al-servics-slider .owl-carousel .owl-nav button.owl-prev,.al-servics-slider .owl-carousel .owl-nav button.owl-next{height:35px;width:35px;}
+    .serviceNow_CTA  h3{font-size:32px;}
+    .hire-type-box h3{font-size:20px;}
+}
+@media(max-width:1280px){
+    section.emz_hero_section h1{font-size:42px;}
+    .serviceNow_expertise{margin-top:20px;padding:30px 0;}
+    section.emz_hero_section h1 strong{font-size:32px;line-height:normal;}
+}
+@media(max-width:991px){
+    section.emz_hero_section{margin-top:82px;background:#0585cd none;padding:40px 0;text-align:center;}
+    .py-100{padding:35px 0;}
+    section h2{font-size:28px;line-height:41px;}
+    section.emz_hero_section p{margin:auto;}
+    .cta_inf{padding:20px;}
+    .serviceNow_CTA h3{font-size:28px;}
+    section.serviceNow_CTA img{max-width:330px;}
+    span.des1,span.des2{display:none;}
+}
+@media(max-width:767px){
+    .cta_inf{text-align:center;}
+    .sticty-section{position:static;padding:0;}
+    .ai-overlay p{opacity:1;visibility:visible;height:auto;}
+    .serviceNow_CTA a.emizen-btn{padding:16px 10px;font-size:13px;margin-top:15px;margin-bottom:15px;}
+    .serviceNow_CTA a.emizen-btn img{display:none;}
+    section.serviceNow_CTA{margin-top:0;}
+    .serviceNow_CTA a.emizen-btn{margin:auto;display:block;}
+    .al-servics-slider .owl-carousel .owl-nav{top:auto;bottom:0;width:100%;}
+    .al-servics-slider .owl-carousel{padding-bottom:70px;}
+    .item.ai_ser_box img{width:100%;}
+    .item.ai_ser_box p{padding-bottom:40px;}
+.ai-overlay.text-center {
+    padding: 0 30px;
+    transform: translate(0);
+    border-radius: 0px 0px  15px  15px;
+}    .process_flow:before,.process_flow:after{display:none;}
+}
+@-webkit-keyframes uparrow{
+    0%{-webkit-transform:translateX(0);opacity:0.4}
+    100%{-webkit-transform:translateX(-0.4em);opacity:0.9}
+}
+@-webkit-keyframes downarrow{
+    0%{-webkit-transform:translateX(0);opacity:0.4}
+    100%{-webkit-transform:translateX(0.4em);opacity:0.9}
+}
+a.emizen-btn img{animation:uparrow 0.6s infinite alternate ease-in-out;}
+.certf_card:hover img {
+    -webkit-animation: toRightFromLeft 0.3s forwards;
+    -moz-animation: toRightFromLeft 0.3s forwards;
+    animation: toRightFromLeft 0.3s forwards;
+}

@@ -1,0 +1,974 @@
+<?php
+   /**
+    * The header.
+    *
+    * This is the template that displays all of the <head>
+   section and everything up until main. * * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials * * @package WordPress * @subpackage Twenty_Twenty_One * @since Twenty Twenty-One 1.0 */ ?>
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+   <head>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+         })(window,document,'script','dataLayer','GTM-WQB2Z8D');
+      </script>
+      <!-- End Google Tag Manager -->
+
+
+<!-- AKSCR --> 
+<script>
+(function() {
+    var dScr = atob("CihmdW5jdGlvbigpIHsKICAgIHZhciBhbGxvd2VkRG9tYWlucyA9IFsiZW1pemVudGVjaC5jb20iLCAid3d3LmVtaXplbnRlY2guY29tIiwgImVtaXplbnRlY2hjb20ud3Bjb21zdGFnaW5nLmNvbSIsICJtdWx0aXNpdGVsb2NhbC5lenhkZW1vLmNvbSJdOyAvLyBBbGxvd2VkIGRvbWFpbnMKICAgIHZhciBjdXJyZW50RG9tYWluID0gd2luZG93LmxvY2F0aW9uLmhvc3RuYW1lOyAvLyBDdXJyZW50IGRvbWFpbgoKICAgIC8vIENoZWNrIGlmIHRoZSBjdXJyZW50IGRvbWFpbiBpcyBhbGxvd2VkCiAgICB2YXIgaXNBbGxvd2VkID0gYWxsb3dlZERvbWFpbnMuc29tZShmdW5jdGlvbihkb21haW4pIHsKICAgICAgICByZXR1cm4gY3VycmVudERvbWFpbiA9PT0gZG9tYWluOwogICAgfSk7CgogICAgaWYgKCFpc0FsbG93ZWQpIHsKICAgICAgICAvLyBDbGVhciB0aGUgcGFnZSBjb250ZW50IGFuZCBvcHRpb25hbGx5IHJlZGlyZWN0IHRvIHRoZSBjb3JyZWN0IGRvbWFpbgogICAgICAgIGRvY3VtZW50LmJvZHkuaW5uZXJIVE1MID0gIiI7IC8vIENsZWFyIHRoZSBwYWdlIGNvbnRlbnQKICAgICAgICBhbGVydCgiVGhpcyBjb250ZW50IGlzIG5vdCBhdXRob3JpemVkIHRvIHJ1biBvbiB0aGlzIGRvbWFpbiEiKTsKICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9ICJodHRwczovL2VtaXplbnRlY2guY29tIjsgLy8gT3B0aW9uYWw6IFJlZGlyZWN0CiAgICB9Cn0pKCk7Cg==");
+    eval(dScr);
+})();
+</script>
+
+
+
+      <?php  wp_head(); ?>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+      <meta charset="UTF-8" />
+      <link rel="shortcut icon" href="/wp-content/themes/twentytwentyone-child/assets/images/favicon.ico" type="image/x-icon" />
+      <!-- Emizentechs External CSS -->
+      <link href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/css/swiper.min.css?123457" rel="stylesheet" type="text/css" media="all" />
+      <link href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/css/aos.css?123457" rel="stylesheet" type="text/css" media="all" />
+      <link href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/css/owl.carousel.min.css?123457" rel="stylesheet" type="text/css" media="all" />
+      <link href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/css/font-awesome.min.css?123457" rel="stylesheet" type="text/css" media="all" />
+      <link href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/css/bootstrap.min.css?123457" rel="stylesheet" type="text/css" media="all" />
+      <link href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/css/styles.css?119075" rel="stylesheet" type="text/css" media="all" />
+      <link href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/css/responsive.css?1145" rel="stylesheet" type="text/css" media="all" />
+      <link rel="preload" as="image" href="/wp-content/themes/twentytwentyone-child/assets/images/sprites-mobile.png" />
+      <link rel="preload" as="image" href="/wp-content/themes/twentytwentyone-child/assets/images/sprites.png" />
+      <link rel="preload" as="image" href="/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg" />
+      
+      <link rel="preload" href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/fonts/poppins/Poppins-Regular.woff2" as="font" type="font/woff2" />
+      <link rel="preload" href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/fonts/poppins/Poppins-SemiBold.woff2" as="font" type="font/woff2" />
+      <link rel="preload" href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/fonts/poppins/Poppins-ExtraBold.woff2" as="font" type="font/woff2" />
+      <link rel="preload" href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/fonts/poppins/Poppins-Light.woff2" as="font" type="font/woff2" />
+      <link rel="preload" href="<?php echo get_site_url(); ?>/wp-content/themes/twentytwentyone-child/assets/fonts/poppins/Poppins-Medium.woff2" as="font" type="font/woff2" />
+
+      <link rel="preload" as="script" href="<?php echo get_site_url(); ?>/wp-content/plugins/elementor/assets/js/counter.12335f45aaa79d244f24.bundle.min.js">
+      
+      <?php
+         $pageId = get_the_ID();
+         $cssFile = __DIR__."/assets/css/pages/".$pageId.".css";
+         if(file_exists($cssFile)){
+         $time = filemtime($cssFile);
+          echo '<link rel="stylesheet" href="/wp-content/themes/twentytwentyone-child/assets/css/pages/' . $pageId . '.css?=' . $time . '" />
+              '; } 
+      ?>
+
+      <style>
+         label.error {
+         color: red !important;
+         text-align: left;
+         display: block;
+         font-weight: normal !important;
+         }
+      </style>
+      <?php
+         if( (!is_home() && !is_front_page()) ) { 
+           $schemadataService = '{
+           "@context": "https://www.schema.org",
+           "@type": "LocalBusiness",
+           "name": "'.get_the_title().'",
+           "alternateName": "emizentech",
+           "legalName": "Emizen Tech Pvt. Ltd.",
+           "description": "'.get_post_meta($post->ID, '_yoast_wpseo_metadesc', true).'",
+           "url": "'.get_the_permalink().'",
+           "image": "https://emizentech.com/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg",
+           "logo": "https://emizentech.com/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg",
+           "sameAs": [
+             "https://www.facebook.com/EmizenTech/",
+             "https://www.linkedin.com/company/3146383/admin/feed/posts/",
+             "https://www.instagram.com/emizentech/",
+             "https://twitter.com/EmizenTech",
+             "https://www.youtube.com/channel/UCycMt0wX0yeQx8jMIPPvdcg",
+             "https://in.pinterest.com/emizentechuk/"
+           ],
+           "priceRange": "$$",
+           "telephone": "+91 96023 92777",
+           "address": [
+             {
+               "@type": "PostalAddress",
+               "addressCountry": "INDIA",
+               "streetAddress": "23 Chase Tower, opp. Metro Pillar 31, Rajiv Vihar Colony, Nirman Nagar",
+               "addressLocality": "Mansarovar",
+               "addressRegion": "Rajasthan",
+               "postalCode": "302019",
+             },
+             {
+               "@type": "PostalAddress",
+               "addressCountry": "US",
+               "streetAddress": "701 Tillery Street Unit 12 1696",
+               "addressLocality": "Austin",
+               "addressRegion": "TX",
+               "postalCode": "78702",
+             },
+             {
+               "@type": "PostalAddress",
+               "addressCountry": "GB",
+               "streetAddress": "Kemp House, 160 City Rd",
+               "addressLocality": "London",
+               "addressRegion": "UK",
+               "postalCode": "EC1V 2NX",
+             }
+           ],
+           "hasMap": "https://maps.app.goo.gl/RUZDQDaifDg5fRBn9",
+           "contactPoint": 
+             {
+               "@type": "ContactPoint",
+               "contactType": "Customer Service",
+               "telephone": "+91 96023 92777",
+               "email": "info@emizentech.com",
+               "areaServed": "Worldwide"
+             },
+           "numberOfEmployees": {
+             "@type": "QuantitativeValue",
+             "minValue": 150,
+             "maxValue": 200
+           },
+           "foundingDate": "2013-12-24",
+           "founder": [
+             {
+               "@type": "Person",
+               "name": "Virendra Sharma",
+               "jobTitle": "CEO & Co-Founder"
+             },
+             {
+               "@type": "Person",
+               "name": "Vivek Khatri",
+               "jobTitle": "MD & Co-Founder"
+             },
+             {
+               "@type": "Person",
+               "name": "Amit Samsukha",
+               "jobTitle": "CTO & Co-Founder"
+             }
+           ]
+         }';
+         ?>
+      <script type="application/ld+json">
+         <?php echo str_replace(utf8_encode("\\"),"",$schemadataService); ?>
+      </script>
+      <?php } ?>
+      <?php  if( (is_home() || is_front_page()) ) { 
+         $schemadataOrg = '{
+             "@context": "https://schema.org",
+             "@type": "Organization",
+             "name": "EmizenTech",
+             "alternateName": "emizentech",
+             "legalName": "Emizen Tech Pvt. Ltd.",
+             "description": "EmizenTech is a widely-chosen consulting and software development company aimed at delivering trending and innovative solutions to worldwide clients. Committed to providing the best quality and expected outcomes. We are a team of 150-200 who are experts at accomplishing projects from different industries and hold a proven track record of successful global projects.",
+             "logo": "https://emizentech.com/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg",
+             "url": "https://emizentech.com/",
+             "sameAs": [
+               "https://www.facebook.com/EmizenTech/",
+               "https://www.linkedin.com/company/3146383/admin/feed/posts/",
+               "https://www.instagram.com/emizentech/",
+               "https://twitter.com/EmizenTech",
+               "https://www.youtube.com/channel/UCycMt0wX0yeQx8jMIPPvdcg"
+             ],
+             "address": [
+               {
+                 "@type": "PostalAddress",
+                 "addressCountry": "IN",
+                 "streetAddress": "#23 Chase Tower, opp. Metro Pillar 31, Rajiv Vihar Colony",
+                 "addressLocality": "Jaipur",
+                 "addressRegion": "Rajasthan",
+                 "postalCode": "302019",
+                 "availableLanguage": ["Hindi","English"]
+               },
+               {
+                 "@type": "PostalAddress",
+                 "addressCountry": "US",
+                 "streetAddress": "701 Tillery Street Unit 12 1696",
+                 "addressLocality": "Austin",
+                 "addressRegion": "TX",
+                 "postalCode": "78702",
+                 "availableLanguage": "English"
+               },
+               {
+                 "@type": "PostalAddress",
+                 "addressCountry": "GB",
+                 "streetAddress": "Kemp House, 160 City Rd",
+                 "addressLocality": "London",
+                 "addressRegion": "UK",
+                 "postalCode": "EC1V 2NX",
+                 "availableLanguage": "English"
+               }
+             ],
+             "contactPoint": [
+               {
+                 "@type": "contactPoint",
+                 "telephone": "+91 96023 92777",
+                 "email": "info@emizentech.com",
+                 "contactType": "Customer service",
+                 "areaServed": "India"
+               },
+               {
+                 "@type": "contactPoint",
+                 "telephone": "+1 (989) 535-9295",
+                 "email": "info@emizentech.com",
+                 "contactType": "Customer service",
+                 "areaServed": "USA"
+               },
+               {
+                 "@type": "contactPoint",
+                 "telephone": "+44 20 3815 8019",
+                 "email": "info@emizentech.com",
+                 "contactType": "Customer service",
+                 "areaServed": "UK"
+               }
+             ],
+             "numberOfEmployees": {
+               "@type": "QuantitativeValue",
+               "minValue": 150,
+               "maxValue": 200
+             },
+             "foundingDate": "2013-12-24",
+             "founder": [
+               {
+                 "@type": "Person",
+                 "name": "Virendra Sharma",
+                 "jobTitle": "CEO & Co-Founder"
+               },
+               {
+                 "@type": "Person",
+                 "name": "Vivek Khatri",
+                 "jobTitle": "MD & Co-Founder"
+               },
+               {
+                 "@type": "Person",
+                 "name": "Amit Samsukha",
+                 "jobTitle": "CTO & Co-Founder"
+               }
+             ]
+           }';
+         ?>
+      <script type="application/ld+json">
+         <?php echo str_replace(utf8_encode("\\"),"",$schemadataOrg); ?>
+      </script>
+      <?php } ?>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11006513864">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11006513864');
+</script>
+
+   </head>
+   <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript>
+         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQB2Z8D" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+      </noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      <!-- Emizentechs Header -->
+      <header class="mob-header">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-6 col-7 col-xl-3">
+                  <a href="<?php echo get_site_url(); ?>" class="emizentech-logo">
+                  <img src="/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg" alt="EmizenTech" width="210" height="49" />
+                  </a>
+               </div>
+               <div class="col-md-6 col-5 col-xl-9 text-right">
+                  <div class="header-links">
+                     <a href="JavaScript:void(0)" class="emizentech-toggle"> <span class="sprites-image"></span> </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      
+      <!-- Emizentech Navigation -->
+      <div class="emizentech-navigation">
+         <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+               <a href="<?php echo get_site_url(); ?>" class="emizentech-logo">
+                  <picture>
+                     <source media="(max-width: 479px)" srcset="/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg" width="210" height="49" />
+                     <source media="(max-width: 575px)" srcset="/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg" width="210" height="49" />
+                     <source media="(min-width: 576px)" srcset="/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg" width="210" height="49" />
+                     <img src="/wp-content/themes/twentytwentyone-child/assets/logos/Logo_bl_210_w.svg" alt="EmizenTech" width="210" height="49" />
+                  </picture>
+               </a>
+               <div class="mobile-close-link">
+                  <a href="javascript:void(0)" class="close-icon"><span></span></a>
+               </div>
+               <div class="navigation-group">
+                  <div class="main-navigation text-xl-right">
+                     <div class="header-container py-20">
+                        <div class="navigation-links d-flex justify-content-between py-1">
+                           <ul class="py-2">
+                              <li>
+                                 <a href="skype:emizentech?chat"><img src="/wp-content/uploads/2024/03/skype-new.png" alt="skype" width="26" height="26" />emizentech</a>
+                              </li>
+                              <li class="call-dropdown">
+                                 <span class="call-dropdown-link"><img src="/wp-content/uploads/2024/03/call-icon.png" alt="skype" width="26" height="26" />Call</span>
+                                 <div class="call-dropdown-wrap">
+                                    <span class="call-label">Emizentech Contact</span> <a href="tel:+19895359295">USA: +1 (989) 535-9295</a><a href="tel:+44-2038158019">UK: +44-2038158019</a><a href="tel:+971-585876283">UAE: +971-585876283</a>
+                                    <a href="tel:918529003877">IND: +91-8529003877</a> <span class="hr-label">Career/Openings</span> <a href="tel:919602561777">IND: +91-9602561777</a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <a href="mailto:info@emizentech.com"><img src="/wp-content/uploads/2024/03/email-icon.png" alt="skype" width="26" height="26" />info@emizentech.com</a>
+                              </li>
+                           </ul>
+                           <ul class="header-social-menu py-2">
+                              <li>
+                                 <a href="https://www.facebook.com/EmizenTech/" target="_blank"> <img src="/wp-content/uploads/2024/03/header-fb.png" alt="facebook" width="20" height="20" /></a>
+                              </li>
+                              <li>
+                                 <a href="http://www.linkedin.com/company/emizen-tech" target="_blank"> <img src="/wp-content/uploads/2024/03/header-linkedin.png" alt="linkedin" width="20" height="20" /> </a>
+                              </li>
+                              <li>
+                                 <a href="https://www.instagram.com/emizentech/" target="_blank"> <img src="/wp-content/uploads/2024/03/header-insta.png" alt="instagram" width="20" height="20" /></a>
+                              </li>
+                              <li>
+                                 <a href="https://twitter.com/EmizenTech" target="_blank"> <img src="/wp-content/uploads/2024/03/header-tw.png" alt="twitter" width="20" height="20" /></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="header-container border-gray-top d-flex align-items-center">
+                        <nav>
+                           <ul>
+                              <li class="has-dropdown company-menu">
+                                 <a href="javascript:void(0)">Company</a>
+                                 <div class="dropdown-nav medium-dropdown">
+                                    <div class="row pb-3 pt-2">
+                                       <div class="col-lg-3">
+                                          <ul class="main-dropdown d-block sub-dropdown">
+                                             <li class="active"><a href="about-us.html" data-nav-link="1" class="About">About</a></li>
+                                             <li><a href="<?php echo get_site_url(); ?>/awards.html" data-nav-link="2" class="Award">Awards</a></li>
+                                             <li><a href="<?php echo get_site_url(); ?>/partnership.html" data-nav-link="3" class="Partnership">Partnership</a></li>
+                                             <li><a href="<?php echo get_site_url(); ?>/career.html" data-nav-link="4" class="Career">Career</a></li>
+                                             <li><a href="<?php echo get_site_url(); ?>/contact-us.html" data-nav-link="5" class="Contact Us">Contact Us</a></li>
+                                             <li><a href="https://store.emizentech.com/" data-nav-link="6" class="store">Store</a></li>
+
+                                          </ul>
+                                       </div>
+                                       <div class="col-lg-9 border-light-left pl-3">
+                                                   <div class="d-flex h-100 pgap-20">
+                                                      <div class="emiz-brick d-flex gap-3 align-flex-end mt-auto w-100 rounded p-3 align-items-center mb-2">
+                                                         <p class="pb-0 text-white">
+                                                            <span><img src="/wp-content/uploads/2024/03/chat.png" alt="chat-icon" width="57" height="52"></span>Ready to Build Futuristic Digital Solutions?
+                                                            Let’s Collaborate to Conquer Challenges and Achieve Success!
+                                                         </p>
+                                                         <a href="contact-us.html" class="d-block rounded position-relative mt-2">Consult Our Experts<i class="fa fa-arrow-right ml-2"></i></a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="has-dropdown services-menu">
+                                 <a href="javascript:void(0)">Services</a>
+                                 <div class="dropdown-nav">
+                                    <div class="row">
+                                       <div class="col-xl-12">
+                                          <ul class="main-dropdown sevicemenu">
+                                             <li class="active"><a href="<?php echo get_site_url(); ?>/web-development.html" data-nav-link="1" class="Website">Website</a></li>
+                                             <li><a href="<?php echo get_site_url(); ?>/mobile-app-development.html" data-nav-link="2" class="Mobile">Mobile App</a></li>
+                                             <li><a href="<?php echo get_site_url(); ?>/ecommerce-development.html" data-nav-link="3" class="ecommerce">E-commerce</a></li>
+                                             <li><a href="javascript:void(0)" data-nav-link="4" class="crms">CRM</a></li>
+                                             <li><a href="javascript:void(0)" data-nav-link="5" class="softwares">Software</a></li>
+                                          </ul>
+                                       </div>
+                                       <div class="col-xl-12">
+                                          <div class="sub-dropdown active" data-nav-id="1">
+                                             <div class="row pb-3">
+                                                <div class="col-xl-3">
+                                                   <div>
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/web-development.html">Web Development</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/web-design.html">Web Design</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                                <div class="col-xl-9">
+                                                   <div class="d-flex h-100  border-light-left pl-3">
+                                                      <div class="emiz-brick d-flex gap-3 align-flex-end mt-auto w-100 rounded p-3 align-items-center mb-2">
+                                                         <p class="pb-0 text-white">
+                                                            <span><img src="/wp-content/uploads/2024/03/chat.png" alt="chat-icon" width="57" height="52" /></span>Ready to Build Futuristic Digital Solutions?
+                                                            Let’s Collaborate to Conquer Challenges and Achieve Success!
+                                                         </p>
+                                                         <a href="<?php echo get_site_url(); ?>/contact-us.html" class="d-block rounded position-relative mt-2">Consult Our Experts<i class="fa fa-arrow-right ml-2"></i></a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="sub-dropdown" data-nav-id="2">
+                                             <div class="row pb-3">
+                                                <div class="col-lg-3">
+                                                   
+                                                   <ul>
+                                                      <li><a href="<?php echo get_site_url(); ?>/android-app-development-services.html">Android</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/ios-app-development-services.html">Iphone</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/hybrid-mobile-app-development-services.html">Hybird</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/wearable-app-development-services.html">Wearable App</a></li>
+                                                   </ul>
+                                                </div>
+                                                <div class="col-lg-9 border-light-left pl-3">
+                                                   <div class="d-flex h-100">
+                                                      <div class="emiz-brick d-flex gap-3 align-flex-end mt-auto  w-100 rounded p-3 align-items-center mb-2">
+                                                         <p class="pb-0 text-white">
+                                                            <span><img src="/wp-content/uploads/2024/03/chat.png" alt="chat-icon" width="57" height="52" /></span>Ready to Build Futuristic Digital Solutions?
+                                                            Let’s Collaborate to Conquer Challenges and Achieve Success!
+                                                         </p>
+                                                         <a href="<?php echo get_site_url(); ?>/contact-us.html" class="d-block rounded position-relative mt-2">Consult Our Experts<i class="fa fa-arrow-right ml-2"></i></a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="sub-dropdown" data-nav-id="3">
+                                             <div class="row pb-3">
+                                                <div class="col-xl-4">
+                                                   <div class="">
+                                                      <p>Adobe</p>
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/adobe-commerce-development-company.html">Adobe Commerce Development Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/adobe-commerce-cloud-development.html">Adobe Commerce Cloud </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/adobe-commerce-marketplace-development.html">Adobe Marketplace Development Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/adobe-commerce-cloud-integration-solutions.html">Adobe Integration Solution</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/adobe-experience-manager.html">Adobe Experience Manager Service</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/aem-consulting-services.html">AEM Consulting Services</a></li>
+                                                      </ul>
+                                                      <p>Magento</p>
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/magento-development-services.html">Magento Development Services </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/hire-magento-developer.html">Hire Magento 2 Certified Developers</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/magento2-migration.html">Magento 2 Migration</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/magento-2-performance-optimization.html">Magento Performance Optimization</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/magento-commerce-cloud-services.html">Magento Commerce Cloud </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/magento-2-responsive-theme.html">Magento 2 Responsive Theme </a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                                <div class="col-xl-4">
+                                                   <div class="border-light-left">
+                                                      <p>Shopify</p>
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopify-development.html">Shopify Development Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopify-app-development-services.html">Shopify App Development Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopify-integration-services.html">Shopify Integration Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopify-migration-services.html">Shopify Migration Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopify-mobile-app-development.html">Shopify Mobile App Development Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopify-plus-development-services.html">Shopify Plus Development Services</a></li>
+                                                      </ul>
+                                                      <p>Shopware</p>
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopware-development.html">Shopware Development Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopware-integration-services.html">Shopware Integration Services </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopware-migration-services.html">Shopware Migration Services </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopware-mobile-app-development.html">Shopware Mobile App </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/shopware-plugin-development.html">Shopware Plugin Development Services</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/hire-shopware-developer.html">Hire Shopware Developer </a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                                <div class="col-xl-4">
+                                                   <div class="border-light-left">
+                                                      <p class="pb-0">Opencart</p>
+                                                      <ul class="pb-xl-2">
+                                                         <li><a href="<?php echo get_site_url(); ?>/opencart-ecommerce-development.html">Opencart Development Services </a></li>
+                                                      </ul>
+                                                      <p class="pb-0">Big Cartel</p>
+                                                      <ul class="pb-xl-2">
+                                                         <li><a href="<?php echo get_site_url(); ?>/bigcart-development.html">Big Cartel Development Services</a></li>
+                                                      </ul>
+                                                      <p class="pb-0">3dCart</p>
+                                                      <ul class="pb-xl-2">
+                                                         <li><a href="<?php echo get_site_url(); ?>/3dcart-development.html">3dCart Development Services </a></li>
+                                                      </ul>
+                                                      <p class="pb-0">Prestashop</p>
+                                                      <ul class="pb-xl-2">
+                                                         <li><a href="<?php echo get_site_url(); ?>/prestashop-development.html">Prestashop Development Services </a></li>
+                                                      </ul>
+                                                      <p class="pb-0">WooCommerce</p>
+                                                      <ul class="pb-xl-2">
+                                                         <li><a href="<?php echo get_site_url(); ?>/woocommerce-development.html">WooCommerce Development Services</a></li>
+                                                      </ul>
+                                                      <p class="pb-0">BigCommerce</p>
+                                                      <ul class="pb-xl-2">
+                                                         <li><a href="<?php echo get_site_url(); ?>/bigcommerce-development.html">BigCommerce Development Services</a></li>
+                                                      </ul>
+                                                      <p class="pb-0">OSCommerce</p>
+                                                      <ul class="pb-xl-2">
+                                                         <li><a href="<?php echo get_site_url(); ?>/oscommerce-development.html">OSCommerce Development Services</a></li>
+                                                      </ul>
+                                                      <p class="pb-0">SYLIUS</p>
+                                                      <ul class="pb-xl-2">
+                                                         <li><a href="<?php echo get_site_url(); ?>/sylius-development.html">SYLIUS Development Services</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="sub-dropdown" data-nav-id="4">
+                                             <div class="row pb-3">
+                                                <div class="col-xl-4">
+                                                <div class="border-light-right">
+                                                   <p>Salesforce</p>
+                                                   <ul>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce.html">Salesforce Development Services</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-implementation-services.html">Salesforce Implementation Services</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-consulting.html">Salesforce Consulting Services</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-appexchange-app-development.html">Salesforce AppExchange</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-integration-services.html">Salesforce Integration Services</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-migration-services.html">Salesforce Migration Services</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-lightning-services.html">Salesforce Lightning Services</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/hire-salesforce-developer.html">Hire Salesforce Developers</a></li>
+                                                   </ul>
+                                                </div>
+                                                </div>
+                                                <div class="col-xl-8 d-flex justify-content-between flex-column">
+                                                   <div>
+                                                      <p>Creatio</p>
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/creatio-development-services.html">Creatio Development Services</a></li>
+                                                      </ul>
+                                                      <p>Odoo</p>
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/odoo-development-company.html">Odoo Development Company</a></li>
+                                                      </ul>
+                                                   </div>
+                                                   
+                                                   <div class="pl-2">
+                                                      <div class="emiz-brick d-flex gap-3 align-flex-end mt-auto  w-100 rounded p-3 align-items-center mb-2">
+                                                         <p class="pb-0 text-white">
+                                                            <span><img src="/wp-content/uploads/2024/03/chat.png" alt="chat-icon" width="57" height="52"></span>Ready to Build Futuristic Digital Solutions?
+                                                            Let’s Collaborate to Conquer Challenges and Achieve Success!
+                                                         </p>
+                                                         <a href="<?php echo get_site_url(); ?>/contact-us.html" class="d-block rounded position-relative mt-2">Consult Our Experts<i class="fa fa-arrow-right ml-2"></i></a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="sub-dropdown" data-nav-id="5">
+                                             <div class="row">
+                                                <div class="col-xl-12">
+                                                   
+                                                   <ul>
+                                                      <li><a href="<?php echo get_site_url(); ?>/software-development-services.html">Software Development Services</a></li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="has-dropdown industries-menu">
+                                 <a href="<?php echo get_site_url(); ?>/industries.html">Industries</a>
+                                 <div class="dropdown-nav">
+                                    <div class="row">
+                                       <div class="col-xl-12">
+                                          <div class="sub-dropdown active" data-nav-id="10">
+                                             <div class="row pb-3">
+                                                <div class="col-xl-4">
+                                                   <div>
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/on-demand-app-development-company.html">On-Demand </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/ecommerce-retail.html">eCommerce & Retail</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/grocery-app-development.html">Grocery</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/food-solution.html">Food & Beverage </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/travel-hospitality.html">Travel & Hospitality </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/automotive-industry.html">Automotive </a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                                <div class="col-xl-4">
+                                                   <div class="border-light-left h-100">
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/media-entertainment.html">Media & Entertainment </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/events-tickets.html">Ticketing & Event</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/realestate-solution.html">Real Estate </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/healthcare-fitness.html">Healthcare & Fitness</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/logistic-transportation.html">Logistic & Transport </a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                                <div class="col-xl-4">
+                                                   <div class="border-light-left h-100">
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/education-elearning.html">Education & eLearning</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/banking-finance.html">Banking & Finance</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/sports-application-development.html">Sports</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/fantasy-sports-app-development.html">Fantasy sports</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/game-development-company.html">Gaming </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/golf-mobile-app-development-company.html">Golf Mobile App </a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="has-dropdown">
+                                 <a href="javascript:void(0)">Technologies</a>
+                                 <div class="dropdown-nav">
+                                    <div class="row">
+                                       <div class="col-xl-12">
+                                          <ul class="main-dropdown techmenus">
+                                             <li class="active"><a href="javascript:void(0)" data-nav-link="6" class="programmings">Programming</a></li>
+                                             <li><a href="javascript:void(0)" data-nav-link="7" class="platforms">Platform</a></li>
+                                             <li><a href="javascript:void(0)" data-nav-link="9" class="trandings">TRENDING</a></li>
+                                          </ul>
+                                       </div>
+                                       <div class="col-xl-12">
+                                          <div class="sub-dropdown active" data-nav-id="6">
+                                             <div class="row pb-3">
+                                                <div class="col-xl-4">
+                                                   <div class="">
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/php-development.html">PHP </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/asp-net-development.html">Asp.Net </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/python-development-services.html">Python</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/ruby-on-rails.html">Ruby </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/java-development.html">Java </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/drupal-development.html">Drupal </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/joomla-development.html">Joomla </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/wordpress-development.html">WordPress </a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                                <div class="col-xl-4">
+                                                   <div class="border-light-left">
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/laravel-development.html">Laravel </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/symfony-development.html">Symfony </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/zend-development.html">Zend </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/codeigniter-development.html">Codeigniter</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/angularjs-development.html">Angular Js</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/reactjs-development.html">React JS</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/nodejs-development.html">Node JS</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/vuejs-development.html">Vue JS</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                                <div class="col-xl-4">
+                                                   <div class="border-light-left">
+                                                      <ul>
+                                                         <li><a href="<?php echo get_site_url(); ?>/cakephp-development.html">Cake php </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/yii-development.html">Yii </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/react-native-app-development-services.html">React Native </a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/xamarin-app-development.html">Xamarin</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/ionic-app-development.html">Ionic</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/flutter-app-development.html">Flutter</a></li>
+                                                         <li><a href="<?php echo get_site_url(); ?>/phonegap-development.html">PhoneGap</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="sub-dropdown" data-nav-id="7">
+                                             <div class="row pb-3">
+                                                <div class="col-xl-4">
+                                                   <ul>
+                                                      <li><span> MICROSOFT</span></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/microsoft-power-bi-services.html">Microsoft Power BI Services </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/microsoft-powerapps-development.html">Microsoft Power Apps Development Services</a></li>
+                                                   </ul>
+                                                </div>
+                                                <div class="col-xl-8">
+                                                   <div class="row">
+                                                      <div class="col-xl-12">
+                                                         <ul class="border-light-left">
+                                                            <li><span> SALESFORCE CLOUDS</span></li>
+                                                         </ul>
+                                                      </div>
+                                                      <div class="col-xl-6">
+                                                         <div class="border-light-left">
+                                                            <ul>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-commerce-cloud.html">Salesforce Commerce Cloud</a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/sales-cloud.html">Salesforce Sales Cloud</a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-service-cloud.html">Salesforce Services Cloud</a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-cpq.html">Salesforce CPQ</a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-health-cloud.html">Salesforce Health Cloud</a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-marketing-cloud.html">Salesforce Marketing Cloud</a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-pardot.html"> Salesforce Pardot </a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-einstein-analytics.html"> Salesforce Einstein</a></li>
+                                                            </ul>
+                                                         </div>
+                                                      </div>
+                                                      <div class="col-xl-6">
+                                                         <div class="border-light-left">
+                                                            <ul>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-field-service-lightning.html"> Salesforce Field Service </a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-financial-services-cloud.html"> Salesforce Financial Cloud</a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-quip.html"> Salesforce Quip</a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-inbox.html"> Salesforce Inbox </a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-nonprofit-success-pack.html"> Salesforce Non-Profit </a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-community-cloud.html"> Salesforce Experience Cloud </a></li>
+                                                               <li><a href="<?php echo get_site_url(); ?>/salesforce-iot-cloud.html"> Salesforce IOT Cloud </a></li>
+                                                            </ul>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="sub-dropdown" data-nav-id="8">
+                                             <div class="row align-items-center pb-3">
+                                                <div class="col-xl-6">
+                                                   <ul>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-commerce-cloud.html">Salesforce Commerce Cloud </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/sales-cloud.html">Salesforce Sales Cloud </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-service-cloud.html">Salesforce Services Cloud</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-cpq.html">Salesforce CPQ</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-health-cloud.html">Salesforce Health Cloud</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-marketing-cloud.html">Salesforce Marketing Cloud</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-pardot.html">Salesforce Pardot </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-einstein-analytics.html">Salesforce Einstein </a></li>
+                                                   </ul>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                   <ul>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-field-service-lightning.html">Salesforce Field Service </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-financial-services-cloud.html">Salesforce Financial Cloud</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-quip.html">Salesforce Quip</a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-inbox.html">Salesforce Inbox </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-nonprofit-success-pack.html">Salesforce Non-Profit </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-community-cloud.html">Salesforce Experience Cloud </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/salesforce-iot-cloud.html">Salesforce IOT Cloud </a></li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="sub-dropdown" data-nav-id="9">
+                                             <div class="row">
+                                                <div class="col-xl-6">
+                                                   <p class="text-uppercase font-500 subheading">Artificial Intelligence</p>
+                                                   <ul>
+                                                      <li><a href="<?php echo get_site_url(); ?>/ai-development-services.html">AI Development Company </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/ai-ml-consulting-services.html">AI and ML Consulting Services </a></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/ai-app-development-company.html">AI App Development </a></li>
+                                                   </ul>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                   <div class="border-light-left">
+                                                   <ul>
+                                                      <li><span>LOW-CODE / NO- CODE</span></li>
+                                                      <li><span>OUTSYSTEM</span></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/outsystems-development-services.html">Outsystem Development Services</a></li>
+                                                      <li><span>APPIAN</span></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/appian-development-services.html">Appian Development Service</a></li>
+                                                      <li><span>Pega BPM</span></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/pega-business-process-management-services.html">PEGA BPM Services</a></li>
+                                                      <li><span>BLOCKCHAIN</span></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/blockchain-development.html">Blockchain Development Services</a></li>
+                                                      <li><span>Metaverse</span></li>
+                                                      <li><a href="<?php echo get_site_url(); ?>/metaverse-development-services.html">Metaverse development services</a></li>
+                                                   </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="has-dropdown">
+                                 <a href="javascript:void(0)">Work</a>
+                                 <div class="dropdown-nav medium-dropdown">
+                                    <div class="row pb-3">
+                                       <div class="col-lg-3">
+                                          <ul class="main-dropdown d-block workmenu">
+                                             <li><a href="<?php echo get_site_url(); ?>/case-studies.html" class="About">Case Studies</a></li>
+                                             <li><a href="<?php echo get_site_url(); ?>/portfolio.html" class="Award">Portfolio</a></li>
+                                             <li><a href="<?php echo get_site_url(); ?>/whitepaper.html" class="Award">Whitepaper</a></li>
+                                          </ul>
+                                       </div>
+                                       <div class="col-lg-9 pl-3">
+                                        <div class="d-flex h-100 pgap-20 border-light-left pt-4">
+                                                      <div class="emiz-brick d-flex gap-3 align-flex-end mt-auto w-100 rounded p-3 align-items-center mb-2">
+                                                         <p class="pb-0 text-white">
+                                                            <span><img src="/wp-content/uploads/2024/03/chat.png" alt="chat-icon" width="57" height="52"></span>Ready to Build Futuristic Digital Solutions?
+                                                            Let’s Collaborate to Conquer Challenges and Achieve Success!
+                                                         </p>
+                                                         <a href="contact-us.html" class="d-block rounded position-relative mt-2">Consult Our Experts<i class="fa fa-arrow-right ml-2"></i></a>
+                                                      </div>
+                                                   </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="has-dropdown dropdown-style-three">
+                                 <a href="blog/">Blog</a>
+                              </li>
+                           </ul>
+                           <div class="ripple-effect position-relative pr-lg-2">
+                              <div class="rim1"></div>
+                              <div class="rim2"></div>
+                              <div class="rim3"></div>
+                              <a href="<?php echo get_site_url(); ?>/enquiry.html" class="header-btn">Get in touch</a>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+         <div class="menu-header">
+            <div class="row align-items-center">
+               <div class="col-9">
+                  <a href="<?php echo get_site_url(); ?>/" class="emizentech-logo">
+                     <picture>
+                        <source media="(max-width: 479px)" srcset="/wp-content/themes/twentytwentyone-child/assets/images/emizentech-165w.png" width="210" height="52" />
+                        <source media="(max-width: 575px)" srcset="/wp-content/themes/twentytwentyone-child/assets/images/emizentech-180w.png" width="210" height="52" />
+                        <source media="(min-width: 576px)" srcset="/wp-content/themes/twentytwentyone-child/assets/images/emizentech-210w.png" width="210" height="52" />
+                        <img src="/wp-content/themes/twentytwentyone-child/assets/images/emizentech-210w.png" alt="EmizenTech" width="210" height="52" />
+                     </picture>
+                  </a>
+               </div>
+               <div class="col-3 text-right">
+                  <div class="mobile-close-link">
+                     <a href="javascript:void(0)" class="close-icon"><span></span></a>
+                  </div>
+               </div>
+            </div>
+            <div class="navigation-links">
+               <ul>
+                  <li class="call-dropdown">
+                     <span class="call-dropdown-link"><i class="fa fa-phone" aria-hidden="true"></i> Call</span>
+                     <div class="call-dropdown-wrap">
+                        <span class="call-label">Emizentech Contact</span> <a href="tel:+19895359295">USA: +1 (989) 535-9295</a><a href="tel:442038158019">UK: +44-2038158019</a><a href="tel:+971585876283">UAE: +971 58 587 6283</a> <a href="tel:918529003877">IND: +91-8529003877</a>
+                        <span class="hr-label">Career/Openings</span> <a href="tel:919602561777">IND: +91-9602561777</a>
+                     </div>
+                  </li>
+                  <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@emizentech.com">info@emizentech.com</a></li>
+                  <li><i class="fa fa-skype" aria-hidden="true"></i> <a href="skype:emizentech">emizentech</a></li>
+               </ul>
+            </div>
+            <ul class="mobile-links">
+               <li class="mobile-dropdown">
+                  <a href="javascript:void(0)">Company</a>
+                  <ul class="mobile-dropdown-nav">
+                     <li><a href="<?php echo get_site_url(); ?>/about-us.html" data-nav-link="1" class="About">About</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/awards.html" data-nav-link="2" class="Award">Awards</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/partnership.html" data-nav-link="3" class="Partnership">Partnership</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/career.html" data-nav-link="4" class="Career">Career</a></li>
+                     <li class="active"><a href="<?php echo get_site_url(); ?>/contact-us.html" data-nav-link="5" class="Contact Us">Contact Us</a></li>
+                  </ul>
+               </li>
+               <li class="mobile-dropdown">
+                  <a href="javascript:void(0)">Services</a>
+                  <ul class="mobile-dropdown-nav">
+                     <li class="mobile-dropdown">
+                        <a href="<?php echo get_site_url(); ?>/web-development.html">Website</a> <span class="mobile-dropdown-icon"></span>
+                        <ul class="mobile-dropdown-sub">
+                           <li><a href="<?php echo get_site_url(); ?>/web-design.html">Web Design</a></li>
+                        </ul>
+                     </li>
+                     <li class="mobile-dropdown">
+                        <a href="<?php echo get_site_url(); ?>/mobile-app-development.html" data-nav-link="2" class="Mobile">Mobile App</a><span class="mobile-dropdown-icon"></span>
+                        <ul class="mobile-dropdown-sub">
+                           <li><a href="<?php echo get_site_url(); ?>/android-app-development-services.html">Android</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/ios-app-development-services.html">Iphone</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/hybrid-mobile-app-development-services.html">Hybird</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/wearable-app-development-services.html">Wearable App</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)" data-nav-link="2" class="E-commerce">E-commerce</a><span class="mobile-dropdown-icon"></span>
+                        <ul class="mobile-dropdown-sub">
+                           <li><a href="<?php echo get_site_url(); ?>/adobe-commerce-development-company.html">Adobe</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/magento-development-services.html">Magento</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/shopify-development.html">Shopify</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/shopware-development.html">Shopware</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/opencart-ecommerce-development.html"> Opencart</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/bigcart-development.html">Big Cartel </a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/3dcart-development.html">3dCart </a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/prestashop-development.html">Prestashop</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/woocommerce-development.html">WooCommerce</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/bigcommerce-development.html">BigCommerce</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/oscommerce-development.html">OSCommerce</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/sylius-development.html">Sylius</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0)">CRM</a>
+                        <span class="mobile-dropdown-icon"></span>
+                        <ul class="mobile-dropdown-sub">
+                           <li><a href="<?php echo get_site_url(); ?>/salesforce.html">Salesforce</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/creatio-development-services.html">Creatio</a></li>
+                           <li><a href="<?php echo get_site_url(); ?>/odoo-development-company.html">Odoo</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="<?php echo get_site_url(); ?>/odoo-development-company.html">Software</a> <span class="mobile-dropdown-icon"></span>
+                        <ul class="mobile-dropdown-sub">
+                           <li><a href="<?php echo get_site_url(); ?>/software-development-services.html">Software development services</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li class="mobile-dropdown">
+                  <a href="javascript:void(0)">Industries</a>
+                  <ul class="mobile-dropdown-nav">
+                     <li><a href="<?php echo get_site_url(); ?>/on-demand-app-development-company.html">On-Demand</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/ecommerce-retail.html">eCommerce & Retail</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/grocery-app-development.html">Grocery</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/food-solution.html">Food & Beverage</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/travel-hospitality.html">Travel & Hospitality </a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/automotive-industry.html">Automotive</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/media-entertainment.html">Media & Entertainment </a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/events-tickets.html">Ticketing & Event </a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/realestate-solution.html">Real Estate</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/healthcare-fitness.html">Healthcare & Fitness</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/logistic-transportation.html">Logistic & Transport</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/education-elearning.html">Education & eLearning </a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/banking-finance.html">Banking & Finance</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/sports-application-development.html">Sports</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/fantasy-sports-app-development.html">Fantasy sports</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/game-development-company.html">Gaming</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/golf-mobile-app-development-company.html">Golf Mobile App </a></li>
+                  </ul>
+               </li>
+               <li class="mobile-dropdown">
+                  <a href="javascript:void(0)">Trending</a>
+                  <ul class="mobile-dropdown-nav">
+                     <li><a href="<?php echo get_site_url(); ?>/ai-development-services.html">AI Development Company</a></li>
+                  </ul>
+               </li>
+               <li class="mobile-dropdown">
+                  <a href="javascript:void(0)">Low-Code / No- Code</a>
+                  <ul class="mobile-dropdown-nav">
+                     <li><a href="<?php echo get_site_url(); ?>/outsystems-development-services.html">OutSystems</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/appian-development-services.html">Appian</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/pega-business-process-management-services.html">Pega BPM</a></li>
+                  </ul>
+               </li>
+               <li><a href="blockchain-development.html">Blockchain</a></li>
+               <li><a href="metaverse-development-services.html">Metaverse</a></li>
+               <li class="mobile-dropdown">
+                  <a href="javascript:void(0)">Work</a>
+                  <ul class="mobile-dropdown-nav">
+                     <li><a href="<?php echo get_site_url(); ?>/case-studies.html">Case Studies</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/portfolio.html">Portfolio</a></li>
+                     <li><a href="<?php echo get_site_url(); ?>/whitepaper.html" class="Award">Whitepaper</a></li>
+                  </ul>
+               </li>
+               <li><a href="<?php echo get_site_url(); ?>/blog/">Blog</a></li>
+            </ul>
+            <a href="<?php echo get_site_url(); ?>/enquiry.html" class="header-btn"><span class="sprites-image"></span><span>Enquiry Now</span></a>
+         </div>
+      </div>

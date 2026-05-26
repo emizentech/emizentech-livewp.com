@@ -1,0 +1,87 @@
+section.whitepapper-banner{margin-top:133px;padding:90px 0;background:url(/wp-content/uploads/2024/09/whitep_main_Bg.png) no-repeat center center;background-size:cover;}
+.sm_title.fs-small{font-size:20px;line-height:30px;letter-spacing:0.02em;color:#002848;}
+h1{color:#002848;font-size:52px;font-weight:600;line-height:62px;padding:20px 0;}
+.emizentech-table-wrap p{font-size:18px;font-weight:400;line-height:27px;color:#585858;}
+.tech_card h3{line-height:28px}
+.post-title{color:#002848;font-size:20px;font-weight:500;line-height:28px;}
+.post-date,.tech_card p{font-size:16px;line-height:24px;font-weight:400;}
+p.post-author{color:#2B2828;font-size:18px;line-height:27px;font-weight:500;}
+.post-date{color:#8E8E8E;font-weight:500;}
+.emiz_title{font-size:42px;line-height:55px;font-weight:400;}
+section.slider{padding:60px 0;}
+section.slider .owl-stage-outer{padding-bottom:60px;}
+.web_bg{background:url(/wp-content/uploads/2024/09/texture.png) no-repeat center center;background-size:cover;padding:30px 20px;z-index:9;border-radius:15px;}
+.web_bg:before{content:"";position:absolute;height:100%;width:100%;background:#f2f8fdf7;left:0;z-index:-2;top:0;border-radius:13px;}
+.slider .owl-item .item .project_container img{max-width:100px;max-height:50px;}
+.project_container a{background:#0071DC;color:#fff;padding:10px 12px;border-radius:5px;margin-top:10px;display:block;font-weight:600;font-size:16px;line-height:21px;position:relative;box-shadow:1px 10px 20px 0px rgb(0 113 220 / 39%);width:100%;}
+.project_container a:before{background:#000;width:100%;z-index:1;height:100%;position:relative;box-shadow:5px 5px 5px 5px rgba(5,5,5,5);position:absolute;left:0;}
+.rebellious_web.web_bg:before{background:#FFF2EBf7;}
+.rebellious_web .project_container a{box-shadow:1px 10px 20px 0px rgb(248 145 93 / 56%);background:#F77330;}
+.project_container .project-badge{position:absolute;top:6px;right:6px;}
+.project_container .project-badge img{max-width:50px}
+#our_solutions .owl-nav{left:0;margin:auto;right:0;text-align:center;width:100%;}
+section:before,section:after{content:"";position:absolute;display:block;}
+.emiz-blogs:before{border-radius:712px;filter:blur(225px);background:rgb(255 148 148 / 80%);left:0;bottom:-105%;width:500px;height:712px;}
+.emiz-blogs:after{border-radius:712px;filter:blur(225px);background:rgb(80 187 248 / 12%);right:0;top:-15%;z-index:-1;width:100%;height:40%;}
+h2.sec_title{color:#002848;font-size:42px;line-height:52px;font-weight:600;}
+.sec-descrp{font-weight:400;font-size:20px;color:#091723;line-height:30px}
+.tech_card{border-radius:8px;padding:10px;}
+.tech_card img{border-radius:8px 8px 0 0;width:100%;}
+.emz_logo{position:absolute;}
+img.top-right{left:0;bottom:0;}
+img.bottom-left{right:0;top:0;}
+.blog-card img{border-radius:15px 15px 0 0;}
+.emiz-blogs{padding:60px 0;}
+.whitepapper-banner p{color:#585858;font-size:18px;font-weight:400;line-height:27px;}
+.img-tranfom img{margin-left:30px;-webkit-transform:scale(1.3);transition:.3s ease-in-out;}
+.o-hidden{overflow:hidden;}
+.tech_card:hover img{margin-left:0;}
+.img-tranfom{border-radius:8px 8px 0 0;}
+.tech_card:hover a.post-title{color:#0585cd;}
+@media(max-width:1680px){
+    img.top-right{max-width:14%;}
+}
+@media(max-width:1600px){
+    img.top-right,img.bottom-left{bottom:0;max-width:12%;}
+    .emiz_title{font-size:33px;line-height:45px;}
+    h1{font-size:40px;line-height:46px;padding:10px 0;}
+    section.whitepapper-banner{margin-top:115px;}
+    .blog-card .blog-title{font-size:18px;}
+    .post-title,.tech_card h3{font-size:18px;line-height:24px;}
+}
+@media(max-width:1440px){
+    img.top-right,img.bottom-left{bottom:0;max-width:8%;}
+}
+@media(max-width:1199px){
+    .project_container a{max-width:180px;text-align:center;margin:auto;display:block;}
+    span.project-logo{justify-content:center;min-height:60px;display:flex;align-items:center;}
+    .project_container{text-align:center;}
+    .owl-carousel .owl-item .web_bg img{margin:auto;display:block;}
+    section.whitepapper-banner{padding:50px 0}
+    .web_bg{max-width:500px;margin:auto;}
+    .tech_card h3,.tech_card h3 a{line-height:21px;font-size:17px}
+}
+@media(max-width:1024px){
+    section.whitepapper-banner{margin-top:100px;}
+}
+@media(max-width:991px){
+    section.slider{padding-top:40px;}
+    .emiz-blogs{padding-top:40px;}
+    section.slider{padding:30px 0;}
+}
+@media(max-width:767px){
+    h1{font-size:29px;line-height:37px;padding:11px 0;}
+    .emiz-blogs{padding:40px 0 70px;}
+    .emiz_title{font-size:28px;line-height:35px;}
+    .post-title{font-size:18px;line-height:22px;}
+    section.slider{padding-bottom:0;}
+    section.whitepapper-banner{margin-top:80px;}
+    .emiz-blogs:before{background:rgb(255 148 148 / 20%);}
+    .emiz-blogs .owl-carousel .owl-nav{position:absolute;bottom:-40px;z-index:1;left:0;right:0;width:100%;text-align:center;}
+    section.slider{padding-top:30px}
+    img.top-right,img.bottom-left{display:none;}
+    .whitepapper-banner p,.sec-descrp{font-size:16px;line-height:24px}
+    .emiz-blogs .blogs-slider .owl-stage,.emiz-blogs .blogs-slider .owl-item{display:flex;}
+    .emiz-blogs .blogs-slider .item{padding:0 5px;width:100%;}
+    .emiz-blogs .blogs-slider .blog-card{height:100%;}
+}

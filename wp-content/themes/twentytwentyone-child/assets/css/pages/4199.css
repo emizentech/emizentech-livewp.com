@@ -1,0 +1,292 @@
+.Aem_main{background:url(/wp-content/uploads/2022/12/sec_first.png) no-repeat center center;background-size:cover;padding:115px 0 100px;}
+.Aem_main h1{font-size:54px;line-height:65px;color:#2B3539;}
+.text-heading  strong{font-weight:bold;}
+span.line{color:#FA0F00;line-height:46px;height:auto;}
+.Aem_main p{font-weight:400;font-size:20px;line-height:26px;color:#2B3539;}
+.emizentech-btn.od_btn{border:2px solid #000000;border-radius:100px;background:transparent;font-weight:700;font-size:20px;line-height:24px;color:#000;}
+.blue-text{color:#007DB2;font-weight:bold;}
+.text-heading{font-weight:400;font-size:48px;line-height:58px;color:#252525;}
+.Aem_main img {max-width: 36vw;}
+.text-md-left.text-heading::after {right: auto;}
+.text-disc{font-weight: 400;font-size: 16px;color: #2B3539;padding-bottom: 20px;line-height: 26px;}
+.Emizen_wcm_seciton2{background: linear-gradient(1deg, #FFF4F4 0%, rgba(255, 255, 255, 0) 100%);padding: 90px 0 0;z-index: 0}
+.content-wraper{padding-bottom:50px;}
+.pt-100{padding-top:100px}
+.grunion-field-wrap input, .grunion-field-wrap select {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff !important;
+}
+.grunion-field-wrap label {
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 16px;
+}
+.Consultation-from .grunion-field-label{font-weight:normal;}
+.Consultation-from  .wp-block-jetpack-contact-form{padding:0!important;}
+.Consultation-from .wp-block-jetpack-contact-form input:focus{outline:none;}
+.Consultation-from .wp-block-jetpack-contact-form input{padding:10px 0 5px;}
+.Consultation-from .wp-block-jetpack-contact-form textarea{border-bottom:1px solid #fff;resize:none;}
+.Consultation-from button.wp-block-button__link{border:1px solid #fff!important;margin-bottom:20px}
+.Consultation-from button.wp-block-button__link:focus{outline:none!important;margin-bottom:20px}
+.Consultation-from .contact-form .wp-block-button:not(.is-style-outline) .wp-block-button__link:active,.Consultation-from .contact-form .wp-block-button__link:hover{background:#0585cd!important;transition:all .3s;color:#fff!important;border-color:#0585cd!important;}
+.Consultation-from .contact-form [aria-invalid=true]:not(fieldset){border:0;border-bottom:1px solid #b32d2e;}
+@media(max-width:767px){
+    .emizentech-form .form-inner .grunion-field-wrap{flex:0 0 100%;max-width:100%;}
+    .Consultation-from h3{font-size:22px;}
+    .Consultation-from{max-width:500px;margin:0 auto}
+}
+
+.contact-form .wp-block-button__link {width: auto;border-radius: 8px;padding: 10px 30px;color: #000!important;height: auto; background: #fff !important;}
+.contact-form .wp-block-button__link:hover{background: #fff !important;color: #000 !important}
+
+.leading_ondemand{background:#F5FBFD;padding-bottom:100px;}
+.Emizen_wcm_seciton2:after{content:"";position:absolute;background:url(/wp-content/uploads/2022/12/section2.png) no-repeat right 0PX;height:35vw;width:35vw;top:-80px;background-size:cover;right:0;z-index:-1;}
+.Aem_main .emizentech-btn.od_btn:hover{background:#007db2;border-color:#007db2;color:#fff;}
+.text-heading::after,.game_col-box h4:before{background:url(/wp-content/uploads/2022/11/text_bottom_lin.png) no-repeat center center;background-size:contain;width:131px;height:6px;position:absolute;bottom:0;content:"";left:0;right:0;margin:auto;}
+.content-wraper .text-heading::after {right: auto;}
+.Emizen_wcm_seciton2:before{content:"";position:absolute;bottom:0px;width:100%;height:180px;filter:blur(9px);background:linear-gradient(180deg,#FFF4F4 0%,rgb(255 255 255 / 45%) 100%);transform:matrix(1,0,0,-1,0,0);}
+/*.leading_ondemand .text-heading{font-size: 32px;line-height: 39px;}*/
+.text-heading strong, .Aem_main h1 strong, strong{font-weight: bold;}
+.Consultation-from{ background: #00162C url(/wp-content/uploads/2022/12/od_form_bg.png) no-repeat center center; background-size: contain; border-radius: 8px}
+.Consultation-from input.wpcf7-form-control, .Consultation-from textarea { width: 100%; background: transparent; border: 0; border-bottom: 1px solid #007DB2; padding: 0 0 10px 0; color: #fff;font-size: 15px}
+.Consultation-from label {width: 100%;margin-bottom: 2rem; }
+.Consultation-from h3 {  margin-bottom: 30px; }
+.Consultation-from input.wpcf7-form-control.wpcf7-submit {background:#007DB2!important;border-radius:5px;width: 150px;letter-spacing: 0.01em;padding: 10px 40px;font-size: 16px; }
+.Consultation-from textarea { height:100px}
+.Consultation-from input.wpcf7-form-control.wpcf7-submit:hover{color: #fff; border: 0;}
+.Consultation-from input.wpcf7-form-control:focus, .Consultation-from textarea:focus { outline: none; color: #fff; }
+.Consultation-from input.wpcf7-submit{display:block;margin:auto;}
+.Consultation-from  .wpcf7-form-control-wrap{padding-bottom:2rem;display:inline-block;width:100%;margin-bottom:0;position:relative;}
+.Consultation-from .wpcf7-form-control-wrap input{font-weight:400;font-size:15px;line-height:18px;letter-spacing:0.01em;color:#fff;}
+.Consultation-from .wpcf7-form-control-wrap .wpcf7-not-valid-tip{position:absolute;bottom:0;font-size:14px;}
+.Consultation-from .wpcf7-form-control-wrap.your-message {padding-bottom: 17px;}
+.adobe_certified_logo img{max-width: 120px}
+.adobe_certified_logo {
+    padding-top: 50px;
+}
+.leading_ondemand .col-6 {
+    display: flex;
+}
+.leading_ondemand .Certified_heading {
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leading_ondemand .Certified_heading h3{font-size:22px;line-height:27px;letter-spacing:0.01em;text-align:center;}
+.leading_ondemand .Certified_heading.Retention{background:rgba(187,107,217,0.1);border:1px solid #9B51E0;}
+.leading_ondemand  .Certified{background:rgba(255,114,94,0.1);border:1px solid #FF725E;}
+.Delighted{border:1px solid #60E093;border-radius:4px;background:rgba(96,224,147,0.1);}
+.Experts{background:rgba(0,125,178,0.1);border:1px solid #007DB2;border-radius:4px;}
+.leading_ondemand .Certified_heading span{font-weight:700;font-size:32px;line-height:35px;letter-spacing:0;}
+.Retention span{color:#9B51E0;}
+.Certified span{color:#FF725E;}
+.Delighted span{color:#60E093;}
+.Experts span{color:#007DB2;}
+span.wpcf7-spinner{position:absolute;bottom:0;left:0;right:0;margin:0 auto;width:100%;right:0;}
+.wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output,.wpcf7 form.payment-required .wpcf7-response-output{border:0;color:#dc3232;margin-top: 0;}
+.Consultation-from .wpcf7-form-control-wrap.name_input{float:left;max-width:50%;}
+.Consultation-from .wpcf7-form-control-wrap.name_input:nth-child(2){padding-left:10px;}
+.ser_card{background:#F4FCFF;border:1px solid #007DB2;border-radius:10px;padding:60px 30px 20px;margin-top: 100px;margin-bottom:15px;}
+.ser_card h3{font-size:24px;line-height:29px;color:#000000;}
+.ser_card h3 strong{font-weight:700;}
+.ser_card p{line-height:24px;color:#000000;}
+.ser_card img{position:absolute;top:-80px;left:0;right:0;margin:auto;}
+.adobe_certified_logo ul {
+    max-width: 560px;
+}
+.adobe_certified_logo li:last-child {
+    padding: 0;
+}
+
+.adobe_certified_logo li {
+    padding-right: 50px;
+}   
+.Adobe_Experience{padding-bottom:80px;}
+.Aem_cta{padding:50px 50px;background:url(/wp-content/uploads/2022/12/Ae_cta.png);border-radius: 20px}
+.Aem_cta h3{font-size:36px;line-height:44px;}
+.Aem_cta p{font-weight:400;font-size:18px;line-height:22px;}
+.Adobe_Experience:before, .AE_benifits:before,.Emizen_exprience:after{content:"";z-index:-1;height:180px;position:absolute;width:100%;}
+.AE_benifits:before{top:0px;background:linear-gradient(180deg,rgba(96,224,147,0.15) 0%,rgba(255,255,255,0) 100%);}
+.Emizen_exprience:after{background:linear-gradient(180deg,#FFF4F4 0%,rgba(255,255,255,0) 100%);top:0px}
+.Adobe_Experience:before {background: linear-gradient(180deg, rgba(0, 125, 178, 0.1) 0%, rgba(255, 255, 255, 0) 100%);bottom: 0;transform: matrix(1, 0, 0, -1, 0, 0);}
+.AE_benifits{padding:80px 0;}
+.slider_container{padding-top:40px;}
+.slider_container .item h3 strong{font-weight: bold;}
+.Emizen_exprience{z-index:1;padding-top:100px;}
+.emiz_cta_2{background:linear-gradient(90deg,#6E41BC 17.06%,#BA68C8 115.31%);}
+.emiz_cta_2 h4 strong{font-weight:700;}
+.cwhite{color:#fff;}
+.content-col{padding:100px 0;}
+.emiz_cta_2 h4{font-size:32px;line-height:39px;}
+.emiz_cta_2 p{font-size:16px;color:#FFFFFF;padding-bottom:1.3rem;}
+.emiz_cta_2 a{font-style:normal;font-weight:700;font-size:20px;line-height:24px;text-align:center;color:#312A91;background:#fff;}
+.Od_tech_slider.owl-carousel button.owl-prev,.Od_tech_slider.owl-carousel button.owl-next{height:35px;width:35px;display:flex;align-items:center;justify-content:center;background:#fff!important;border-radius:50pX;padding-left:6px;border:1px solid #2B3539;}
+.Od_tech_slider.owl-carousel button.owl-next{right:0;padding:0 0 0 0;float:right;}
+.Od_tech_slider.owl-carousel button.owl-prev{left:-20px;margin-right:auto;margin-left:0;float:left;}
+.Od_tech_slider.owl-carousel button.owl-prev:before, .Od_tech_slider.owl-carousel button.owl-next:before{content:"";}
+.Od_tech_slider .owl-carousel button.owl-next:before,.on-demand_services .owl-carousel button.owl-next:before{border-width:0 2px 2px 0;}
+.Od_tech_slider.owl-carousel button.owl-prev:before,.Od_tech_slider.owl-carousel button.owl-next:before{-webkit-transform:rotate(-45deg);border:solid #2B3539;border-width:2px 0px 0px 2px;padding:6px;}
+.Od_tech_slider.owl-carousel button.owl-next:before{border-width:0 2px 2px 0;margin-right:5px;}
+.owl-carousel .owl-nav{width:100%;bottom:auto;top:50%;transform:translatey(-50%);left:0;right:0;}
+.slid_content{padding:0 60px 0 80px;}
+.container-inner{max-width:900px;margin:auto;display:block;}
+.get_started_box{background:#211407 url(/wp-content/uploads/2022/12/Ae_cta-bg.png) no-repeat right center;border-radius:8px;padding:50px 30px;}
+.get_started_box h4{font-size:40px;line-height:47px;letter-spacing:0.01em;color: #EF7D37;}
+.get_started_box h4 strong {    color: #fff;font-weight: bold;}
+.get_started_box p{max-width:480px;font-weight:400;font-size:18px;line-height:21px;color:#fff;}
+.emizen_Ae_cta .emizentech-btn{background:#EF7D37;font-weight:700;font-size:20px;line-height:24px;border:1.5px solid #fff7f2;}
+.emizentech-shy .text-right a{text-align:center;display:block;width:auto;max-width:200px;margin:auto;}
+.expr_box { box-shadow: 1px 0 12px 0 rgb(0 0 0 / 16%);}
+.expr_box h3 {font-size: 20px;font-weight: 600;padding-top: 10px;line-height: 30px;}
+.expr_box  img{max-width:150px;}
+.Consultation-from textarea{height:100px;margin-bottom:10px;}
+.mt-100{margin-top:100px;}
+.app_domain_bg.bg-white.py-4.px-3.position-relative {box-shadow: 0px 0px 12px rgb(0 0 0 / 9%);border-radius: 4px;}
+.Emizen_help_seciton .item {padding: 0 10px;}
+.tech_header {border-bottom: 1px dashed #E0E0E0;padding-top: 0;min-height: 64px;}
+.Emizen_help_seciton .icon {background: linear-gradient(42.98deg,#00BBBB -3.92%,#007DB2 118.01%);border-radius: 4px;width:70px;height:70px;flex: 0 0 90px;position: absolute;top: -30px;left: 0px;}
+.Emizen_help_seciton .icon img {filter: brightness(0) invert(1);}
+.Emizen_help_seciton .owl-stage-outer {padding: 50px 0 20px;}
+.Emizen_help_seciton .item h4 {font-size: 18px;font-weight: 600;padding-left: 70px;vertical-align: text-top;}
+.mobie_app_slides .owl-carousel .owl-nav .owl-prev,.mobie_app_slides .owl-carousel .owl-nav .owl-next{background-color:#EFEFEF!important;background-image:none;display:flex;height:35px;width:35px;align-items:center;justify-content:center;border-radius:50px;border: 1.05882px solid #BDBDBD;}
+
+.Emizen_help_seciton .owl-carousel .owl-nav .owl-prev{left:0;margin-left:-50px;float:left;padding-left:5px}
+.Emizen_help_seciton .owl-carousel .owl-nav .owl-next{right:0;margin-right:-50px;padding-right:7px;}
+.Emizen_help_seciton .owl-carousel .owl-nav .owl-prev:hover:before,.Emizen_help_seciton .owl-carousel .owl-nav .owl-next:hover:before{border-color:#fff}
+.mobie_app_slides .owl-next:before,.mobie_app_slides .owl-prev:before{-webkit-transform:rotate(-45deg);border:solid #777777;border-width:0 2px 2px 0;display:inline-block;padding:6px;content:"";}
+.mobie_app_slides .owl-carousel .owl-nav .owl-prev:hover,.mobie_app_slides .owl-carousel .owl-nav .owl-next:hover{background-color:#007db2!important;border-color:#007db2;}
+.Emizen_help_seciton .owl-carousel .owl-nav{top:50%;transform:translatey(-50%);height:auto;bottom:auto;left:0;right: 0; display:flex;justify-content:space-between;}
+.emizen_industry_card:hover{background:linear-gradient(42.98deg,#00BBBB -3.92%,#007DB2 118.01%);}
+.mobie_app_slides button.owl-prev:before{border-width:2px 0px 0px 2px;}
+.mobie_app_slides .owl-stage,.mobie_app_slides .item,.mobie_app_slides  .owl-carousel.owl-drag .owl-item{display:flex;}
+.cta_6{margin:80px 0;z-index:1;background:url(/wp-content/uploads/2023/02/cta_bg8.png) no-repeat center center;background-size:cover;border-radius: 10px}
+.cta_6 .get_started_box {
+    max-width: 730px;
+    padding: 30px 0 50px 40px;
+    background: transparent;
+    z-index: 2;
+    position: relative;
+}
+.cta_6 .get_started_box h4 strong {font-size: 40px;line-height: 58px;}
+.cta_6 .get_started_box h4{font-size:40px;line-height:50px;color:#fff;margin-bottom:10px;}
+.cta_6 .get_started_box h4 span{font-weight:bold;}
+.cta_6 img{position:relative;z-index:-3;height:100%;object-fit:cover;object-position:center center;}
+.cta_6 .get_started_box p{font-weight:400;font-size:18px;line-height:21px;margin:auto;}
+.cta_6 .get_started_box .emizentech-btn{background:#fff;font-weight:600;color:#000;padding:14px 35px;}
+.cta_img{max-width:50%;}
+.cta_content{max-width:50%;width:100%;padding:0 15px;}
+.emizentech-Partnerm  li {
+    position: relative;
+    font-size: 17px;
+    padding: 7px 0;
+    background: url(/wp-content/uploads/2022/12/bullet_tringle.png) no-repeat left 14px;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 9px 25px;
+}
+@media(max-width: 1680px){
+    .Emizen_wcm_seciton2 { padding-top: 50px; }
+    .text-heading { font-size: 36px; line-height: 45px; }
+    .Emizen_wcm_seciton2:after { width: 580px; height: 580px; }
+}
+@media(max-width: 1600px){
+    .text-disc{font-size:14px;line-height:24px;padding-bottom:13px;padding-right:80px;}
+    .Emizen_wcm_seciton2:after{width:540px;height:490px;}
+    .ser_card img{max-width:100px;top:-61px;}
+    .Aem_main p{font-size:16px;line-height:24px;}
+    .pt-100{padding-top:50px;}
+    .leading_ondemand {padding-bottom: 50px;}
+    .mt-100{margin-top:50px;}
+    .Adobe_Experience{padding-bottom:50px;}
+    .Aem_cta{padding:30px}
+    .Aem_cta h3{font-size:32px;line-height:40px;}
+    section.AE_benifits{padding-bottom: 0;}
+    .get_started_box h4{font-size:32px;line-height:35px;}
+    .emizen_Ae_cta .emizentech-btn:hover {background: #fff;color: #EF7D37;}
+    .get_started_box p{font-size:15px;line-height:28px;}
+    .get_started_box{padding:30px}
+    .emizentech-btn.od_btn:hover {color: #000;}
+    .emizen_Ae_cta .emizentech-btn{font-size:16px;line-height:26px;height:auto;padding:10px 0;}
+}
+
+@media(max-width: 1366px){
+    .adobe_certified_logo ul{max-width: fit-content;}
+    .content-wraper {padding-right: 100px;}
+    .content-col {padding: 50px 0;}
+}
+@media(max-width: 1199px){
+    .Aem_main h1 {font-size: 41px;line-height: 49px;}
+    .content-col h4 br {display: none;}
+    .Emizen_exprience{padding-top: 50px}
+}
+@media(max-width: 1024px)
+{
+    .content-wraper{padding-right: 0}
+    .text-disc{padding-right: 0}
+    .Emizen_wcm_seciton2:after{display: none;}
+
+}
+@media(max-width: 991px){
+    .content-wraper{text-align:center;}
+    .Aem_main h1{font-size:38px;line-height:45px;}
+    .Aem_main{padding-bottom:80px;}
+    .leading_ondemand .Certified_heading.Retention{height: 100%}
+    .leading_ondemand .Certified_heading h3{font-size: 18px}
+    .content-wraper .text-heading::after{right:0;left:0;margin:auto;}
+    .Aem_main .row{flex-direction:column-reverse;}
+    .Aem_main img{max-width:90%;margin:0 auto  50px;display:block;}
+    .Aem_main p br, .text-heading br{display:none;}
+    .leading_ondemand .Certified_heading span{line-height: 28px;font-size: 28px}
+    .slid_content{padding:0 0 0 50px;}
+    .Aem_cta{background-size: cover;}
+    .get_started_box {background-color: #211407;border-radius: 8px;padding: 30px;background-image: none;text-align: center;}
+    .get_started_box p{max-width: 100%}
+    .Emizen_help_seciton .owl-carousel .owl-nav .owl-prev, .Emizen_help_seciton .owl-carousel .owl-nav .owl-next {margin: 0;}
+.Consultation-from textarea{height: 70px}
+.adobe_certified_logo ul{margin: 0 auto;}
+.Aem_main{background: linear-gradient(90deg, rgba(205,235,255,1) 0%, rgba(255,255,255,1) 100%);}
+}
+@media(max-width:767px){
+    .Aem_main h1{font-size:36px;line-height:41px;}
+    .Aem_main img{max-width:90%;margin:0 auto 50px;display:block;}
+    .Aem_main img{max-width:90%;margin:auto;display:block;}
+    .text-md-left.text-heading::after{right:0;margin:auto;left:0;}
+    .owl-carousel .owl-item  img, .Emizen_exprience img{margin:auto;display:block;}
+    .emiz_cta_2 img{margin:auto;display:block;}
+    .emizentech-faq *,footer h3{text-align:left;}
+    .ser_card p{line-height:25px;font-size:16px;}
+    .get_started_box p{padding-top:10px;font-size:18px;line-height:28px;}
+    .Certified_heading{padding:10px 5px}
+    .Od_tech_slider .row{flex-direction:column-reverse;}
+    .AE_benifits{padding:50px 0;}
+    .Od_tech_slider .row .slid_content{padding:30px 0 0;}
+    .Aem_cta h3 br,p br{display:none;}
+    .emizen_Ae_cta .emizentech-btn{width:250px;}
+    .emizentech-btn.od_btn{margin:auto;display:block;font-size: 17px;padding-left: 0;padding-right: 0;max-width: 300px}
+    .get_started_box{padding:20px 10px 40px}
+    p,h3,.Aem_cta h3,.content-col, .emizentech-faq .section-title *, .emizentech-shy h3,.emizentech-shy h2{text-align:center;}
+    .emizen_Ae_cta{padding-top:0;}
+    .ser_card {margin-bottom: 0;padding: 50px 16px 20px;}
+    .Emizen_help_seciton .item h4{font-size: 21px}
+    .Emizen_help_seciton .owl-carousel .owl-nav .owl-next,.Emizen_help_seciton .owl-carousel .owl-nav .owl-prev{margin:0;}
+    .cta_6 .get_started_box{padding: 30px 15px 50px;}
+    .cta_6 .get_started_box h4{padding-bottom:0;font-size: 26px;line-height: 33px;}
+    .cta_6{margin :40px 0 0 0;}
+    .text-heading{font-size:31px;line-height:37px;}
+    .Aem_cta{padding:30px 15px;}
+    .adobe_certified_logo li {padding-right: 10px;}
+    .Aem_main {
+        padding: 70px 0  40px;
+    }
+}
+@media(max-width: 575px){
+    .slid_content h3 {font-size: 20px;}
+    .Od_tech_slider.owl-carousel button.owl-prev:before, .Od_tech_slider.owl-carousel button.owl-next:before{padding: 4px}
+    .Od_tech_slider.owl-carousel button.owl-prev, .Od_tech_slider.owl-carousel button.owl-next{height: 25px; width: 25px}
+    .cta_6 .get_started_box .emizentech-btn{padding:14px 0;width:100%;font-size:17px;}
+    .leading_ondemand  .col-6.mt-4{padding:0 5px;}
+}

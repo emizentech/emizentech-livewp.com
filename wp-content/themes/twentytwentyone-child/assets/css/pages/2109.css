@@ -1,0 +1,138 @@
+.emiz_part_sec{overflow:hidden;z-index:1;margin-top:79px;padding-top:0;}
+.emiz_part_sec:before{position:absolute;width:1135px;height:1025px;left:-111px;top:-577px;background:#0585CD;opacity:0.05;content:"";border-radius:100%;z-index:-1;}
+.emiz_part_sec:after{position:absolute;opacity:0.05;content:"";border-radius:100%;z-index:-1;width:967px;height:967px;top:280px;right:-300px;background:#FF6666;}
+.sec-content p{font-size:18px;font-weight:300;line-height:27px;color:#091723;}
+.sec-content h1 span{font-size:40px;font-weight:300;line-height:60px;}
+section.emz_tech{padding-top:100px;}
+.sec_left{max-width:26%;padding-top:200px;}
+.sec-content h1{font-size:82px;font-weight:600;line-height:100px;color:#063975;}
+.sec-content{text-align:center;max-width:48%;width:100%;margin:0 auto;padding-top:60px;}
+img.secnd-top{position:absolute;top:65px;z-index:-1;left:0;}
+.emz_prt-card{padding:30px 10px;    transition: all .3s ease;}
+.sec_right img.secnd-top{right:0;left:auto;}
+.emz_prt-card h3{font-size:1.5rem;line-height:2.125rem;font-weight:600;}
+.emz_part_img{max-width:250px;min-height:150px;}
+.emz_part_img img{max-width:140px;max-height:150px;object-fit:contain;}
+.emz_link{color:#191d26;cursor:pointer;font-size:1rem;font-weight:500;line-height:1.375rem;transition:all .2s ease;}
+.tech_title{font-size:2.625rem;line-height:3.5rem;font-weight:600;}
+.tech_pera{color:#4e5158;font-weight:500;line-height:1.375rem;max-width:57.188rem;padding-top:.6rem;}
+.emiz-strategic{padding:70px 0;background:#0585cd05;margin:100px 0;}
+.strt_card{border:1.5px solid #2f42552b;padding:25px 25px 35px ;border-radius:8px;box-shadow:rgba(100,100,111,0.2) 0px 7px 29px 0px;    transition: all .3s ease;}
+.strt_card:hover {box-shadow: none;border-color: #0585cd}
+.strt_card h3{font-size:21px;font-weight:600;}
+.emizentech-link{font-weight:600;font-size:16px;color:#273766;border:1px solid #273766;padding:10px 20px;border-radius:5px;}
+.emizentech-link:hover{color:transparent;color:#273766;}
+.sec_right{max-width:26%;padding-top:217px;}
+.sec-content a.emizentech-btn{padding:16px 30px;margin-top:30px;border-radius:5px;background:#0585CD;max-width:240px;border: 1px solid #0585CD;}
+section.partner_cta{background:#0f1b86 url(/wp-content/uploads/2024/07/pt_cta_bg.png) center;background-size:cover;margin-bottom:100px}
+.cta_content_wrap{max-width:690px;padding: 60px 0;}
+.cta_content_wrap h3{font-size:34px;font-weight:400;padding:0;line-height:42px;}
+.cta_content_wrap h3 strong{font-weight:600;}
+.cta_content_wrap h3 + p{padding:30px 0;}
+.strt_card  img{height:auto;max-height:40px;width:auto;}
+.partner_cta a.emizentech-btn{border-radius:5px;color:#0585CD;background:#fff;font-weight:600;border:1px solid #0585CD;}
+.partner_cta a.emizentech-btn:hover{color:#fff;background:#0585CD;}
+.partner_cta img{margin-left:auto;max-width:calc(100% - 690px);}
+.vision_cta_3 {background: radial-gradient(circle at top left,#4a42ec 0,#521d91 100%);border-radius: 8px;display: flex;align-items: center;}
+.cta_innner h3 {font-weight: 600;font-size: 37px;}
+.cat_content_wrap p{font-size:18px;line-height:26px;padding-bottom:30px;}
+.cat_content_wrap a{background:#fff;color:#000;font-weight:600;}
+.vision_cta_3{padding:50px 30px;}
+.sec-content a.emizentech-btn:hover {
+    background: #063975;
+    color: #fff;
+}
+.emz_prt-card:hover {
+    box-shadow: 1px 2px 20px 0px rgb(5 133 205 / 28%);
+}
+
+    .emz_prt-card:hover h3, .emz_prt-card:hover h3 a  {
+    color: #0585cd;
+}
+
+.emz_prt-card:hover:hover img {
+        opacity: .8;
+}
+.cat_content_wrap a:hover {
+    color: #fff;
+}
+.cat_content_wrap a, .cat_content_wrap a:focus {
+    background: #fff;
+    color: #000;
+}
+@media(max-width:1680px){
+    .emiz_part_sec:before{width:61%;}
+    p, .cta_content_wrap h3 + p{line-height: 26px;font-size: 18px}
+    .strt_card p{font-size: 16px;}
+}
+@media(max-width:1600px){
+    .emiz_part_sec{margin-top:89px;}
+    .emiz_part_sec:after{width:900px;top:320px;height:907px;}
+}
+@media(max-width:1370px){
+    .sec-content h1{font-size:60px;line-height:66px;}
+    .sec-content h1 span{font-size:36px;line-height:42px;}
+    .sec-content p{font-size:16px;}
+    .sec-content a.emizentech-btn{margin-top:20px;}
+    .sec_left{padding-top:110px;}
+.sec_right {padding-top: 132px;}
+    img.secnd-top{max-width:160px;top:20px;left:40px;}
+    .sec_right img.secnd-top{right:50px;}
+    .emiz-strategic{margin:50px 0;}
+    section.emz_tech{padding-top:50px;}
+}
+@media(max-width:1280px){
+    .cta_content_wrap h3{font-size:30px;}
+    .cta_content_wrap{padding-right:20px;max-width: 600px;}
+    .cta_content_wrap h3 + p {padding: 10px 0 30px;}
+    .partner_cta img{max-width: calc(100% - 600px);}
+}
+@media(max-width:1024px){
+    .emiz_part_sec{margin-top:70px;padding-top:0;}
+    .emiz_part_sec:after{top:190px;width:630px;}
+    .emiz_part_sec:before,.emiz_part_sec:after{display:none;}
+    .emz_part_img img {max-height: 120px;}
+    .emz_part_img {min-height: 100px;}
+    .strt_card img{max-height:none;max-width:90px;}
+}
+
+@media(max-width:991px){
+    .cta_content_wrap,.sec-content{max-width:100%;}
+    .partner_cta img{display:none;}
+    p, .cta_content_wrap h3 + p{font-size: 16px}
+    .strt_card{padding-left:15px;padding-right:15px;}
+}
+@media(max-width:767px){
+    .tech_title{font-size:30px;line-height:40px;}
+    .sec-content{padding-top:30px;}
+    .tech_pera{line-height:26px;}
+    .emz_prt-card .d-flex{justify-content:center;}
+    .emz_prt-card h3{padding-left:20px;padding-bottom:0;}
+    .emz_part_img{min-height:80px;}
+    .emz_prt-card{padding:20px 10px}
+    .emz_part_img img{max-height:none;max-width:70px;}
+    .strt_card img{max-height:none;max-width:130px;}
+    .emizentech-link{padding:10px 10px;}
+    .blogs-slider .owl-stage{display:flex;}
+    .blogs-slider .item{height:100%;padding:0 10px;}
+    .blogs-slider .blog-card.p-3.bg-white{height:100%;}
+    .cat_content_wrap p {padding:0 0 20px;font-size: 16px;}
+.cta_innner h3  {font-size: 26px;line-height: 36px}
+.vision_cta_3 {
+    padding: 30px 30px 50px;
+}
+}
+@media(max-width:575px){
+    .strt_card img{max-width:90px;height:auto;}
+    .strt_card  .d-flex{flex-wrap:wrap;gap:15px;}
+    .strt_card img{max-width:90px;height:auto;}
+    .strt_card  .d-flex{flex-wrap:wrap;gap:15px;}
+    .sec-content h1{font-size:45px;}
+    .sec-content h1 span{font-size:28px;}
+    section.emz_tech{text-align:center;}
+
+    .cta_content_wrap h3{font-size:24px;line-height:36px;}
+
+    .cta_content_wrap h3 + p{padding:15px 0;}
+
+}

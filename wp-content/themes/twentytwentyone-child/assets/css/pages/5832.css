@@ -1,0 +1,330 @@
+.Odd_dev_main .page-title{color:#111827;font-size:130px;font-weight:600;line-height:110px;}
+.Odd_dev_main .page-title span{color:#111827;font-size:52px;font-weight:600;line-height:80px;}
+.Odd_dev_main .sub-title{color:#000;font-size:28px;font-weight:400;line-height:normal;}
+.Odd_dev_main p{color:#7B7B7B;font-size:16px;line-height:normal;}
+.Odd_dev_main img{max-width: none; padding-left: 50px;}
+section.Odd_dev_main{padding:170px 0 0;}
+.Certified_heading{color:#714B67;font-size:50px;font-style:normal;font-weight:600;line-height:normal;border-radius:20px;background:#f0edef;padding:16px 15px 30px;border:2px solid #875a7b;}
+.Certified_heading span{color:#111827;text-align:center;font-size:20px;font-weight:400;line-height:24px;}
+section.pt-100{padding-top:100px;}
+.sec-title{z-index:1;color:#111827;font-size:34px;font-weight:500;line-height:122%;}
+.sec-title strong{color:#714B67;font-size:46px;line-height:122%;}
+.circle-gap:nth-child(4) .devp-circle::after{visibility:hidden;}
+.emizentech-certified{padding-top:70px;}
+p.sec-descrp{color:#111827;line-height:normal;font-size:18px;}
+.Consultation-from{border-radius:20px;border:2px solid #875A7B;max-width:520px;margin-left:auto;padding:35px 35px 25px 35px;position:relative;}
+.Consultation-from h3{color:#252525;font-size:24px;}
+.Consultation-from input,.Consultation-from textarea{border:0;border-bottom:#714B67 1px solid;font-size:14px;color:#252525;padding:0 0 10px 0;margin:0;width:100%;}
+.Consultation-from input::placeholder,.Consultation-from textarea::placeholder{color:#252525!important;}
+.Consultation-from .wpcf7-form-control-wrap{display:block;position:relative;padding-bottom:25px;margin-bottom:20px;}
+.wpcf7-not-valid-tip{color:#dc3232;font-size:1em;font-weight:normal;display:block;position:absolute;bottom:0;width:100%;left:0;}
+.Consultation-from textarea{max-height:100px;resize:none;}
+.Consultation-from .wpcf7-form-control.wpcf7-submit{border-radius:100px;background:#875A7B!important;border:1px solid #875A7B!important;color:#fff!important;padding:10px 47px;font-size:18px;width:auto;}
+.Consultation-from .wpcf7-form-control.wpcf7-submit:focus {outline: none;}
+.Consultation-from .wpcf7-form-control-wrap.your-message + br{display:none;}
+.wpcf7-response-output{position:absolute;bottom:0;left:0;right:0;}
+a.emizentech-btn{border-radius:100px;background:#875A7B;border:1px solid #875A7B;color:#fff;padding:16px 57px;font-size:18px;width:auto;}
+a.emizentech-btn:hover {background: #fafafa;color: #875A7B;}
+.circle-left{background:url(/wp-content/uploads/2023/12/half-circle.png) no-repeat center left;position:absolute;border-radius:500px;width:379.306px;height:893.748px;z-index:1;left:-110px;background-size:contain;top:650px;}
+.Odoo-services{margin-top:110px;background:#f8f8f8;padding:70px 0;}
+.Odd_Ser_box{background:linear-gradient(292deg,rgba(136,136,136,0.04),rgba(135,90,123,1));border-radius:8px;padding:2px;}
+.Odd_Ser_box .card-title{color:#252525;font-size:24px;font-weight:600;line-height:normal;}
+.Odd_Ser_box p{color:#252525;font-size:16px;}
+.odd_inner{background:#f8f8f8;border-radius:8px;padding:50px 20px 20px;height:100%;}
+.emizen_Ae_cta_2{background:url(/wp-content/uploads/2023/12/cta_bg.png) no-repeat center right;background-size:cover;z-index:0;    /* padding: 50px 0; */}
+.emizen_Ae_cta_2 .cta-title span{color:#00F3FF;font-size:46px;font-weight:500;line-height:136%;}
+.emizen_Ae_cta_2 .cta-title{font-size:34px;font-weight:400;line-height:136%;}
+.emizen_Ae_cta_2 p{color:#fff;font-size:22px;line-height:normal;}
+.emizen_Ae_cta_2:after{background:rgba(113,75,103,1);content:"";position:absolute;z-index:-1;width:100%;height:100%;top:0;left:0;}
+.absolute_img{position:absolute;right:0;max-width:55%;top:0;height:100%;float:right;}
+.get_started_box{position:relative;}
+.get_started_box .cta_2-btn{color:#875A7B;background:#fff;border-color:#fff;}
+.get_started_box .cta_2-btn:hover{color:#fff;background:#875A7B;}
+.get_started_box{max-width:53%;padding:50px 0;}
+.absolute_img img{float:right;    /* height:100%; */width:100%;mix-blend-mode:hard-light;padding-left:30px;height:100%;object-fit:cover;object-position:left;}
+section.odoo_business{background:#714B67;padding:70px 0 100px;}
+.indus-block{border-radius:0px 50px;background:#dbdbdb;padding:15px 15px 30px 15px;}
+.Odoo_indus_section span.number{color:#1F2125;font-size:42.39px;font-weight:500;line-height:122%;display:block;}
+.Odoo_indus_section .indus-block p{padding-top:30px;color:#1F2125;font-size:22.3px;font-weight:500;line-height:122%;}
+.Odoo_indus_section .col:nth-child(odd) .indus-block{background:#694867;}
+.Odoo_indus_section .col:nth-child(odd) .indus-block p,.Odoo_indus_section .col:nth-child(odd) span.number{color:#fff;}
+span.img-circle{width:98px;height:98px;border-radius:50px;background:rgba(240,240,240,1);position:absolute;left:-20px;top:-30px;box-shadow:4px 3px 0px 7px #efeaed47;}
+.Odoo_indus_section .col{flex:0 0 20%;width:100%;display:flex;padding:0 20px;max-width: 20%}
+.Odoo_indus_section{padding:70px 0 100px;}
+.rounded-bg{border-radius:0px 50px 50px 50px;background:#ebe5e9;padding:17px;border-radius:0px 50px 50px 50px;filter:drop-shadow(0px 0px 10px rgba(0,0,0,0.25));min-height: 265px;display: flex;align-items: center;}
+.odoo_business h3{font-size:24px;font-weight:600;line-height:normal;}
+.odoo_business .item.card p{color:#252525;font-size:16px;}
+.odoo_business .item.card{padding-right:13px;border-radius:0px 30px 30px 30px;height: 100%}
+.gap-25{padding:20px;}
+.why_choose{padding:100px 0;}
+.why_choose{padding:100px 0;}
+.nav.salseforcetab{border-radius:0px 4px 0px 0px;background:#eae5e9;border:1px solid #d0c4cc;}
+.nav.salseforcetab .nav-links{color:#111827;text-align:center;font-size:22px;display: flex;align-items: center; font-weight:500;padding:20px 10px;line-height:32px; height: 100%}
+.nav.salseforcetab .nav-items{flex:0 0 33.33%;text-align:center;}
+li.nav-items:not(:last-child){border-right:1px solid #dfddde;}
+.nav.salseforcetab .nav-links.active,.nav.salseforcetab .nav-links:hover{border-radius:4px;color:#fff;background:#714B67;}
+.tab-panel{border-radius:4px;border:2px solid rgba(135,90,123,0.48);background:rgba(113,75,103,0.05);box-shadow:0px 0px 12px 0px rgba(0,0,0,0.10);margin-top:50px;}
+.tab-content .tab-card.card{padding:45px;background:#f8f6f7;}
+.tab-content .tab-card.card p{color:var(--Heading,#252525);font-size:16px;font-style:normal;font-weight:500;line-height:normal;}
+.project-highlight{margin-top:40px;padding:30px;border-radius:13px;background:rgba(113,75,103,0.07);border:2px solid #875A7B;filter:drop-shadow(0px 0px 12px rgba(0,0,0,0.10));}
+.project-highlight h3{color:#111827;font-size:22px;font-style:normal;font-weight:500;line-height:122%;}
+.project-highlight li{color:var(--Heading,#252525);font-size:18px;font-style:normal;font-weight:400;line-height:32px;    /* 177.778% */list-style:disc;}
+.project-highlight ul{padding-left:20px;margin:0;}
+.serv-content {
+    background: #714b67b8;
+    position: absolute;
+    padding: 1em;
+    height: 125px;
+    width: 100%;
+    left: 0;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+.ser-card-box:hover .serv-content{opacity:1;height:100%;}
+.ser-card-box:hover p {
+    opacity: 1;
+    height: auto;
+}
+.ser-card-box:hover .content-overlay{opacity:1;height:100%;}
+.serv-content h3{font-size:22px;font-weight:600;}
+.serv-content a{color:#FFF;border-radius:8px;border:1px solid #fff;background:rgba(113,75,103,0.80);font-size:18px;line-height:normal;padding:7px 15px;display:inline-block;}
+.ser-card-box:hover a {display: none;}
+.serv-content p{height:0;opacity:0;transition:all .3s;}
+.ser-card-box{transition:all .5s;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+
+.odoo_devp_ser{margin-top:70px}
+.odoo_devp_ser .sec-descrp{max-width:920px;}
+section.cta_2 h2{color:var(--Color-2,#FFF);font-size:36px;font-weight:500;padding:0;line-height:136%;}
+section.cta_2 h3{color:#00F3FF;font-size:60px;font-weight:600;line-height:100%;padding-bottom: 0}
+section.cta_2 p{color:#F6F6F6;font-size:18px;font-weight:400;padding:10px 0 20px;line-height:normal;}
+section.cta_2{margin-top:100px;background:url(/wp-content/uploads/2023/12/Cta_Bg2.png) bisque center center no-repeat;background-size:cover;overflow:hidden;}
+.cta2_wrap{max-width:520px;float:left;padding-left:15px;padding:80px 15px;}
+section.cta_2 img{max-width:100%;position:absolute;right:0;top:0;width:40%;}
+section.cta_2 a{color:#714B67;background:#fff;}
+section.cta_2 a:hover{background-color:#714B67;color:#fff;}
+.circle-wrap{border-radius:100%;border:1px solid #ede8ec;height: 232px;width: 232px;background:#ede8ec;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;margin:auto;}
+.odoo_approch{padding:100px 0;background:#f8f8f8;}
+.approch-title h3{color:#252525;font-size:17px;line-height:22px;font-weight:500;padding:0;}
+.approch-title p {color: #252525;font-size: 14px;line-height: 19px;padding: 5px 0 0 0;}
+.approch-title{padding:0 15px 0 63px;}
+.circle-wrap span.number{color:#fff;font-size:70px;font-weight:600;line-height:normal;background:#714B67;border-radius:340px;width:240.737px;height:230.737px;position:absolute;top:14px;display:flex;left:-182px;align-items:center;justify-content:end;padding:0 11px 0 0;}
+.devp-circle{padding:15px 10px 15px 10px;background:url(/wp-content/uploads/2023/12/half-cirle.png) no-repeat left center;background-size: contain;margin-right:0;background-position: center center;}
+.devp-circle:after{content:"";position:absolute;background:url(/wp-content/uploads/2023/12/arrow-double.png) no-repeat;background-size:contain;height: 33px;width: 43px;top:49%;right: -10px;z-index:0;}
+.circle-gap{padding-right: 27px;padding-left:5px;max-width: 25%;width:100%;margin-top:30px;}
+.marge-div .circle-left{bottom:-150px;background:url(/wp-content/uploads/2023/12/half-circle-rigjht.png) no-repeat right center;right:-100px;left:auto;top:0;z-index:-1;height:895px;width:374px;background-size:cover;}
+.circle-gap:nth-child(5) .devp-circle:after,.circle-gap:nth-child(6) .devp-circle:after{transform:rotate(180deg);right:-11px;}
+.circle-gap:nth-child(7) .devp-circle:after{background:url(/wp-content/uploads/2023/12/arrow-curve.png) no-repeat center center;background-size:contain;height: 190px;width: 105px;top:-42px;right:-70px;z-index:1;}
+.vision_cta_4{background:url(/wp-content/uploads/2023/12/Odd-cta_3.png) no-repeat center center;background-size:cover;margin-top:100px;;z-index:1;}
+.vision_cta_4:before{content:"";position:absolute;width:100%;height:100%;background:rgb(113 75 103 / 73%);z-index:-1;left:0;top:0;}
+.vision_cta_4 h2{font-size:36px;font-weight:500;line-height:136%;}
+.vision_cta_4 span{font-size: 36pxcolor:#fff;font-size:45px;font-weight:500;line-height:136%;}
+.vision_cta_4 strong{color:#00F3FF;font-size:47px;font-weight:600;line-height:136%;display:block;}
+.vision_cta_4 p{color:#F6F6F6;font-size:20px;max-width:540px;font-weight:400;line-height:normal;}
+.vision_cta_4 .emizentech-btn{background:#fff;color:#714B67;font-weight:600;}
+.vision_cta_4 .emizentech-btn:hover {background: #714B67;color: #fff;}
+.inner-padding{padding:40px 0;max-width:640px;}
+.right-img{position:absolute;right:0;}
+.Odoo_Hire_section{background:#fcfcfc;margin:100px 0;padding:80px 0;}
+.Odoo_Hire_section .sec-descrp{max-width:910px;margin:auto;}
+.hire-header{color:#fff;display:flex;align-items:center;height:73px;}
+.hire-header img{top:17px;position:absolute;right:20px;}
+.hire-header h3{font-size:22px;font-weight:600;text-align:center;display:block;flex:0 0 80%;padding:8px 40px 0 20px;}
+.hire-header span{width:65px;border-radius:50px;height:65px;border:1px solid;display:flex;align-items:center;justify-content:center;}
+.hyb-col{background:url(/wp-content/uploads/2023/12/header-box.png) no-repeat top center;background-size:contain;height:330px;padding:5px 0 0 10px;}
+.hyb-col p {padding: 30px 0 0 10px;}
+.emizentech-faq {
+    padding-bottom: 0;
+}
+.emiz-blogs .sec-title strong {
+    font-size: 100%;
+}
+section.emizentech-faq .sec-title strong {
+    font-size: 100%;
+}
+@media(max-width:1680px){
+    .Odd_dev_main img{padding-right:90px;}
+}
+@media(max-width:1600px){
+    section.Odd_dev_main{padding:140px 0 0;}
+    .Odd_dev_main img{padding-right:180px}
+    p.sec-descrp{font-size:16px;}
+    .emizen_Ae_cta_2 p{font-size:18px;}
+    .odoo_business h3{font-size:20px;margin-bottom:10px;alignment-baseline:0;}
+    p.sec-descrp{font-size:16px;}
+    .Odoo-services{margin-top:70px;padding:40px 0;}
+    .Odoo_indus_section{padding-bottom:50px;}
+    section.odoo_business{padding:50px 0;}
+    .why_choose{padding:50px 0 80px;}
+    .odoo_approch{padding:50px 0;}
+    .emizen_Ae_cta_2 p{font-size:18px;}
+    .odoo_business h3{font-size:20px;margin-bottom:10px;alignment-baseline:0;}
+    .nav.salseforcetab .nav-links{font-size:20px;line-height:32px;padding:10px 20px;}
+    .project-highlight li{font-size:16px;}
+    .emizentech-certified{padding-top:30px;}
+    section.pt-100 {padding-top: 50px;}
+    .Odoo_indus_section .indus-block p{padding-top: 20px;font-size: 18px}
+    .circle-wrap span.number{font-size:55px;}
+}
+@media(max-width:1440px){
+    .Odd_dev_main img {padding-right: 210px;}
+}
+@media(max-width:1366px){
+    .Odd_dev_main .page-title{font-size:93px;line-height:84px;}
+    .Odd_dev_main .page-title span{font-size:50px;   line-height: 60px;}
+    .Odd_dev_main .sub-title{font-size:23px;padding:0;}
+}
+@media(max-width:1280px){  
+    .Odd_dev_main img {padding: 0;max-width: 100%;}
+}
+@media(max-width:1199px){
+    .emizen_Ae_cta_2 .cta-title{font-size:28px;}
+    .emizen_Ae_cta_2 .cta-title span{font-size:36px;}
+    .Certified_heading span{font-size:16px;line-height:22px;}
+    span.img-circle{width:70px;height:70px;}
+    .Odoo_indus_section .indus-block p {padding:6px 0 0 0;}
+    span.img-circle img {width: 40px;}
+    .vision_cta_4 strong{font-size:40px;line-height:136%;}
+    .hyb-col p{padding:4px 0 0 4px;line-height:20px;}
+    .hire-header h3{font-size:16px;line-height:22px;padding-top:0;}
+    .hyb-col{padding-top:0;}
+    .circle-wrap span.number{font-size:35px;line-height:15px;height:100%;width:220px;}
+    .Odd_Ser_box .card-title{font-size: 20px;    line-height: 24px}
+    .Certified_heading {height: 100%; padding: 10px 20px 20px;}
+    .circle-gap:nth-child(4) .devp-circle::after {transform: rotate(180deg);visibility: visible;}
+    .sec-title strong{font-size: 40px}
+    .serv-content h3{font-size:18px;padding-bottom: 0}
+     .devp-circle:after, .circle-gap:nth-child(7) .devp-circle:after{display: none;}
+   .cta2_wrap {
+    max-width: 520px;
+    float: left;
+    padding-left: 15px;
+    padding: 30px 0px 35px;
+}
+    .serv-content a{font-size:16px;padding:4px 10px;}
+}
+@media(max-width:1024px){
+    .Consultation-from{margin:0 auto;}
+    .Odd_dev_main img{max-width:100%;}
+    .Odoo_Hire_section{padding: 40px 0;margin: 50px 0}
+}
+@media(min-width:992px) and (max-width : 1199px){
+.circle-wrap {
+    width: 100%;
+    height: 190px;
+}
+
+.cta2_wrap {
+    padding: 30px 0px 35px;
+}
+    .approch-title h3{font-size:15px;line-height:18px;padding-top:0;}
+    .approch-title p{font-size:14px;line-height:17px;}
+     .approch-title{padding:10px 10px 10px 43px;}
+    .indus-block {padding-bottom: 5px;}
+    .Odoo_indus_section .indus-block p{font-size:16px}
+    .hire-header img{top:12px;position:absolute;right:13px;max-width:36px;}
+    .hyb-col{background-size:100% 100%;height:270px;padding:5px 0 0 10px;}
+}
+@media(max-width:991px){
+    .Odoo_indus_section .col{flex:0 0 25%;max-width:25%;}
+    .inner-padding,.vision_cta_4 p{max-width:100%;}
+    section.cta_2{margin-top:50px}
+    .circle-left{width:160.694px;height:513.748px;z-index:1;left:-60px;}
+    .cta2_wrap{max-width:100%;text-align:center;}
+    .absolute_img img{height:auto;padding-top:30px;max-width:60%;float:none;margin:auto;display:block;}
+    .wrap-mobile{flex-direction:column-reverse;}
+    .nav.salseforcetab .nav-links{font-size:16px;line-height:22px;padding:10px;}
+    .absolute_img,.get_started_box{position:static;max-width:100%;}
+    .hyb-col{padding:10px 0 0 30px;max-width:300px;}
+    .hyb-col{padding:10px 0 0 30px;max-width:300px;}
+    .hyb-col p{padding:5px 0 0 4px;line-height:25px;font-size:16px;}
+    .hire-header h3{font-size:19px;line-height:22px;}
+    .Odoo_indus_section{padding:30px 0;}
+    .content-overlay {height: 130px;}
+    section.Odd_dev_main{padding-top:100px}
+    .odoo_devp_ser{margin-top:50px;}
+    .circle-gap:nth-child(7) .devp-circle:after{height: 150px}
+    .devp-circle{background:none;}
+    .circle-gap{max-width:50%;display: flex; padding:0px 0 0px;margin-top:0;}
+    .devp-circle:after{display:none; }
+    .circle-wrap{width:100%;height:100%;border-radius:0;padding:10px 10px 20px;}
+    .circle-wrap span.number{height:auto;top:-30px;padding:50px 20px 30px 30px;width:auto;left:-20px;}
+    .circle-gap:nth-child(5) .devp-circle:after{display:none;}
+    .circle-gap:nth-child(7) .devp-circle:after{background:url(/wp-content/uploads/2023/12/arrow-double.png) no-repeat;background-size:contain;height:41px;width:59px;top:auto;left:0;right:0;}
+    .circle-gap:last-child{order:4;}
+    .circle-gap:nth-last-of-type(3){order:7;padding-bottom:0;margin:0;}
+    .circle-gap:nth-last-of-type(2){order:6;}
+    .odoo_approch{padding-bottom: 20px}
+}
+@media(max-width:800px){
+    .Odoo_indus_section .indus-block p{font-size: 16px}
+    .marge-div .circle-left{display:none;}
+}
+@media(max-width:767px){
+    section.Odd_dev_main{padding-top:80px;}
+    .Certified_heading{padding:10px 5px;font-size:40px;}
+    .Certified_heading{padding:10px 5px;font-size:40px;    /* height: 100%; */}
+    .Odd_dev_main .page-title{font-size:56px;line-height:52px;}
+    .Odd_dev_main .page-title span{font-size:38px;line-height:49px;}
+    .Odd_dev_main .sub-title{font-size:18px;}
+    .sec-title{font-size:26px;line-height:36px;}
+    .sec-title strong{font-size:28px;line-height:33px;}
+    .hyb-col{margin:10px auto 10px auto;}
+    .sec-title:after{display:none;}
+    .odd_inner img{max-width:80px;}
+    .emizentech-certified{padding-top:0px;}
+    .Odoo-services{margin-top:40px;padding:30px 0;}
+    section.pt-100{padding-top:20px;}
+    .tab-panel{margin-top: 30px}
+    .odd_inner{padding:20px;}
+    .get_started_box{max-width:100%;}
+    .indus-block {padding-bottom: 10px;}
+    .Odoo_indus_section .col{flex:0 0 50%;max-width:50%;    padding: 0 15px;}
+    .wrap-mobile{flex-direction:column-reverse;}
+    .absolute_img,.get_started_box{position:static;max-width:100%;padding: 35px 0}
+    .nav.salseforcetab .nav-items{flex:0 0 100%;}
+    .nav.salseforcetab .nav-links{font-size:18px;line-height:26px;border-bottom:1px solid #c5c0c0;}
+    .tab-content .tab-card.card{padding:20px;}
+    .project-highlight{padding:15px;margin-top:10px;}
+    .project-highlight li{line-height:22px;margin:0 0 10px;}
+    #myTab{max-width:100%;margin:0;padding:10px!important;}
+    section.cta_2 h3{font-size:35px;}
+    section.cta_2 h2{font-size:30px;}
+    .cta2_wrap{text-align:center;float:none;max-width:100%;}
+
+    .content-overlay{height:130px;}
+    .odoo_business .item.card{padding:0;}
+    .gap-25{padding:15px;}
+    a.emizentech-btn{padding:16px 25px;}
+    section.odoo_business{padding:30px 0;}
+    a.emizentech-btn{padding:16px 25px;}
+    .why_choose{padding-bottom:40px}
+    .Odoo_indus_section span.number {font-size: 28px;font-weight: 600;}
+    .approch-title {padding: 0 0 0 48px;}
+    .ser-card-box:hover .content-overlay{height:calc(100% - 40px);}
+    .hire-header img{top:16px;position:absolute;right:27px;}
+    .hyb-col{padding-left:30px;width:260px;height:360px;}
+    .hire-header img{right:17px;top:11px;}
+    .Consultation-from{padding-bottom:50px;}
+}
+@media(max-width:575px){
+    .ser-card-box{max-width:fit-content;margin:auto;}
+    .hyb-col p{padding:28px 0 0 4px;line-height:25px;font-size:16px;}
+    .circle-gap {max-width: 100%;}
+
+}
+@media(max-width:360px){
+    .get_started_box .cta_2-btn{padding:16px 10px;max-width:100%;width:100%;}
+}
+@media(min-width:768px){
+    .odoo_approch .sec-descrp,.Odoo-services .sec-descrp{max-width:900px;margin:auto;}
+    .Odoo_indus_section .sec-descrp{max-width:725px;margin:auto;}
+    .odoo_business .sec-descrp{max-width:732px;margin:auto;}
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-outputP{border: 0;margin: 0;text-align: center;padding-bottom: 10px;color: red;}
