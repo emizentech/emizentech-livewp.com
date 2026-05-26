@@ -115,15 +115,15 @@
                     <ul>
                         <li><a href="<?php echo get_site_url(); ?>/industries/on-demand-app-development/">On-Demand</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/retail-software-development.html">Retail Software</a></li>
-                        <li><a href="<?php echo get_site_url(); ?>/food-delivery-app-development.html">Food Delivery App</a></li>
+                        <li><a href="<?php echo get_site_url(); ?>/industries/food-delivery-app-development/">Food Delivery App</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/grocery-app-development.html">Grocery</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/industries/travel-app-development/">Travel & Hospitality</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/automotive-industry.html">Automotive</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/media-entertainment.html">Media & Entertainment</a></li>
-                        <li><a href="<?php echo get_site_url(); ?>/realestate-solution.html">Real Estate</a></li>
-                        <li><a href="<?php echo get_site_url(); ?>/fitness-app-development-company.html">Fitness App Development</a></li>
+                        <li><a href="<?php echo get_site_url(); ?>/industries/real-estate-app-development/">Real Estate</a></li>
+                        <li><a href="<?php echo get_site_url(); ?>/industries/fitness-app-development/">Fitness App Development</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/logistic-transportation.html">Logistic & Transport</a></li>
-                        <li><a href="<?php echo get_site_url(); ?>/education-app-development.html">Education App</a></li>
+                        <li><a href="<?php echo get_site_url(); ?>/industries/education-app-development/">Education App</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/fintech-software-development.html">Fintech Software</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/sports-application-development.html">Sports</a></li>
                     </ul>
@@ -131,7 +131,7 @@
                 <div class="menu-col pt-4">
                     <h3 class="text-white pb-3 menu-title">Solutions</h3>
                     <ul>
-                        <li><a href="<?php echo get_site_url(); ?>/dating-app-development-company.html">Dating App</a></li>
+                        <li><a href="<?php echo get_site_url(); ?>/industries/dating-app-development/">Dating App</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/pet-care-app-development-company.html">Petcare App</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/video-streaming-app-development-company.html">Video Streaming App</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/golf-mobile-app-development-company.html">Golf Mobile App</a></li>

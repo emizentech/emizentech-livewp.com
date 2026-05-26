@@ -1311,7 +1311,7 @@
                                                                                           <a href="<?php echo get_site_url(); ?>/onlyfans-clone-app-development.html"><img class="header--icon mr-1" width="30" height="30" alt="OnlyFans Clone App" src="/wp-content/uploads/2026/01/onlyfans.svg">OnlyFans Clone App</a>
                                                                                       </li>
                                                                                       <li>
-                                                                                          <a href="<?php echo get_site_url(); ?>/fitness-app-development-company.html"><img class="header--icon mr-1" width="30" height="30" alt="Fitness App Development" src="/wp-content/uploads/2026/01/ind-fitness.svg">Fitness App
+                                                                                          <a href="<?php echo get_site_url(); ?>/industries/fitness-app-development/"><img class="header--icon mr-1" width="30" height="30" alt="Fitness App Development" src="/wp-content/uploads/2026/01/ind-fitness.svg">Fitness App
                                                                                           </a>
                                                                                       </li>
                                                                                   </ul>
@@ -1859,12 +1859,12 @@
                      
                       <li><a href="<?php echo get_site_url(); ?>/retail-software-development.html">Retail Software</a></li>
                       
-                      <li><a href="<?php echo get_site_url(); ?>/food-delivery-app-development.html">Food Delivery App</a></li>
+                      <li><a href="<?php echo get_site_url(); ?>/industries/food-delivery-app-development/">Food Delivery App</a></li>
                       <li><a href="<?php echo get_site_url(); ?>/automotive-industry.html">Automotive</a></li>
                       <li><a href="<?php echo get_site_url(); ?>/media-entertainment.html">Media & Entertainment</a></li>
                       <li><a href="<?php echo get_site_url(); ?>/events-tickets.html">Ticketing & Event</a></li>
                       <li><a href="<?php echo get_site_url(); ?>/industries/real-estate-app-development/">Real Estate</a></li>
-                      <li><a href="<?php echo get_site_url(); ?>/fitness-app-development-company.html">Fitness App Development</a></li>
+                      <li><a href="<?php echo get_site_url(); ?>/industries/fitness-app-development/">Fitness App Development</a></li>
                       <li><a href="<?php echo get_site_url(); ?>/logistic-transportation.html">Logistic & Transport</a></li>
                       <li><a href="<?php echo get_site_url(); ?>/industries/education-app-development/">Education App</a></li>
                       <li><a href="<?php echo get_site_url(); ?>/fintech-software-development.html">Fintech Software</a></li>

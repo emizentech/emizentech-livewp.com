@@ -24,7 +24,7 @@ get_header(); ?>
           <nav class="breadcrumb">
             <div class="container">
               <a href="/">Home</a> <i class="fa fa-angle-right"></i>
-              <a href="/tech-board">Tech Board</a> <i class="fa fa-angle-right"></i>
+              <a href="/tech-board/">Tech Board</a> <i class="fa fa-angle-right"></i>
               <span><?php echo get_post_field( 'post_name', get_the_ID() ); ?></span>
             </div>
           </nav>
