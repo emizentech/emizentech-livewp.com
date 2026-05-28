@@ -59,6 +59,14 @@ final class Plugin {
 		// Cron handlers.
 		add_action( 'emi_ai_webhook_retry_cron', [ WebhookSender::class, 'process_retry_queue' ] );
 		add_action( 'emi_ai_event_cleanup_cron', [ Analytics\EventLogger::class, 'cleanup_old_events' ] );
+		add_action( 'emi_ai_send_estimate_email', [ Integration\EstimatePdf::class, 'cron_handler' ], 10, 2 );
+
+		// Admin meta-boxes for CPTs.
+		if ( is_admin() ) {
+			Admin\MetaBoxes\CaseStudyMetaBoxes::register();
+			Admin\MetaBoxes\LeadMagnetMetaBoxes::register();
+			Admin\MetaBoxes\FaqMetaBoxes::register();
+		}
 
 		// Block our CPTs from sitemaps.
 		add_filter( 'wp_sitemaps_post_types', [ self::class, 'remove_cpts_from_sitemap' ] );

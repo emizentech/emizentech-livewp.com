@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What's the typical timeline for a mobile app MVP?",
+    "answer": "Most MVPs ship in 8–12 weeks for iOS+Android with 5–8 core features. We start with a 1-week discovery sprint, then build in 2-week iterations with weekly demos.",
+    "topic": "timeline"
+  },
+  {
+    "question": "How do you handle compliance for healthcare projects?",
+    "answer": "We're HIPAA-aware and have built EHR-integrated platforms (PracticeOS case study). For each engagement we do a 3-day compliance scoping pass — HIPAA, HL7, FHIR — before any code.",
+    "topic": "compliance"
+  },
+  {
+    "question": "Do you offer post-launch support?",
+    "answer": "Yes — 30 days of free bug-fix support, then monthly maintenance retainers starting at $2,500/month. We typically maintain 60% of the projects we launch.",
+    "topic": "support"
+  },
+  {
+    "question": "Which payment gateways do you integrate with?",
+    "answer": "Stripe, Razorpay, PayPal, Square, Adyen, Authorize.Net, plus regional providers (Tap, Telr, PayTabs for GCC). For eCommerce: Stripe + Razorpay are 80% of our integrations.",
+    "topic": "integrations"
+  },
+  {
+    "question": "What's your team size and engagement model?",
+    "answer": "200+ engineers across India + UAE. Typical engagement is a dedicated pod of 3–7 engineers + PM + QA for the project duration. Hourly or fixed-cost milestone billing.",
+    "topic": "engagement"
+  },
+  {
+    "question": "Where are you based and where do clients come from?",
+    "answer": "HQ in Jaipur, India, with offices in UAE (Ajman Media City) and the US (Sheridan, WY). Clients across 40+ countries — US, UK, UAE, Australia, Saudi Arabia are top markets.",
+    "topic": "location"
+  },
+  {
+    "question": "How do you handle NDAs and IP?",
+    "answer": "Mutual NDA before any technical discussion. All IP is assigned to the client on payment per milestone. Source code delivered every sprint via private GitHub.",
+    "topic": "legal"
+  },
+  {
+    "question": "What's the difference between Magento and Shopify for my store?",
+    "answer": "Shopify wins on time-to-market and hosting simplicity ($30–80/mo, 4 weeks). Magento/Adobe Commerce wins on customization and B2B (typically $30k+, 8–12 weeks). For >$5M GMV / heavy B2B, Magento. Under that, Shopify.",
+    "topic": "ecommerce"
+  },
+  {
+    "question": "Do you build with AI / LLMs?",
+    "answer": "Yes — production AI integrations using Claude, GPT, open-source models. Use cases: chatbots, document parsing, code generation, RAG over internal docs. Not vendor-locked.",
+    "topic": "ai"
+  },
+  {
+    "question": "Can you migrate my existing project from another vendor?",
+    "answer": "Common scenario. We do a 1-week code audit (free), then a fixed-cost migration with parallel-running validation. Avg migration: 4–8 weeks depending on tech debt.",
+    "topic": "migration"
+  }
+]

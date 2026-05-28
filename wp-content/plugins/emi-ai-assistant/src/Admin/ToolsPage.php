@@ -23,6 +23,8 @@ final class ToolsPage {
 		<div class="wrap emi-ai-wrap">
 			<h1><?php esc_html_e( 'Emi AI — Tools', 'emi-ai-assistant' ); ?></h1>
 
+			<?php self::tool_card( 'seed_samples', __( '🌱 Seed sample data', 'emi-ai-assistant' ), __( 'Import 5 services + 5 case studies + 10 FAQs + 3 lead magnets from /data/samples/. Idempotent (won\'t duplicate).', 'emi-ai-assistant' ) ); ?>
+			<?php self::tool_card( 'remove_samples', __( '🧹 Remove sample data', 'emi-ai-assistant' ), __( 'Delete all rows from services + case studies + FAQs + lead magnets. Use after demoing.', 'emi-ai-assistant' ), 'warning' ); ?>
 			<?php self::tool_card( 'purge_cache', __( 'Purge cache', 'emi-ai-assistant' ), __( 'Flush the plugin cache group.', 'emi-ai-assistant' ) ); ?>
 			<?php self::tool_card( 'cleanup_events', __( 'Cleanup old events', 'emi-ai-assistant' ), __( 'Remove analytics events older than retention period.', 'emi-ai-assistant' ) ); ?>
 			<?php self::tool_card( 'reindex_cases', __( 'Reindex case studies', 'emi-ai-assistant' ), __( 'Rebuild FULLTEXT index from published case study posts.', 'emi-ai-assistant' ) ); ?>
@@ -33,15 +35,19 @@ final class ToolsPage {
 		<?php
 	}
 
-	private static function tool_card( string $action, string $title, string $desc ): void {
+	private static function tool_card( string $action, string $title, string $desc, string $style = '' ): void {
+		$border = 'warning' === $style ? '#dc3232' : '#ccd0d4';
 		?>
-		<div class="emi-ai-card" style="background:#fff;border:1px solid #ccd0d4;padding:14px 18px;margin:14px 0;border-radius:6px;">
+		<div class="emi-ai-card" style="background:#fff;border:1px solid <?php echo esc_attr( $border ); ?>;padding:14px 18px;margin:14px 0;border-radius:6px;">
 			<h3 style="margin-top:0;"><?php echo esc_html( $title ); ?></h3>
 			<p><?php echo esc_html( $desc ); ?></p>
 			<form method="post" style="display:inline">
 				<?php wp_nonce_field( 'emi_ai_tool' ); ?>
 				<input type="hidden" name="emi_ai_tool" value="<?php echo esc_attr( $action ); ?>" />
-				<button class="button"><?php esc_html_e( 'Run', 'emi-ai-assistant' ); ?></button>
+				<button class="button <?php echo 'warning' === $style ? 'button-link-delete' : ''; ?>"
+				        <?php echo 'warning' === $style ? 'onclick="return confirm(\'Are you sure? This will delete all sample rows.\');"' : ''; ?>>
+					<?php esc_html_e( 'Run', 'emi-ai-assistant' ); ?>
+				</button>
 			</form>
 		</div>
 		<?php
@@ -50,6 +56,21 @@ final class ToolsPage {
 	private static function run_action( string $action ): void {
 		try {
 			switch ( $action ) {
+				case 'seed_samples':
+					$report = Sampler::seed();
+					self::notice( sprintf(
+						/* translators: %s: JSON report */
+						__( 'Sample data seeded. Report: %s', 'emi-ai-assistant' ),
+						wp_json_encode( $report )
+					) );
+					break;
+				case 'remove_samples':
+					$report = Sampler::remove();
+					self::notice( sprintf(
+						__( 'Sample data removed. Report: %s', 'emi-ai-assistant' ),
+						wp_json_encode( $report )
+					) );
+					break;
 				case 'purge_cache':
 					Cache::flush_group();
 					self::notice( __( 'Cache purged.', 'emi-ai-assistant' ) );
