@@ -1,0 +1,204 @@
+/**
+ * Emi AI Assistant — widget CSS.
+ * All rules :host-scoped; uses CSS vars from --emi-* applied to the Shadow host.
+ */
+
+:host {
+	--emi-primary:   #F26B1F;
+	--emi-secondary: #0E2A47;
+	--emi-accent:    #0FA3A3;
+	--emi-text:      #1B2733;
+	--emi-bg:        #FAFCFE;
+	--emi-line:      #E3E8EE;
+	--emi-radius:    14px;
+
+	all: initial;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	color: var(--emi-text);
+	pointer-events: auto;
+}
+
+* { box-sizing: border-box; }
+
+/* --- FAB ------------------------------------------------------------------ */
+.emi-fab {
+	position: fixed; bottom: 24px; right: 24px;
+	width: 62px; height: 62px; border-radius: 50%;
+	background: var(--emi-primary); color: #fff;
+	border: 0; cursor: pointer; font-size: 26px;
+	box-shadow: 0 12px 30px rgba(242,107,31,.45);
+	opacity: 0; transform: scale(.7);
+	transition: opacity .25s, transform .25s;
+	z-index: 90;
+}
+.emi-fab.emi-fab-visible { opacity: 1; transform: scale(1); }
+.emi-fab:hover { transform: scale(1.05); }
+.emi-fab-pulse {
+	position: absolute; inset: 0; border-radius: 50%;
+	background: var(--emi-primary); opacity: .4;
+	animation: emiPulse 2s infinite;
+}
+.emi-fab-icon { position: relative; }
+@keyframes emiPulse {
+	0%   { transform: scale(1);   opacity: .4; }
+	100% { transform: scale(1.6); opacity: 0;  }
+}
+
+/* --- Panel --------------------------------------------------------------- */
+.emi-panel {
+	position: fixed; bottom: 100px; right: 24px;
+	width: 400px; max-width: calc(100vw - 32px);
+	height: 620px; max-height: calc(100vh - 130px);
+	background: #fff; border-radius: var(--emi-radius);
+	box-shadow: 0 24px 60px rgba(15,42,71,.25);
+	display: none; flex-direction: column; overflow: hidden;
+	border: 1px solid var(--emi-line);
+	z-index: 95;
+}
+.emi-panel.open { display: flex; animation: emiSlideUp .2s ease; }
+@keyframes emiSlideUp {
+	from { transform: translateY(20px); opacity: 0; }
+	to   { transform: translateY(0);    opacity: 1; }
+}
+
+/* --- Header -------------------------------------------------------------- */
+.emi-header {
+	background: var(--emi-secondary); color: #fff;
+	padding: 14px 16px; display: flex; align-items: center; gap: 12px;
+}
+.emi-avatar {
+	width: 36px; height: 36px; border-radius: 50%;
+	background: var(--emi-accent); color: #fff;
+	display: flex; align-items: center; justify-content: center;
+	font-weight: 800; font-size: 14px;
+}
+.emi-title { flex: 1; }
+.emi-title b     { display: block; font-size: 14px; }
+.emi-title small { display: block; font-size: 11.5px; color: #9FB7D1; }
+.emi-dot {
+	display: inline-block; width: 7px; height: 7px;
+	background: #3CD278; border-radius: 50%; margin-right: 5px; vertical-align: middle;
+}
+.emi-lang {
+	background: transparent; color: #fff;
+	border: 1px solid rgba(255,255,255,.25); border-radius: 6px;
+	padding: 4px 6px; font-size: 12px; cursor: pointer;
+}
+.emi-lang option { color: #000; }
+.emi-close {
+	background: transparent; color: #fff; border: 0;
+	font-size: 22px; cursor: pointer; line-height: 1; padding: 0 4px;
+}
+
+/* --- Tabs ---------------------------------------------------------------- */
+.emi-tabs {
+	display: flex; gap: 0; background: #F8FAFC;
+	border-bottom: 1px solid var(--emi-line);
+	overflow-x: auto; flex-shrink: 0;
+}
+.emi-tab {
+	background: transparent; border: 0; padding: 10px 12px;
+	font-size: 11.5px; font-weight: 600; color: #5B6B7B; cursor: pointer;
+	border-bottom: 2px solid transparent; white-space: nowrap; transition: all .15s;
+	font-family: inherit;
+}
+.emi-tab.active { color: var(--emi-secondary); border-bottom-color: var(--emi-accent); background: #fff; }
+.emi-tab:hover  { color: var(--emi-secondary); }
+
+/* --- Body / messages ----------------------------------------------------- */
+.emi-body {
+	flex: 1; overflow-y: auto; padding: 16px;
+	background: var(--emi-bg);
+	display: flex; flex-direction: column; gap: 10px;
+	scroll-behavior: smooth;
+}
+.emi-msg {
+	max-width: 85%; padding: 10px 13px; border-radius: var(--emi-radius);
+	font-size: 13.5px; line-height: 1.45;
+	animation: emiFadeIn .25s ease;
+}
+@keyframes emiFadeIn {
+	from { opacity: 0; transform: translateY(4px); }
+	to   { opacity: 1; transform: translateY(0);    }
+}
+.emi-msg.bot {
+	background: #fff; border: 1px solid var(--emi-line);
+	align-self: flex-start; border-top-left-radius: 4px;
+}
+.emi-msg.user {
+	background: var(--emi-secondary); color: #fff;
+	align-self: flex-end; border-top-right-radius: 4px;
+}
+
+/* --- Chips --------------------------------------------------------------- */
+.emi-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.emi-chip {
+	background: #fff; border: 1px solid var(--emi-accent); color: var(--emi-accent);
+	padding: 6px 12px; border-radius: 99px; font-size: 12.5px;
+	cursor: pointer; font-weight: 600; transition: all .15s;
+	font-family: inherit;
+}
+.emi-chip:hover { background: var(--emi-accent); color: #fff; }
+
+/* --- Case-study card ----------------------------------------------------- */
+.emi-case-card {
+	background: #fff; border: 1px solid var(--emi-line);
+	border-radius: 10px; padding: 10px 12px; font-size: 12.5px;
+}
+.emi-case-card h4 { margin: 0 0 4px; color: var(--emi-secondary); font-size: 13px; }
+.emi-case-summary { margin: 6px 0; font-size: 12.5px; }
+.emi-metric {
+	display: inline-block;
+	background: #E8F9F9; color: #0a7a7a;
+	padding: 2px 7px; border-radius: 99px; font-size: 11px;
+	font-weight: 600; margin-right: 4px; margin-top: 4px;
+}
+
+/* --- Estimate card ------------------------------------------------------- */
+.emi-estimate-card {
+	background: linear-gradient(135deg, var(--emi-accent) 0%, var(--emi-secondary) 100%);
+	color: #fff; padding: 14px; border-radius: 10px; font-size: 13px;
+}
+.emi-price { font-size: 24px; font-weight: 800; display: block; margin: 4px 0; }
+
+/* --- Slot grid ----------------------------------------------------------- */
+.emi-slot-grid {
+	display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 8px;
+}
+.emi-slot {
+	background: #fff; border: 1px solid var(--emi-line);
+	padding: 9px; border-radius: 8px; font-size: 12.5px;
+	cursor: pointer; text-align: center; font-weight: 600;
+	color: var(--emi-secondary); transition: all .15s;
+	font-family: inherit;
+}
+.emi-slot:hover { border-color: var(--emi-accent); background: #F0FAFA; }
+.emi-slot small { display: block; color: #5B6B7B; font-weight: 500; font-size: 11px; margin-top: 2px; }
+
+/* --- Input --------------------------------------------------------------- */
+.emi-input {
+	display: flex; gap: 8px; padding: 12px;
+	border-top: 1px solid var(--emi-line); background: #fff; flex-shrink: 0;
+}
+.emi-input input {
+	flex: 1; border: 1px solid var(--emi-line); border-radius: 99px;
+	padding: 10px 14px; font-size: 13.5px; outline: none;
+	font-family: inherit;
+}
+.emi-input input:focus { border-color: var(--emi-accent); }
+.emi-input button {
+	background: var(--emi-primary); color: #fff; border: 0; border-radius: 50%;
+	width: 38px; height: 38px; font-size: 18px; cursor: pointer;
+	display: flex; align-items: center; justify-content: center;
+}
+
+/* --- Mobile -------------------------------------------------------------- */
+@media (max-width: 880px) {
+	.emi-panel { width: calc(100vw - 16px); right: 8px; bottom: 90px; height: calc(100vh - 110px); }
+	.emi-fab   { right: 16px; bottom: 16px; }
+}
+
+/* --- RTL ----------------------------------------------------------------- */
+:host([dir="rtl"]) .emi-panel { direction: rtl; }
+:host([dir="rtl"]) .emi-msg.user { align-self: flex-start; border-top-right-radius: var(--emi-radius); border-top-left-radius: 4px; }
+:host([dir="rtl"]) .emi-msg.bot  { align-self: flex-end;   border-top-left-radius:  var(--emi-radius); border-top-right-radius: 4px; }

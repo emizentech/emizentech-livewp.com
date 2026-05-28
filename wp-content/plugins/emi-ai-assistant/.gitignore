@@ -1,0 +1,26 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build outputs
+/assets/dist/
+/assets/admin/dist/
+
+# Logs
+/logs/
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Test artifacts
+/coverage/
+/.phpunit.result.cache
+/playwright-report/
+/test-results/

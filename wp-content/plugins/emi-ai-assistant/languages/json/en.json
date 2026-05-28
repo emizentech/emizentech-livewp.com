@@ -1,0 +1,35 @@
+{
+  "welcome_recommender": "Hi! I'm Emi 👋 — let me find the right service for you in 30 seconds. <b>What are you building?</b>",
+  "welcome_estimator":   "Sure — let's get you a ballpark. <b>What kind of project?</b>",
+  "welcome_cases":       "Tell me what kind of work you'd like to see. Try: <i>“Magento for fashion brands”</i> or <i>“fintech mobile app”</i>.",
+  "welcome_qualifier":   "Happy to set you up with the right specialist. Just 4 quick questions and I'll route you instantly. <b>What's your name?</b>",
+  "welcome_scheduler":   "Let's book a free 20-min consultation. <b>What city are you in?</b> (so I can find slots in your timezone)",
+
+  "tab_recommend": "🎯 Recommend",
+  "tab_estimate":  "💰 Estimate",
+  "tab_cases":     "📂 Cases",
+  "tab_qualify":   "📝 Qualify",
+  "tab_schedule":  "📅 Schedule",
+
+  "send_button":      "Send",
+  "send_aria":        "Send message",
+  "type_placeholder": "Type your message…",
+  "online":           "Online · replies instantly",
+  "open_chat":        "Open chat with Emi",
+  "close":            "Close",
+  "language":         "Language",
+
+  "q_email":  "What's your work email?",
+  "q_budget": "Thanks! Roughly <b>what budget</b> are you working with?",
+  "q_scope":  "Got it. <b>What are you building?</b> (1 line is fine)",
+
+  "lead_thanks":    "✅ All set, <b>{name}</b>! I've routed this to our team — we'll email you within 2 hours.",
+  "email_invalid":  "That email doesn't look right — could you try again?",
+  "name_invalid":   "Please share your full name.",
+  "scope_invalid":  "A one-line description is fine.",
+  "network_error":  "Network hiccup. Please try again.",
+  "lead_error":     "Something went wrong. Please email us instead.",
+
+  "exit_title": "Wait — before you go!",
+  "exit_desc":  "Grab a free 1-page <b>Mobile App Launch Checklist</b> tailored to your industry. We'll email it instantly."
+}

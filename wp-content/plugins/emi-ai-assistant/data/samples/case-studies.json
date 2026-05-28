@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "novawear-adobe-commerce",
+    "title": "NovaWear — Adobe Commerce Migration",
+    "summary": "Migrated a UAE fashion retailer from Magento 1 to Adobe Commerce with custom checkout.",
+    "industry": "fashion",
+    "region": "MEA",
+    "tech_stack": "Magento 2, Adobe Commerce, PHP, MySQL",
+    "tags": "ecommerce, magento, fashion, retail, mea",
+    "metrics": "[\"+38% conversion\", \"+2.1x site speed\"]",
+    "case_url": "/case-studies/novawear",
+    "featured": 1
+  },
+  {
+    "slug": "freshcart-d2c-skincare",
+    "title": "FreshCart — D2C Skincare App",
+    "summary": "Mobile shopping app for a D2C skincare brand with AR try-on.",
+    "industry": "d2c",
+    "region": "Global",
+    "tech_stack": "React Native, Shopify",
+    "tags": "mobile, ecommerce, d2c, skincare, shopify, ar",
+    "metrics": "[\"+55% repeat orders\", \"4.8 App Store rating\"]",
+    "case_url": "/case-studies/freshcart",
+    "featured": 1
+  },
+  {
+    "slug": "practiceos-doctor-saas",
+    "title": "PracticeOS — Doctor SaaS",
+    "summary": "Multi-tenant clinic management with telehealth, billing and EHR.",
+    "industry": "healthcare",
+    "region": "Global",
+    "tech_stack": "React, Node.js, Postgres",
+    "tags": "saas, healthcare, custom, telehealth, ehr",
+    "metrics": "[\"HIPAA-ready\", \"12 clinics onboarded\"]",
+    "case_url": "/case-studies/practiceos",
+    "featured": 1
+  },
+  {
+    "slug": "loanscore-credit-ai",
+    "title": "LoanScore — Credit Risk AI",
+    "summary": "ML model + dashboard for an Indian fintech; predicts default risk pre-disbursement.",
+    "industry": "fintech",
+    "region": "IN",
+    "tech_stack": "Python, TensorFlow",
+    "tags": "ai, fintech, ml, python, credit, risk",
+    "metrics": "[\"-31% default rate\", \"94% precision\"]",
+    "case_url": "/case-studies/loanscore",
+    "featured": 1
+  },
+  {
+    "slug": "salesforge-rollout",
+    "title": "SalesForge — Salesforce Roll-out",
+    "summary": "End-to-end Sales Cloud + Service Cloud rollout for a 400-rep enterprise.",
+    "industry": "enterprise",
+    "region": "US",
+    "tech_stack": "Salesforce, Apex, LWC",
+    "tags": "salesforce, crm, enterprise, sales cloud, service cloud",
+    "metrics": "[\"+22% rep productivity\", \"3-month go-live\"]",
+    "case_url": "/case-studies/salesforge",
+    "featured": 1
+  }
+]

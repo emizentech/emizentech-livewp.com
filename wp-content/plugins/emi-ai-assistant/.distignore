@@ -1,0 +1,41 @@
+# Files excluded from the release ZIP.
+# (The ZIP IS what gets deployed; everything not listed here is included.)
+
+# Source files — built bundles ship in /assets/dist/ instead
+/assets/js/
+/assets/admin/dashboard/
+/assets/admin/analytics/
+/assets/admin/prompt-studio/
+
+# Build tooling
+/scripts/
+/package.json
+/package-lock.json
+/node_modules/
+
+# Tests
+/tests/
+/phpunit.xml.dist
+/.phpunit.result.cache
+/playwright.config.js
+/playwright-report/
+/test-results/
+
+# Linting
+/.eslintrc*
+/.phpcs.xml*
+/.editorconfig
+
+# Repo + CI
+/.git/
+/.github/
+/.gitignore
+/.distignore
+
+# OS / editor
+/.DS_Store
+/.vscode/
+/.idea/
+
+# Composer dev deps (composer install --no-dev runs before build)
+/composer.lock
