@@ -146,8 +146,25 @@ final class Activator {
 
 	/**
 	 * Schedule cron jobs.
+	 *
+	 * Activation hooks fire BEFORE `plugins_loaded`, so the cron_schedules
+	 * filter we register in Plugin::boot() is not yet active. Register the
+	 * custom interval inline so wp_schedule_event accepts it.
 	 */
 	private static function schedule_cron(): void {
+		add_filter(
+			'cron_schedules',
+			static function ( array $s ): array {
+				if ( ! isset( $s['every_five_minutes'] ) ) {
+					$s['every_five_minutes'] = [
+						'interval' => 5 * 60,
+						'display'  => 'Every 5 minutes',
+					];
+				}
+				return $s;
+			}
+		);
+
 		if ( ! wp_next_scheduled( 'emi_ai_webhook_retry_cron' ) ) {
 			wp_schedule_event( time() + 60, 'every_five_minutes', 'emi_ai_webhook_retry_cron' );
 		}

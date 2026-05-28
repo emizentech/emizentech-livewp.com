@@ -24,6 +24,9 @@ final class Plugin {
 	 * Boot the plugin. Wires every WordPress hook.
 	 */
 	public static function boot(): void {
+		// Custom cron schedules.
+		add_filter( 'cron_schedules', [ self::class, 'register_cron_schedules' ] );
+
 		// I18n.
 		add_action(
 			'init',
@@ -68,6 +71,19 @@ final class Plugin {
 		if ( defined( 'WP_CLI' ) && WP_CLI ) {
 			\WP_CLI::add_command( 'emi-ai', CLI\Commands\Root::class );
 		}
+	}
+
+	/**
+	 * Register custom cron schedules used by the plugin.
+	 */
+	public static function register_cron_schedules( array $schedules ): array {
+		if ( ! isset( $schedules['every_five_minutes'] ) ) {
+			$schedules['every_five_minutes'] = [
+				'interval' => 5 * MINUTE_IN_SECONDS,
+				'display'  => __( 'Every 5 minutes', 'emi-ai-assistant' ),
+			];
+		}
+		return $schedules;
 	}
 
 	/**
