@@ -109,6 +109,46 @@ final class Router {
 			]
 		);
 
+		// Exit-intent magnet pickup + capture.
+		register_rest_route(
+			self::NS,
+			'/exit/magnet',
+			[
+				'methods'             => 'GET',
+				'callback'            => [ ExitController::class, 'magnet' ],
+				'permission_callback' => '__return_true',
+			]
+		);
+		register_rest_route(
+			self::NS,
+			'/exit/capture',
+			[
+				'methods'             => 'POST',
+				'callback'            => [ ExitController::class, 'capture' ],
+				'permission_callback' => '__return_true',
+			]
+		);
+
+		// GDPR DSR (admin-only).
+		register_rest_route(
+			self::NS,
+			'/dsr/delete',
+			[
+				'methods'             => 'POST',
+				'callback'            => [ DsrController::class, 'delete' ],
+				'permission_callback' => static fn() => current_user_can( 'manage_emi_ai' ),
+			]
+		);
+		register_rest_route(
+			self::NS,
+			'/dsr/lookup',
+			[
+				'methods'             => 'GET',
+				'callback'            => [ DsrController::class, 'lookup' ],
+				'permission_callback' => static fn() => current_user_can( 'manage_emi_ai' ),
+			]
+		);
+
 		register_rest_route(
 			self::NS,
 			'/health',

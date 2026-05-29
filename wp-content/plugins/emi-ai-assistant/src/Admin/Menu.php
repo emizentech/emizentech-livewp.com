@@ -32,6 +32,7 @@ final class Menu {
 		add_submenu_page( $slug, __( 'FAQs', 'emi-ai-assistant' ),            __( 'Content → FAQs', 'emi-ai-assistant' ),            self::CAP, 'edit.php?post_type=emi_faq' );
 		add_submenu_page( $slug, __( 'Diagnostics', 'emi-ai-assistant' ),     __( 'Diagnostics', 'emi-ai-assistant' ),     self::CAP, 'emi-ai-diagnostics',   [ DiagnosticsPage::class, 'render' ] );
 		add_submenu_page( $slug, __( 'Tools', 'emi-ai-assistant' ),           __( 'Tools', 'emi-ai-assistant' ),           self::CAP, 'emi-ai-tools',         [ ToolsPage::class, 'render' ] );
+		add_submenu_page( $slug, __( 'DSR', 'emi-ai-assistant' ),             __( 'GDPR / DSR', 'emi-ai-assistant' ),       self::CAP, 'emi-ai-dsr',           [ DsrPage::class, 'render' ] );
 		// Wizard is intentionally hidden from the menu — accessed via redirect/banner.
 		add_submenu_page( null, __( 'Setup Wizard', 'emi-ai-assistant' ),     '', self::CAP, 'emi-ai-wizard', [ Wizard::class, 'render' ] );
 	}

@@ -50,7 +50,13 @@ final class SchedulerService {
 		$provider = $cal['provider'] ?? 'none';
 
 		if ( 'calendly' === $provider && ! empty( $cal['calendly_token'] ) ) {
-			return new CalendlyClient( $cal['calendly_token'], $cal['calendly_event_type'] ?? '' );
+			return new CalendlyClient( (string) $cal['calendly_token'], (string) ( $cal['calendly_event_type'] ?? '' ) );
+		}
+		if ( 'webhook' === $provider && ! empty( $cal['webhook_url'] ) ) {
+			return new \Emizentech\AiAssistant\Integration\CalendarClient\WebhookCalendar(
+				(string) $cal['webhook_url'],
+				(array) ( $cal['webhook_headers'] ?? [] )
+			);
 		}
 
 		return new NullClient();

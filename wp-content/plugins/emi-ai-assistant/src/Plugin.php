@@ -68,6 +68,9 @@ final class Plugin {
 			Admin\MetaBoxes\FaqMetaBoxes::register();
 		}
 
+		// Site Health (WP Tools → Site Health) integration.
+		Compatibility\SiteHealth::register();
+
 		// Block our CPTs from sitemaps.
 		add_filter( 'wp_sitemaps_post_types', [ self::class, 'remove_cpts_from_sitemap' ] );
 		add_filter( 'rank_math/sitemap/exclude_post_type', [ self::class, 'rank_math_exclude_cpt' ], 10, 2 );

@@ -202,3 +202,39 @@
 :host([dir="rtl"]) .emi-panel { direction: rtl; }
 :host([dir="rtl"]) .emi-msg.user { align-self: flex-start; border-top-right-radius: var(--emi-radius); border-top-left-radius: 4px; }
 :host([dir="rtl"]) .emi-msg.bot  { align-self: flex-end;   border-top-left-radius:  var(--emi-radius); border-top-right-radius: 4px; }
+
+/* --- Exit-intent overlay ------------------------------------------------- */
+.emi-exit-overlay {
+	position: fixed; inset: 0;
+	background: rgba(15,42,71,.6);
+	display: flex; align-items: center; justify-content: center;
+	z-index: 2147483646;
+	animation: emiFadeIn .2s ease;
+}
+.emi-exit-modal {
+	background: #fff; border-radius: var(--emi-radius);
+	padding: 28px 28px 22px; max-width: 440px;
+	width: calc(100% - 32px); text-align: center;
+	box-shadow: 0 30px 60px rgba(0,0,0,.4);
+	position: relative;
+	animation: emiSlideUp .25s ease;
+}
+.emi-exit-modal h2 { margin: 0 0 8px; color: var(--emi-secondary); font-size: 22px; }
+.emi-exit-modal p  { color: #5B6B7B; font-size: 14px; margin: 0 0 18px; line-height: 1.5; }
+.emi-exit-modal input[type=email] {
+	width: 100%; padding: 11px 14px; border: 1px solid var(--emi-line);
+	border-radius: 8px; font-size: 14px; margin-bottom: 10px; font-family: inherit;
+}
+.emi-exit-modal input[type=email]:focus { outline: none; border-color: var(--emi-accent); }
+.emi-exit-cta {
+	width: 100%; background: var(--emi-primary); color: #fff; border: 0;
+	padding: 12px; border-radius: 8px; font-weight: 600; font-size: 14px;
+	cursor: pointer; font-family: inherit;
+}
+.emi-exit-close {
+	position: absolute; top: 10px; right: 14px;
+	background: none; border: 0; font-size: 24px;
+	color: var(--emi-line); cursor: pointer; line-height: 1;
+}
+.emi-exit-icon { font-size: 38px; margin-bottom: 10px; }
+.emi-exit-fineprint { font-size: 11.5px; color: #888; margin: 10px 0 0 !important; }

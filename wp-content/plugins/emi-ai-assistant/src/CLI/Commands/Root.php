@@ -88,4 +88,59 @@ final class Root {
 		WebhookSender::process_retry_queue();
 		\WP_CLI::success( 'Retry queue processed' );
 	}
+
+	/**
+	 * Seed sample data from data/samples/*.json.
+	 *
+	 * ## EXAMPLES
+	 *     wp emi-ai seed
+	 */
+	public function seed( $args, $assoc ): void {
+		$report = \Emizentech\AiAssistant\Admin\Sampler::seed();
+		\WP_CLI::log( wp_json_encode( $report, JSON_PRETTY_PRINT ) );
+		\WP_CLI::success( 'Sample data seeded' );
+	}
+
+	/**
+	 * GDPR DSR — anonymize or delete events for a visitor_id.
+	 *
+	 * ## OPTIONS
+	 *
+	 * <action>
+	 * : One of: lookup, anonymize, delete.
+	 *
+	 * --visitor=<uuid>
+	 * : The visitor_id to operate on.
+	 *
+	 * ## EXAMPLES
+	 *     wp emi-ai dsr lookup    --visitor=b1f2c3d4-…
+	 *     wp emi-ai dsr anonymize --visitor=b1f2c3d4-…
+	 *     wp emi-ai dsr delete    --visitor=b1f2c3d4-…
+	 */
+	public function dsr( $args, $assoc ): void {
+		$action  = $args[0] ?? '';
+		$visitor = (string) ( $assoc['visitor'] ?? '' );
+		if ( $visitor === '' ) {
+			\WP_CLI::error( 'Pass --visitor=<uuid>' );
+		}
+
+		switch ( $action ) {
+			case 'lookup':
+				$result = \Emizentech\AiAssistant\Privacy\DsrService::lookup_by_visitor( $visitor );
+				\WP_CLI::log( wp_json_encode( $result, JSON_PRETTY_PRINT ) );
+				return;
+			case 'anonymize':
+				$result = \Emizentech\AiAssistant\Privacy\DsrService::process( $visitor, 'anonymize' );
+				\WP_CLI::log( wp_json_encode( $result, JSON_PRETTY_PRINT ) );
+				\WP_CLI::success( "Anonymized {$result['affected']} events" );
+				return;
+			case 'delete':
+				$result = \Emizentech\AiAssistant\Privacy\DsrService::process( $visitor, 'delete' );
+				\WP_CLI::log( wp_json_encode( $result, JSON_PRETTY_PRINT ) );
+				\WP_CLI::success( "Deleted {$result['affected']} events" );
+				return;
+			default:
+				\WP_CLI::error( "Unknown subcommand. Use: lookup, anonymize, delete." );
+		}
+	}
 }

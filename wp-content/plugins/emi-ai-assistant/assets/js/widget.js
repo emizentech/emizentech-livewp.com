@@ -9,6 +9,7 @@ import { initTriggers } from './trigger-engine.js';
 import { GA4 } from './ga4-bridge.js';
 import { I18n } from './i18n.js';
 import { mountChatPanel } from './chat-panel.js';
+import { initExitIntent } from './exit-intent.js';
 
 const CFG = window.EmiAIConfig || {};
 
@@ -57,6 +58,9 @@ function boot() {
 	const host = document.createElement('div');
 	host.id = 'emi-ai-root';
 	host.style.cssText = 'position:fixed;z-index:2147483600;pointer-events:none;inset:auto 0 0 0;';
+	if (i18n.current() === 'ar') {
+		host.setAttribute('dir', 'rtl');
+	}
 	document.body.appendChild(host);
 	const shadow = host.attachShadow({ mode: 'open' });
 
@@ -101,13 +105,26 @@ function boot() {
 	window.EmiAI = {
 		open(mode = 'recommender') { openPanel(mode, 'api'); },
 		close()                    { panel?.close(); panelOpen = false; },
-		setLanguage(lang)          { i18n.setLanguage(lang); panel?.rerender(); },
+		setLanguage(lang) {
+			i18n.setLanguage(lang).then(() => {
+				if (lang === 'ar') host.setAttribute('dir', 'rtl');
+				else                host.removeAttribute('dir');
+				panel?.rerender();
+			});
+		},
 		fire(event, props = {})    { ga4.fire(event, props); },
 		visitorId,
 	};
 
-	// Trigger engine: page-load-delay, exit-intent, button-click, URL match.
+	// Trigger engine: page-load-delay, exit-intent, button-click, URL match,
+	// + scroll_percent, time_on_page, returning_visitor, utm_match, idle.
 	initTriggers(CFG.triggers || [], { openPanel, ga4 });
+
+	// Exit-intent lead-magnet modal (separate from chat panel — operates as
+	// a Shadow-DOM-scoped overlay so it can render before chat opens).
+	if (CFG.exitIntent?.enabled !== false) {
+		initExitIntent({ shadow, host, i18n, ga4, visitorId, cfg: CFG });
+	}
 
 	// Show FAB after configured delay.
 	setTimeout(() => { fab.classList.add('emi-fab-visible'); }, CFG.fabDelayMs ?? 1500);
