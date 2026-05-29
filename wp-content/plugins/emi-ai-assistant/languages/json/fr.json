@@ -1,0 +1,35 @@
+{
+  "welcome_recommender": "Salut ! Je suis Emi 👋 — trouvons le bon service en 30 secondes. <b>Que voulez-vous construire ?</b>",
+  "welcome_estimator":   "Bien sûr — voici une estimation. <b>Quel type de projet ?</b>",
+  "welcome_cases":       "Dites-moi quel type de travail vous intéresse. Essayez : <i>«Magento pour la mode»</i> ou <i>«app fintech»</i>.",
+  "welcome_qualifier":   "Avec plaisir — 4 questions rapides et je vous oriente. <b>Quel est votre nom ?</b>",
+  "welcome_scheduler":   "Réservons une consultation gratuite de 20 min. <b>Dans quelle ville êtes-vous ?</b>",
+
+  "tab_recommend": "🎯 Recommander",
+  "tab_estimate":  "💰 Estimer",
+  "tab_cases":     "📂 Projets",
+  "tab_qualify":   "📝 Devis",
+  "tab_schedule":  "📅 Rendez-vous",
+
+  "send_button":      "Envoyer",
+  "send_aria":        "Envoyer le message",
+  "type_placeholder": "Tapez votre message…",
+  "online":           "En ligne · réponse instantanée",
+  "open_chat":        "Ouvrir le chat avec Emi",
+  "close":            "Fermer",
+  "language":         "Langue",
+
+  "q_email":  "Quel est votre e-mail professionnel ?",
+  "q_budget": "Merci ! Quel est votre <b>budget approximatif</b> ?",
+  "q_scope":  "Compris. <b>Que construisez-vous ?</b> (une ligne suffit)",
+
+  "lead_thanks":    "✅ Parfait, <b>{name}</b> ! C'est envoyé à notre équipe — nous vous écrirons sous 2 heures.",
+  "email_invalid":  "Cet e-mail semble incorrect — pouvez-vous vérifier ?",
+  "name_invalid":   "Veuillez partager votre nom complet.",
+  "scope_invalid":  "Une ligne suffit.",
+  "network_error":  "Problème réseau. Veuillez réessayer.",
+  "lead_error":     "Une erreur est survenue — écrivez-nous par e-mail.",
+
+  "exit_title": "Attendez — avant de partir !",
+  "exit_desc":  "Recevez une <b>Checklist de Lancement d'App</b> gratuite adaptée à votre secteur. Envoyée instantanément."
+}

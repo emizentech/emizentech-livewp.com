@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Mobile App Launch Checklist (PDF)",
+    "pitch": "1-page checklist of the 24 things every mobile-app founder forgets before App Store submission. Covers reviewer guidelines, App Tracking Transparency, store screenshots, post-launch analytics.",
+    "cta_text": "Send me the checklist ›",
+    "asset_url": "",
+    "eligibility": "url_contains:mobile-app",
+    "cap_per_visitor": 1,
+    "variant_group": "default"
+  },
+  {
+    "title": "eCommerce Migration Risk Report",
+    "pitch": "A 6-page report on the 5 risks (and 12 mitigations) we've seen across 40+ Magento-to-Shopify and Shopify-to-Adobe-Commerce migrations.",
+    "cta_text": "Get the risk report ›",
+    "asset_url": "",
+    "eligibility": "url_contains:ecommerce",
+    "cap_per_visitor": 1,
+    "variant_group": "default"
+  },
+  {
+    "title": "AI ROI Calculator Spreadsheet",
+    "pitch": "An Excel/Google Sheets template our team uses with clients to estimate ROI for AI integrations (chatbots, document AI, code-gen). Pre-loaded with industry benchmarks.",
+    "cta_text": "Send the calculator ›",
+    "asset_url": "",
+    "eligibility": "url_contains:ai",
+    "cap_per_visitor": 1,
+    "variant_group": "default"
+  }
+]

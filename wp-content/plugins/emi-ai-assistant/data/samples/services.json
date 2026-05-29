@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "mobile-app-development",
+    "name": "Mobile App Development",
+    "category": "mobile",
+    "short_pitch": "Native iOS, Android and Flutter — production-grade since 2014.",
+    "synonyms": "mobile, app, ios, android, flutter, react native",
+    "landing_url": "/mobile-app-development.html",
+    "base_price_min": 25000,
+    "base_price_max": 120000,
+    "tier": "standard"
+  },
+  {
+    "slug": "ecommerce-development",
+    "name": "eCommerce Development",
+    "category": "ecommerce",
+    "short_pitch": "Magento, Adobe Commerce, Shopify and WooCommerce — full eCommerce stack.",
+    "synonyms": "ecommerce, e-commerce, magento, shopify, woocommerce, adobe commerce",
+    "landing_url": "/ecommerce-app-development.html",
+    "base_price_min": 30000,
+    "base_price_max": 200000,
+    "tier": "standard"
+  },
+  {
+    "slug": "custom-software-development",
+    "name": "Custom Software Development",
+    "category": "custom",
+    "short_pitch": "Bespoke web applications, SaaS platforms and internal tools.",
+    "synonyms": "custom, software, saas, web app, internal tool",
+    "landing_url": "/software-development-services.html",
+    "base_price_min": 40000,
+    "base_price_max": 250000,
+    "tier": "enterprise"
+  },
+  {
+    "slug": "ai-development",
+    "name": "AI & ML Services",
+    "category": "ai",
+    "short_pitch": "ML models, AI integration, chatbots and intelligent automation.",
+    "synonyms": "ai, ml, machine learning, llm, chatbot, generative ai",
+    "landing_url": "/ai-app-development-company.html",
+    "base_price_min": 35000,
+    "base_price_max": 180000,
+    "tier": "standard"
+  },
+  {
+    "slug": "salesforce-services",
+    "name": "Salesforce Consulting",
+    "category": "salesforce",
+    "short_pitch": "Sales Cloud, Service Cloud and Apex / LWC custom development.",
+    "synonyms": "salesforce, crm, sales cloud, service cloud, apex, lightning",
+    "landing_url": "/salesforce-services",
+    "base_price_min": 30000,
+    "base_price_max": 200000,
+    "tier": "enterprise"
+  }
+]

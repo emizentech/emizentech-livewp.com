@@ -1,0 +1,42 @@
+.emi-ai-wrap { max-width: 1100px; }
+.emi-ai-wrap h1 { padding: 9px 0 4px 0; }
+
+.emi-ai-mode-strip {
+	background: #fff; border: 1px solid #ccd0d4; border-radius: 6px;
+	padding: 10px 14px; margin: 14px 0 20px 0;
+}
+.emi-ai-mode-strip.mode-live    { border-left: 4px solid #46b450; }
+.emi-ai-mode-strip.mode-sandbox { border-left: 4px solid #f0b849; }
+.emi-ai-mode-strip.mode-disabled{ border-left: 4px solid #dc3232; }
+
+.emi-ai-kpi-grid {
+	display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+	margin: 18px 0 24px 0;
+}
+.emi-ai-kpi {
+	background: #fff; border: 1px solid #ccd0d4; border-radius: 6px;
+	padding: 16px 18px;
+}
+.emi-ai-kpi .label  { font-size: 12px; color: #555; text-transform: uppercase; letter-spacing: .5px; }
+.emi-ai-kpi .value  { font-size: 28px; font-weight: 700; color: #0E2A47; margin-top: 4px; }
+.emi-ai-kpi .period { font-size: 11px; color: #888; }
+
+.emi-ai-card {
+	background: #fff; border: 1px solid #ccd0d4; border-radius: 6px;
+	padding: 14px 18px; margin: 14px 0;
+}
+
+.emi-ai-wizard-steps {
+	display: flex; gap: 4px; list-style: none; padding: 0; margin: 16px 0;
+	counter-reset: step;
+}
+.emi-ai-wizard-steps li {
+	flex: 1; padding: 12px; background: #f3f4f5; border-radius: 4px; text-align: center;
+	font-weight: 600; color: #888;
+}
+.emi-ai-wizard-steps li.active { background: #0E2A47; color: #fff; }
+.emi-ai-wizard-steps li.done   { background: #46b450; color: #fff; }
+
+.emi-ai-wizard-pane {
+	background: #fff; border: 1px solid #ccd0d4; padding: 24px; border-radius: 6px;
+}
